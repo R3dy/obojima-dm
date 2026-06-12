@@ -1,0 +1,3422 @@
+ANCESTRIES OF OBOJIMA
+The ancestries found on the island of Obojima include humans, dara, elves, and Nakudama. The culture and history of
+the world is built around them and them alone. If you want to fully immerse yourself in the Obojima experience, you’ll
+probably want to choose from among these ancestries.
+That’s not to say you can’t play other ancestries. It just means you’ll have to introduce them to the island in your own
+unique way. For adapting existing 5e ancestries, see page 130.
+
+Humans
+
+Dara
+
+Though they were not the first to arrive on the island,
+humans account for Obojima’s most plentiful people. Most
+humans live in farming and fishing communities, preferring
+a modest, quiet existence among close friends and family.
+But it’s also within humans that the spark of adventure
+burns brightest, and it’s not uncommon for humans to
+yearn to travel the island and explore its mysteries for a
+time before returning to a simpler life.
+
+Dara are a mysterious people that emerged from the forests
+of Obojima less than 300 years ago. No one knows if they
+are from Obojima itself or if they came from another realm.
+Even the dara themselves speculate as to their origin,
+though most believe they are all descendents of an enigmatic figure known as the First Dara. What is known about
+the dara is that they are insatiably curious, a gift they claim
+is from their progenitor. Dara often gravitate toward being
+wanderers, seeking out anything that interests them, and
+many scrawl notes and sketches as they are observing. It’s
+hard to know what a dara will be fascinated by next, as they
+are just as interested in a small bug trundling over a leaf as
+they are a sinuous dragon flying through the sky.
+
+From the Sea
+The humans of Obojima regard the island as home, but it’s
+clear that it was not always so. Nakudama records tell of
+the coming of humans on a fleet of ships that were scuttled upon landing. Whether these humans were refugees,
+intrepid adventurers, or simply lost at sea remains unclear.
+One interesting note from that time reaches us from a
+scroll penned by the sage Ati the Learned who referred to
+the event in several places as the return of the humans.
+The “return theory”, as current historians call it, is hotly
+debated, though it’s clear that First Age technology is curiously connected to humans.
+
+A Message From the Past
+Dara possess a unique gift—the ability to absorb a vast
+amount of information in an instant through contact with a
+magical glyph. These magical symbols, which resemble large
+fingerprints, are found on trees throughout Obojima and
+can only be seen by dara. A dara who touches one of these
+glyphs taps into its reservoir of knowledge. Through it, a
+dara could learn not just information, but also new skills.
+It is widely believed that many of these glyphs were left by
+the First Dara to guide future generations.
+
+125
+
+Dara Lifecycle
+
+Dara Traits
+
+It’s widely understood that one dara’s life begins where
+another ends. When a dara is about to die, their final act
+is to capture what remains of their soul and store it into
+a single glyph, which they place upon a tree. Known as a
+parting glyph, it is imbued with the dying dara’s identity,
+memories, and skills. There, the glyph waits until it can be
+claimed by a new dara.
+
+Your dara character gains traits that enable it to traverse
+and flourish on the island of Obojima.
+
+A dara is born from the earth, emerging into Obojima,
+fully formed, through the roots of a tree that bears a parting
+glyph. Most are born from trees in the sacred grove in Roa
+Kala, the ancestral homeland of the dara (see page 94 for
+more on Roa Kala), but it could be anywhere a dara has died.
+When a dara leaves the soil, they are a blank slate, aware
+and without identity until they touch the parting glyph
+found at the base of their tree.
+Parting glyphs give young dara a set of intellectual tools
+to function. In the form of memories, the glyphs offer the
+previous dara’s perspective about a world yet to be experienced. For many dara, the parting glyph leads them to Roa
+Kala and from there they choose their new life.
+
+Ability Score Increase. One ability score of your choice
+increases by 2, and another ability score of your choice
+increases by 1.
+Age. From the moment dara pop into existence they have
+all basic motor functions mastered. By the time a month
+has passed they are a fully functioning member of society.
+It’s unknown how long a dara can live for, but the average
+is roughly 100 years.
+Alignment. Dara tend to lead slow-paced observant lives.
+Their natural curiosity and desire to learn often leads them
+down a life as passive bystanders. They’re not easily swayed
+and tend to stay neutral both in conflict and life.
+Size. Dara naturally come in a variety of sizes ranging
+anywhere from 2 to 7 feet tall, with a weight between 65
+and 300lbs. Your size is either small or medium depending
+on which type of dara you are: Small (red) or Medium (blue)
+Speed. Your base walking speed is based on your size: 25
+feet if you’re Small, or 30 feet if you’re Medium.
+Languages. You can speak, read, and write Common and
+one other language of your choice.
+Awakened Skills. You gain proficiency in three skills of
+your choice.
+Create Talisman. As an action, you can create a magical
+paper talisman, which can bestow unique abilities to any
+creature in possession of it. When you do so, choose one of
+the following forms for the talisman:
+◊ Sun Talisman. A creature in possession of this talisman can use its bonus action to activate the talisman, granting it the benefit of the Disengage or Dash
+action (its choice).
+◊ Earth Talisman. When a creature in possession of
+this talisman is reduced to 0 hit points but not killed
+outright, the talisman activates, causing the creature to
+drop to 1 hit point instead.
+◊ Moon Talisman. This paper talisman can be placed on
+any weapon as an action. The next time this weapon
+successfully hits a target, the talisman activates,
+dealing extra radiant damage equal to your level.
+The talisman lasts for 1 hour or until it is activated.
+Once you use this trait, you can’t do so again until
+you finish a long rest.
+Sacred Revelation. You possess an innate gift allowing you to perceive and absorb information from the
+peculiar glyphs strewn across the island. These glyphs take
+the form of intricate symbols resembling thumbprints
+and hold the potential to convey anything from simple
+
+126
+
+messages, to complex skills to you. As an action you can
+touch and absorb any information stored inside one of
+these glyphs.
+Impart Knowledge. In Dara culture, the individuals who go
+on to obtain wisdom truly worth sharing are blessed with
+a unique ability to impart glyphs before their death. This
+extraordinary skill is revered amongst the dara.
+When you reach 10th level, you gain the ability to impart
+messages through dara glyphs. As an action you can press
+your hand against any surface and create a thumbprint
+shaped glyph unique to you. When creating this glyph you
+recite a message, which is stored inside the magical symbol.
+The glyph can only be seen by other dara and can be
+absorbed by using the Sacred Revelation ability.
+
+The Color of Dara
+Dara come in two distinct forms, with many unique
+features between them, but most refer to them by their
+color: blue or red. There are no social differences between
+blue and red dara, and they seem to appear in equal
+numbers. The origin of the two types is unknown, though
+there is a belief among them that the First Dara looked like
+an amalgamation of both types.
+
+BLUE DARA
+Blue dara are usually between 6 and 7 feet tall, with bluehued skin and a single large eye found in the middle of
+their head. Their body is completely void of hair and they’re
+normally quite stout.
+
+As a blue dara you gain the use of the knowledge talisman and are able to produce it once per day in addition to
+other talismans you know.
+Knowledge Talisman. As an action, you can create a knowledge talisman. When a creature in possession of this talisman
+makes an ability check, it can activate the talisman, rolling a
+d6 and adding the number rolled to the check; the creature
+can roll the die before or after making the ability check. The
+talisman lasts for 1 hour or until it is activated. Once you use
+this trait, you can’t do so again until you finish a long rest.
+
+RED DARA
+Red dara are much shorter, with an average height between
+2 and 3 feet tall. In addition to their smaller stature, they
+are easily distinguished from their larger kin by the bright
+red hue of their skin and their two eyes.
+As a red dara you gain the use of the might talisman and
+are able to produce it once per day in addition to other talismans you know.
+Might Talisman. As an action, you can create a might talisman. When a creature in possession of this talisman makes
+a saving throw, it can activate the talisman, rolling a d6 and
+adding the number rolled to the save; the creature can roll
+the die before or after making the saving throw. The talisman lasts for 1 hour or until it is activated. Once you use
+this trait, you can’t do so again until you finish a long rest.
+
+Spirit Guide by Circumstance
+Throughout the ages, the islanders and spirits have coexisted harmoniously, although it would be misleading to
+claim that they always agree on everything. Consequently,
+elves often find themselves acting as intermediaries
+when conflicts arise between spirits and folk from the
+Physical Realm.
+
+Elf Traits
+You, along with other elves, have been gifted a unique set of
+traits akin to the spirits that inhabit the island of Obojima.
+Ability Score Increase. One ability score of your choice
+increases by 2, and another ability score of your choice
+increases by 1.
+Age. Elves reach adulthood in their late teens and live less
+than a century.
+Size. Elves vary in height, which ranges from 5 feet to well
+over 6 feet tall. Regardless of your position in that range,
+your size is Medium.
+Speed. Your base walking speed is 30 feet.
+Languages. You can speak, read, and write Common.
+
+Elves
+The elves of Obojima possess a deep and special bond with
+the enigmatic Spirit Realm and its native spirits. Unlike
+other inhabitants of the island, the elves do not form
+distinct communities or enclaves as they are not a people
+in the traditional sense. This is because elves are born to
+human parents. While this occurrence is uncommon, it is
+not so infrequent that it is met with disdain or apprehension. Instead, it’s simply understood that an elf exists with
+one foot in two worlds.
+
+Marked by the Spirits
+Every elf shares common physical traits such as pointed
+ears and their keen ability to see in the dark. However, what
+sets Obojiman elves apart is the presence of Oaka Marks.
+Each elf bears a unique mark that symbolizes their connection to the Spirit Realm. These mystical glyphs appear as
+shimmering birthmarks and vary in size from that of a coin
+to large enough to cover an entire limb.
+Beyond being mere physical markers, Oaka Marks hold
+deep significance for elves. They represent their profound
+bond with the spirit world and have the potential to bestow
+unique supernatural abilities.
+
+128
+
+Darkvision. Thanks to your supernatural gifts,
+you have superior vision in dark and
+dim conditions. You can see in dim
+light within 60 feet of you as if it
+were bright light, and in darkness as
+if it were dim light. You can’t discern
+color in darkness, only shades of gray.
+Ethereal Sight. Your ocular prowess
+doesn’t stop at darkvision.
+Additionally, you can use
+an action to shift your
+sight into the ethereal,
+allowing you to see creatures
+on the Spirit Realm, which
+appear as glowing outlines of
+themselves. This effect lasts for 1
+hour. You can use this trait a number
+of times equal to your proficiency
+bonus, and you regain all expended
+uses of it when you finish a long rest.
+OAKA MARK
+
+OAKA BIRTHMARK
+Courage. You know the Resistance* cantrip and can cast it
+without requiring material components. When you reach
+3rd level, you can cast Heroism* as a 2nd-level spell once
+with this trait, and you regain the ability to do so when you
+finish a long rest. Charisma is your spellcasting ability for
+these spells.
+Fury. You know the Sacred Flame* cantrip. When you
+reach 3rd level, you can cast Shatter* once with this trait,
+requiring no material components, and you regain the ability to do so when you finish a long rest. Charisma is your
+spellcasting ability for these spells.
+Harmony. You know the Guidance* cantrip. When you
+reach 3rd level, you can cast Calm Emotions* once with this
+trait, and you regain the ability to do so when you finish
+a long rest. Charisma is your spellcasting ability for these
+spells.
+Nature. You know the Dancing Lights* cantrip and can cast
+it without requiring material components. When you reach
+3rd level, you can cast Animal Messenger* once with this
+trait, requiring no material components, and you regain
+the ability to do so when you finish a long rest. Charisma is
+your spellcasting ability for these spells.
+
+Nakudama
+
+Purity. You know the Spare the Dying* cantrip. When you
+reach 3rd level, you can cast Lesser Restoration* once with
+this trait, and you regain the ability to do so when you
+finish a long rest. Charisma is your spellcasting ability for
+these spells.
+
+A sweet treat left untasted, a hot spring left undipped in,
+a warm fire left unshared—all considered tragedies by a
+people driven to indulge in all the comforts and curiosities
+Obojima has to offer. To the other peoples of the island, the
+amphibious Nakudama seem to partake in all things with a
+sense of eagerness and excitement.
+
+Selflessness. You know the Resilient Friendship cantrip.
+When you reach 3rd level, you can cast Gift once with
+this trait, and you regain the ability to do so when you
+finish a long rest. Charisma is your spellcasting ability for
+these spells.
+
+Nakudama tend to eschew enclaves for the more cosmopolitan settlements scattered across the island. They are
+highly social. Patrons of tea houses, taverns, and inns are
+sure to hear the booming, croaking voices of Nakudama
+mingling with crowds.
+
+Did I Ever Tell You the Story About…
+NAKUDAMA
+EGGS
+
+Life is too short to spend time on anything not worth
+recounting in an over-the-top tale later. Sharing and collecting stories is among the most cherished Nakudama traditions. It’s what motivates many Nakudama to travel the
+island or frequent social gatherings. A quality story doesn’t
+just happen, however. Any Nakudama will tell you it’s one
+part lived experience and two parts showmanship, which
+includes creative license and allows for at least a bit of exaggeration. The art can be practiced, but experience must be
+earned. Therefore, Nakudama tend to venture out regularly
+in search of novel stories to share.
+
+Obojima’s Earliest Inhabitants (Perhaps)
+Though the details have been lost to history or exaggerated
+over years of storytelling, it is generally believed that the
+Nakudama were the first people to call Obojima
+
+129
+
+home. Several sites around the island point to an ancient
+Nakudama civilization, and many settlements appear to
+incorporate Nakudama architecture, which is noteworthy
+for its water features.
+Other evidence that suggests an earlier Nakudama Age
+comes from the tales, which are filled with the fantastical
+feats of a powerful Nakudama queen. Though often overly
+dramatic in the portrayals, her exploits seem to line up
+with recent archaeological findings.
+
+Nakudama Traits
+Your Nakudama character gains traits that enable it to
+traverse and flourish on the island of Obojima.
+
+Other Ancestries
+The following section provides context for how existing
+DnD ancestries are represented on the island of Obojima.
+
+Dragonborn
+Dragonborn do not naturally exist in the world of Obojima
+but could come to exist through other means.
+
+D4
+
+Origins
+
+1
+
+You are the last descendant of an ancient people
+that called the island home before the era of
+the Nakudama.
+
+2
+
+You were birthed by the sea and are revered as
+royalty by fishfolk and other ocean dwellers.
+
+Size. Nakudama adults stand 2 to 3 feet tall and weigh 50
+pounds on average. Your size is Small.
+
+3
+
+You are seen as the harbinger who is marking the
+return of the great dragon Yutro.
+
+Speed. Your base walking speed is 25 feet and you have a
+swimming speed of 30 feet.
+
+4
+
+You were cursed to take this form by a dragon
+after you were caught stealing from it.
+
+Ability Score Increase. One ability score of your choice
+increases by 2, and another ability score of your choice
+increases by 1.
+Age. Young Nakudama learn to walk and swim in shallow
+waters just a few weeks after birth. They reach adulthood
+by the age of 10 and live an average of 45 years.
+
+Amphibious. You can breathe air and water.
+Standing Leap. Your long jump is up to 20 feet and your
+high jump is up to 15 feet, with or without a running start.
+Languages. You can speak, read, and write Common and
+Naku Naku.
+Grasping Tongue. As a bonus action, you can lash out your
+tongue at an object you can see within 15 feet of you that
+weighs no more than 5 pounds and pull it to you, catching
+it in your open hand or allowing it to fall at your feet. If
+the object is being worn or carried by a creature, the creature must succeed on a contested Strength check or have
+the object pulled away from it.
+Latching Tongue. As a bonus action, you can extend your
+tongue to latch onto a surface or creature that is at least
+one size larger than you, pulling yourself toward it. The
+target must be no more than 15 feet away from you.
+
+130
+
+Dwarves
+Dwarves do not naturally exist in the world of Obojima but
+could come to exist through other means.
+
+D4
+
+Origins
+
+1
+
+You and your people have been trapped in stone
+under the ocean for centuries. During a recent
+low tide you and your people were discovered.
+
+2
+
+Your parents traded their subservience to a spirit
+so that their child would be born with gifts unlike
+any human or elf.
+
+3
+
+A dara sculptor crafted a statue with such passion
+and love that the island imbued it with life.
+
+4
+
+During the recent earthquake, a portion of
+Mount Arbora cracked open, releasing you and
+your people.
+
+To play one of these exisiting DnD ancestries
+you must either use the charts below to define
+your character’s origins–or create a unique origin
+of your own design.
+
+Gnomes
+
+Half-Orcs / Orcs
+
+Gnomes do not naturally exist in the world of Obojima but
+could come to exist through other means.
+
+Half-Orcs/Orcs do not naturally exist in the world of
+Obojima but could come to exist through other means.
+
+D4
+
+Origins
+
+D4
+
+Origins
+
+1
+
+After being trapped in the wandering forest for
+several days, you were forced to eat a strange fruit
+which changed your body.
+
+1
+
+You were cursed by a witch who was jealous of
+your beauty.
+
+2
+
+2
+
+You were swallowed by an ancient spirit and spit
+back up 3 days later. Your body is forever altered
+from the experience.
+
+You were once an ogre but after falling in love
+with a human you slowly began to change form.
+
+3
+
+You were born to human parents like an elf, but
+are seen as more spirit than human.
+
+4
+
+You are the first green dara.
+
+3
+
+You were an apprentice witch whose potion brewing experience led to your current form.
+
+4
+
+You were once a pixie, but after you found a falling star, you made a wish to be human.
+
+Halfling
+
+Tieflings
+
+Halflings do not naturally exist in the world of Obojima but
+could come to exist through other means.
+
+Tieflings do not naturally exist in the world of Obojima but
+could come to exist through other means.
+
+D4
+
+Origins
+
+D4
+
+Origins
+
+1
+
+Although you are an adult, a curse placed on you
+long ago has kept you looking like a child.
+
+1
+
+2
+
+You passed through what you thought was a portal
+to the Spirit Realm and instead exited at a random
+location on the island in your current form.
+
+You were once human, but after spending many
+years within the Spirit Realm, your body began
+to change.
+
+2
+
+You are a spirit that has been cast out of the Spirit
+Realm and trapped in a material form.
+
+3
+
+A group of beachcombers found you buried under
+the sand. When you awoke, you couldn't recall
+how or why you were half the size of a human.
+
+3
+
+You washed up on the corrupted coastline and
+have no recollection of your previous life.
+
+4
+
+You were once a Nakudama who, through a deal
+with a powerful mage, transformed into a human,
+but you’ve kept your small stature.
+
+4
+
+You died at the hands of an evil spirit and were
+reborn an amalgamation of yourself and the spirit
+that killed you.
+
+131
+
+SUBCLASSES
+The section below details eleven new subclasses intertwined with the island of Obojima, its culture, and its creatures.
+These variants of the classic archetypes are not the only character types you’ll find on the island, but they do provide a
+playstyle that feels uniquely Obojiman.
+
+Path of the Belly Brewer
+Barbarian
+
+These barbarians are masters of brewing potions on the
+fly—directly in their guts! Where others must painstakingly prepare potions with finesse, they channel their inner
+hunger to unlock the latent magic within raw ingredients
+without any prep.
+Those born with the rumble in their belly often find that
+regular food can’t quite satisfy. They require something
+more unusual. A generation ago, a handful of adventurous
+eaters with the appetite set out to find a way to appease
+their seemingly unappeasable appetites. This is how they
+
+discovered “belly brewing.” Certain morsels consumed
+together not only quieted the rumble for a time, but they
+also yielded the potion-like effects they’ve since come to be
+known for.
+
+Belly Concoction
+Starting at 3rd level, you learn the hard-earned skill of belly
+brewing, an arcane technique in which you swallow, mix,
+and brew magical concoctions inside your gut, creating a
+number of unique effects.
+When you enter your rage, you focus your energy to
+harness and activate the effects of a belly concoction.
+Choose combat, utility, or whimsy. You gain the effects of
+the chosen belly concoction, as detailed below. You can
+change your belly concoction each time you rage.
+
+COMBAT
+Your body undergoes a unique change which magically
+alters your physical form, giving it the characteristics of
+rubber. While in this elastic state, you can use your reaction
+when you are hit by a ranged attack, deflecting it with your
+belly. When you do so, the damage you take from the attack
+is reduced by 1d12 + your Constitution modifier + your
+barbarian level.
+Additionally, immediately before you make a melee
+weapon attack on your turn, you can use your bonus action
+to stretch your arms, increasing your reach by 5 feet for the
+rest of the turn. The first time you hit while your arms are
+stretched in this way, the attack deals an extra 1d6 damage
+of the weapon’s type.
+
+UTILITY
+The bubbling elixir in your stomach is perfectly mixed to
+dissolve and absorb anything you can swallow. As a bonus
+action, you can consume any object you can fit in your
+mouth. When you do so, you can expend one of your Hit
+Dice as part of this bonus action to heal yourself. Roll the
+die, add your Constitution modifier, and regain a number
+of hit points equal to the total (minimum of 1). Swallowing
+an object in this way destroys it, provided the object isn’t
+magical. You can use this feature a number of times equal
+to your proficiency bonus, and you regain all expended uses
+when you finish a long rest.
+
+132
+
+WHIMSY
+You focus on the magical brew inside you, only to get an array
+of strange and unruly effects. While in this state, you gain one
+of the following effects at the start of each of your turns:
+◊ You teleport to an unoccupied space within 10 feet of you
+that you can see.
+◊ You take 1d4 necrotic damage; the next ability check you
+make before the end of your turn gains a bonus equal to
+the number rolled.
+
+Mighty Quick Brew
+Starting at 14th level, you learn an additional common
+potion as well as an uncommon potion, using your Quick
+Brew feature.
+Each time you gain a level in this class, you can swap one
+of your chosen potions with a different one.
+
+◊ You can immediately take the Help action as a
+bonus action.
+Additionally, you gain a random visual effect that accompanies the other whimsical features, such as your hair turns
+to moss, a spectral bird circles above your head, or a tattoo
+of a dancing man appears on your person and moves about
+your body.
+
+Side Effects
+At 3rd level, you gain a number of magical side effects due
+to the countless magical ingredients you’ve ingested. You
+learn the Prestidigitation* and Thaumaturgy* cantrips.
+
+Quick Brew
+Beginning at 6th level, you’ve learned how to better control
+the effects your belly concoction produces.
+Choose a common potion that you would normally
+consume. You can activate the effects of the chosen potion
+as a bonus action. Once you activate it, you can’t do so again
+until you finish a long rest. If the potion’s effects require a
+saving throw, the DC equals 8 + your proficiency bonus +
+your Constitution modifier.
+Each time you gain a level in this class, you can swap
+your chosen potion with a different one.
+An alternate way of using this feature is to
+only allow the player to choose from a list of
+potion recipes that they’re aware of. If the belly
+brewer has yet to learn any potion recipes, then
+the GM should provide a list of 10 options to
+choose from.
+
+College of Masks
+Lingering Effects
+At 10th level, the ever-present concoction in your stomach
+is now so potent it grants you benefits even when you
+aren’t raging.
+When you finish a long rest, choose one of the following
+conditions: blinded, charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, restrained, or stunned.
+You have advantage on saving throws against that condition
+until you choose a different one with this feature.
+
+Bard
+
+To be a bard from the College of Masks is to be a theater
+actor capable of losing themselves in a role by using masks
+they imbue with magic. Through these masks, bards can
+mimic others and even take on attributes of the personas
+their masks depict.
+To see the world through another’s eyes. To show the
+world a face not your own. To become someone else. These
+are the actor’s pursuits. Some local players might putter
+
+133
+
+about on the stage as a hobby or distraction, but not bards
+of the College of Masks. Like liquid bronze being poured
+into a mold, these actors have turned their sense of self
+into a malleable thing able to transform themselves into
+someone else.
+
+Tradition of Performance
+The College of Masks not only describes the bard, but it
+also refers to an Obojiman theater tradition where a solitary
+masked actor plays out a story from the island’s myths and
+folktales, which feature a set of archetypal characters such
+as the Old Man, the Fish, and the Demon, among others.
+Throughout the show, the actor artfully shifts between
+masks depicting each character. Each performance is its
+own special thing, as no two are the same.
+
+Alter Self
+Change Appearance. You transform your appearance. You decide what you look like, including
+your height, weight, facial features, sound of
+your voice, hair length, coloration, and distinguishing characteristics, if any. You can make
+yourself appear as a member of another race,
+though none of your statistics change. You also
+can’t appear as a creature of a different size than
+you, and your basic shape stays the same; if
+you’re bipedal, you can’t use this spell to become
+quadrupedal, for instance. At any time for the
+duration of the spell, you can use your action to
+change your appearance in this way again.
+
+Tools of Performance
+
+Many-Masked Performance
+
+When you join the College of Masks at 3rd level, you gain
+the ability to weave arcane boons into theater masks, which
+grant you abilities while you wear them. You craft two
+masks of your choice, which are detailed under the “Masks”
+section below. You’re able to craft one additional mask of
+your choice when you reach 7th, 11th, and 15th level in this
+class. Each time you craft a new mask, you can also replace
+one mask you’ve already crafted with a different one.
+
+At 6th level, you gain the ability to enthrall an audience
+with a dramatic performance. Over the course of 1 minute,
+you can engage in a captivating performance and attempt to
+cause nearby creatures to become charmed, frightened, or
+fall unconscious (your choice). Choose a number of creatures up to your bard level within 60 feet of you that can
+hear you. When the performance ends, each target must
+succeed on a Wisdom saving throw against your spell save
+DC or be subjected to the chosen condition.
+
+While wearing a mask you gain the abilities granted by
+it. You can don or swap masks as an action or bonus action.
+If an ability from a mask requires a saving throw, the DC is
+equal to your bard spell save DC.
+
+Copycat
+Starting at 3rd level, you gain the ability to quickly shift
+your appearance to match that of a person. As an action,
+you can expend one use of Bardic Inspiration to cast the
+Alter Self* spell, using the spell’s Change Appearance
+option to transform into another humanoid you have seen.
+When cast in this way, the spell has the following changes:
+◊ It doesn’t require your concentration, but you can still
+end the spell at any time (no action required).
+◊ You gain 5 temporary hit points, and the spell ends early
+if you lose all these hit points or die.
+◊ You gain new equipment that you would associate with
+the target and are aware of it possessing, such as its clothing, armor, weapons, and other small belongings. Any
+equipment gained in this way has no magical properties,
+even if the original object used by the target does.
+◊ Any equipment you were wearing or carrying merges
+into your new form and you can’t activate, use, wield, or
+otherwise benefit from any of it.
+
+134
+
+Once you use this feature, you can’t use it again until you
+finish a long rest.
+
+Gift of Theatre
+At 14th level, you gain the ability to give one of your theater
+masks to an ally within 5 feet of you. As an action, you
+temporarily release the incantation that binds your theater
+mask to you, allowing one of your allies to use it. The mask
+can be used in this way for 1 minute and only one other
+creature can be designated to use it.
+Once you’ve given an ally a theater mask, you can’t do so
+again until you finish a short or long rest.
+
+Masks
+The masks are presented in alphabetical order.
+Demon (7th Level Required). While wearing this mask you
+gain the abilities Arcane Memory and Demon Eye.
+◊ Arcane Memory. While wearing this mask, you can use
+an action and expend a spell slot of 1st level or higher to
+magically learn whether a creature or object you specify
+has been within a 20-foot radius of your current location
+in the past 24 hours. If you expend a spell slot of 3rd level
+or higher, you get a brief vision of the creature or object
+while it was there, and you learn the exact time the creature or object was present.
+
+◊ Demon Eye. As an action, you gain the ability to magically see through solid objects to a range of 15 feet. Your
+vision penetrates most barriers, but it is blocked by 1 foot
+of stone, 1 inch of common metal, a thin sheet of lead, or
+3 feet of wood or dirt.
+Harpy (11th Level Required). While wearing this mask
+you have a flying speed of 30 feet and resistance to
+psychic damage.
+Fish. While wearing this mask you gain a swimming speed
+equal to your walking speed and the ability to breathe
+underwater. Additionally, you know the Water Bullet and
+Whelm Weapon spells.
+Fox. While wearing this mask, you can move through a
+hostile creature’s space, regardless of its size, and another
+creature’s space isn’t difficult terrain for you. Additionally,
+your AC increases by 1 and when you make a Dexterity
+saving throw, you can use your reaction to gain advantage
+on the roll.
+Golem (7th Level Required). While wearing this mask, your
+weapon attacks deal an extra 1d8 damage on a hit. If you are
+Small, you don’t have disadvantage on your attack rolls with
+weapons as a result of the heavy property. In addition,
+your attacks and spells deal double damage to objects
+and structures.
+Old Man. While wearing this mask, you can cast Detect
+Magic* and Identify* at will, without expending a spell slot
+or material components.
+Protagonist. When you roll initiative while wearing this
+mask, you gain temporary hit points equal to half your bard
+level (rounded up). As a bonus action, you can mark a creature as your antagonist for 1 minute. For the duration, you
+have advantage on ability checks involving your antagonist.
+Additionally, when you see your antagonist make an attack,
+you can use your reaction and expend a use of your Bardic
+Inspiration, rolling a Bardic Inspiration die to reduce the
+attack roll by the number rolled on the die.
+Sea Urchin. While wearing this mask, you can use a bonus
+action and expend a use of your Bardic Inspiration, rolling
+a Bardic Inspiration die to heal yourself for a number of hit
+points equal to the number rolled plus half your bard level
+(rounded up).
+
+Additionally, you can use an action to attempt to immobilize a creature you can see within 30 feet of you, injecting it
+with magical toxins. The target must succeed on a Constitution saving throw or become restrained for 1 minute. At
+the end of each of its turns, the target can repeat the saving
+throw, ending the effect on itself on a success. You can use
+this ability a number of times equal to your proficiency
+bonus, and you regain all expended uses of it when you
+finish a long rest.
+Spirit (7th Level Required). While wearing this mask, you
+know the Speak with Dead* spell. Additionally, you can
+expend a use of your Bardic Inspiration to temporarily move
+through the Spirit Realm. Whenever you would move, you
+instead step through the veil and into the Spirit Realm in
+the area where it overlaps with your current plane. You
+remain in the Spirit Realm until you stop moving or your
+turn ends. If you occupy the same spot as a solid object or
+creature when this happens, you are immediately shunted
+to the nearest unoccupied space that you can occupy and
+take 1d10 force damage.
+While on the Spirit Realm, you can only affect and be
+affected by other creatures on that plane. Creatures that
+aren’t in the Spirit Realm can’t perceive you and can’t
+interact with you, unless a special ability or magic has
+given them the ability to do so. You ignore all objects and
+effects that aren’t on the Spirit Realm, allowing you to move
+through objects you perceive on the plane you originated
+from. This effect lasts until the end of your turn.
+Stone Mask. While wearing this mask, you gain proficiency in the Athletics skill and all bludgeoning, piercing,
+and slashing damage you take from nonmagical attacks is
+reduced by 2. Additionally, you have advantage on ability
+checks and saving throws against being pushed, pulled, or
+knocked prone while wearing the mask.
+
+Circle of the Petal
+Druid
+
+In the tranquil groves where nature’s harmony sings loudest, there exists a circle of druids attuned to the delicate
+dance of petals upon the breeze. These druid guardians of
+the natural world, known as the Circle of the Petal, draw
+their power from the spirit of Obojima, the steady island
+breeze and the ephemeral beauty and resilience of flowers.
+Embracing these subtle powers, they harness the whispers
+of the wind and the gentle caress of petals to weave their
+enchantments and shape the world around them.
+Members of the Circle of the Petal are revered for their
+deep connection to the sacred dawn petal tree and their
+ability to evoke its serene splendor in both peaceful
+sanctuaries and in dire situations. These druids become
+conduits of life energy, channeling the essence of blossoms
+into healing balms, protective barriers, and devastating
+bursts of floral fury. Guided by the eternal cycle of growth,
+bloom, and decay, they embody the ever-renewing vitality
+of nature, ensuring that even in the darkest of times, hope
+blossoms anew like petals on the wind.
+
+Petal Dance
+At 2nd level, you become permeated with the spirit of
+Obojima and are now able to control a fraction of Obojima’s
+magic that manifests as flower petals of the druid’s choosing. As a bonus action, you can expend a use of your Wild
+Shape to call on this power and conjure a resilient cloud of
+petals that functions as an extension of your own being. This
+cloud lasts for 1 hour. While enveloped by the cloud, your AC
+increases by 1 and you gain the following benefits.
+As a bonus action, you can cause your petals to
+lunge toward a creature you can see within 30 feet of
+you, slashing at its body. Make a ranged spell attack
+against the target using your spell attack bonus.
+On a hit, the target takes 1d6 slashing damage.
+This damage increases by 1d6 when you reach 5th
+level (2d6), 11th level (3d6), and 17th level (4d6).
+Additionally, when you or a creature you can see
+within 10 feet of you takes damage, you can use
+your reaction to reduce that damage by an amount
+equal to your druid level + your Wisdom modifier.
+Once you’ve used your petal cloud in this way, the
+cloud dissipates.
+
+Petal Beast Mimicry
+At 6th level, you gain the ability to imbue life into your
+petals. As an action, you can summon a spirit that has the
+appearance of a creature of your choice. This spirit arrives as
+a great wind that overtakes the petals before transforming
+into the desired beast, which you control. The spirits uses
+the bestial spirit statistics, with the following changes:
+
+136
+
+◊ Its hit points are equal to three times your
+druid level.
+◊ When it takes the attack action its attack modifier is equal
+to your spell attack modifier.
+◊ In addition to its walking speed, it has a flying speed of 20
+feet and can hover.
+◊ It can move through the space of other creatures as if they
+were difficult terrain.
+The spirit appears in an unoccupied space of your choice
+within 30 feet of you and acts on your turn. The spirit can
+only take the Dash and Attack action. If the spirit is reduced
+to 0 hit points, it explodes in a stunning spectacle of cascading petals. Until the end of your next turn, all creatures
+within a 20-foot radius centered on the spirit are affected by
+the Faerie Fire spell. Alternatively, the spirit disappears after
+1 minute or if you dismiss it early (no action required).
+Starting at 11th level, you can expend two uses of this ability to summon two bestial spirits, instead of one, when you
+use this action.
+You have two uses of this feature, and you gain an
+additional use of it when you reach certain levels in this
+class: 11th level (three uses) and 16th level (four uses). You
+regain all expended uses of this feature
+when you finish a long rest.
+
+Spirit of Obojima
+Starting at 10th level, the spirit of Obojima comes to your
+aid in both subtle and grand ways. Whenever making a
+Wisdom (Survival) check to find a path or creature, the
+wind carries a collection of brilliant white petals in the
+direction you seek. You have advantage when making these
+skill checks.
+Additionally, you can use an action to magically call forth
+a massive swarm of petals, which create a great barrier. In
+a space that you can see, a wall of shifting petals forms.
+This wall is 1 foot thick, 15 feet tall, and up to 60 feet long.
+It appears in any orientation you choose, as a horizontal or
+vertical barrier or at an angle. It can be free floating or resting on a solid surface. If the wall cuts through a creature’s
+space when it appears, the creature is pushed to one side of
+the wall (your choice which side).
+Nothing can physically pass through the wall except for
+creatures designated by you. It is immune to all damage,
+as the petals magically heal any hole that would be created
+by an attack or effect. This wall lasts a number of minutes
+equal to your druid level.
+Once you use the petal barrier, you can’t use it again until
+you finish a long rest.
+
+Winds of Revival
+
+Bestial Spirit
+Medium Spirit, Unaligned
+
+Armor Class 15 (natural armor)
+Hit Points 38 (8d6 +10)
+Speed 40 ft.
+STR
+
+DEX
+
+CON
+
+INT
+
+WIS
+
+CHA
+
+15 (+2)
+
+15 (+2)
+
+15 (+2)
+
+9 (-1)
+
+12 (+1)
+
+9 (-1)
+
+Skills Intimidation +1, Perception +3, Stealth +4
+Senses Passive Perception 13
+Languages Common
+Challenge 1 (200 XP)
+
+Proficiency Bonus +2
+
+Promising Threat. The bestial spirit has advantage
+on Charisma (Intimidation) checks if the target has
+seen it hit a creature with its chomp attack in the
+past minute.
+
+Actions
+
+Starting at 14th level, the spirit of Obojima comes to your
+aid in your times of greatest need. When you are reduced to
+0 hit points, you instead regain half of your hit points and
+are lifted to your feet amidst a turbulent tempest of petals.
+
+Chomp. Melee Weapon Attack: +5 to hit, reach 5 ft., one
+target. Hit: 9 (2d6 + 2) piercing damage. If the target is
+a creature, it must succeed on a DC 14 Strength saving
+throw or be knocked prone.
+
+You can then immediately use your reaction to send a
+wave of concussive wind sweeping out from you. Each
+creature in a 10-foot radius centered on you must succeed
+on a Strength saving throw against your spell save DC
+or be pushed 15 feet away from you and suffer 2d8
+slashing damage.
+
+Reactions
+Devour. When the bestial spirit reduces a creature to 0
+hit points, it consumes some of the creature’s essence,
+regaining 1d10 hit points.
+
+Once you use this feature, you must finish a long rest
+before you can use it again.
+DAWN BLOSSOM BRANCH
+
+137
+
+The Spirit-Fused
+Fighter
+
+Even the life of a spirit must come to an end.
+Those who take on the moniker of a spirit-fused fighter
+do not normally do so by choice but rather by circumstance. Because to become a spirit-fused fighter, you must
+first become the vessel of a dying spirit, a task that can’t be
+accomplished by choice, as no one truly understands how or
+why this occurs.
+All that is known is that the spirit's mind and body have
+passed on, and its essence now coexists within the fighter,
+granting them abilities beyond the capability of a normal
+spirit. Those who can harness this power can channel the
+latent energy into objects, which produce a magical quirk
+or powerful attacks. These arcane tricks are how these
+unconventional warriors fight and are the reason they have
+garnered so much attention and interest on the island.
+
+Arcane Quirk
+As the host of a powerful spirit, the magic within you can
+be strange and unruly. Though you’ve learned to control
+your powers, the arcane energy can still spark to life, often
+creating strange effects.
+Choose one or more of the Arcane Quirks listed below:
+◊ When activating any of the features from this subclass,
+First Age technology around you begins to act haywire.
+◊ Whenever you make a weapon attack, a radio or cassette
+player on your person plays a snippet of a song.
+◊ Whenever you take damage you cough bubbles.
+◊ Spirits find your odor to be incredibly off-putting.
+◊ Spirits find your odor to be incredibly attractive.
+◊ When you are unconscious, your body floats 1 foot off the
+ground and can be carried by the wind.
+◊ When you successfully land a critical hit on a creature,
+your head randomly transforms into a strange visage
+such as an anthropomorphic pig head, a crimson-skinned
+version of yourself with flaming locks, the face of an
+Urugama, or a CRT TV. This transformation lasts until you
+transform again or take a long rest.
+
+Channel Essence
+Starting at 3rd level, you gain the ability to channel spirit
+energy into your attacks. You have a pool of four d6s that
+you spend to fuel this ability, which are called essence dice.
+When you make a weapon attack roll against a creature,
+you can expend a die from your pool to add it to the roll.
+Alternatively, you can expend a die from your pool to add it
+to the attack’s damage roll. You can choose to do this either
+before or after making the attack roll, but before any effects
+of the attack are applied.
+You regain all of your expended essence dice when you
+finish a short or long rest.
+You gain an additional d6 for your essence dice pool at
+certain levels in this class: 7th level (5d6), 10th level (6d6),
+15th level (7d6), and 18th level (8d6).
+
+Object Channeling
+Beginning at 3rd level, you gain the ability to channel your
+internal spirit energy into objects, creating an array of
+effects. You learn one Channeling Option of your choice
+(see “Channeling Options” below). In addition, you gain
+an object of your choice that you can use to channel the
+option through.
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+You also gain proficiency in the Salvage skill.
+
+138
+
+Spirit Battery
+Starting at 7th level, you learn the Jolt cantrip with the
+following changes:
+◊ When you target a machine with the spell, the machine is
+powered for 1 hour instead of 18 seconds.
+◊ Your spell attack modifier is equal to your Constitution
+modifier + your proficiency modifier.
+Additionally, once on each of your turns when you hit a
+target with a weapon attack as part of the attack action, you
+can replace its damage with that of the Jolt cantrip. When
+you do so, you roll the Jolt cantrip's damage dice (which
+deals lightning damage) in place of the weapon's damage
+dice, and you can gain no other benefits to the attack's
+damage from other features or spells.
+You count as the spirit creature type.
+
+Improved Object Channeling
+At 7th level, you learn an additional Channeling Option,
+and you can now use your Object Channeling feature a
+number of times equal to your proficiency bonus. You
+regain all of the expended uses when you finish a short or
+long rest.
+
+Improvised Armor
+Starting at 10th level, you learn to channel your energy into
+objects you are wearing, causing them to become harder
+than steel for a brief moment. When you are hit by an
+attack, you can use your reaction to roll one of your essence
+dice, adding the number rolled to your AC for that attack,
+potentially causing the attack to miss you.
+
+Backup Battery
+At 15th level, you learn to draw on the spirit energy within
+you to gain a quick rush of energy. You gain an additional
+use of your Second Wind feature. When your hit points
+drop below your fighter level while you have a use of
+Second Wind, you can choose to expend a use of Second
+Wind immediately (no action required).
+
+Junk Master
+Starting at 18th level, you gain an additional channeling
+option from the Object Channeling feature.
+In addition, when you roll initiative and have no uses of
+your Object Channeling feature left, you regain two uses of
+that feature.
+
+CHANNELING OPTIONS
+The channeling options are presented in alphabetical order.
+Ballooning Bag. As a bonus action, you cause a bag (such
+as a canvas sack, backpack, fanny pack, or satchel) that you
+are holding or is on your person to rapidly inflate with air.
+The bag then floats upward, lifting you off the ground and
+carrying you up to 30 feet straight into the air. You hover in
+place there until you let go of the bag (no action required)
+or until the start of your next turn, at which point the bag
+gently floats back to the ground.
+Alternatively, when falling you can use your reaction to
+cause the bag to inflate, granting you the benefits of
+Feather Fall*.
+Entangling Cord. When taking the attack action, you can
+choose to replace one of your attacks with an entangling
+strike. Choose an object that features tendril-like properties
+(such as a tape measure, game controller, extension cord,
+rope, or chain). The object can be on your person or within
+30 feet of you, provided you can see it.
+When you do so, the object springs to life, stretching out
+towards a creature you can see within 15 feet of it. Make
+a ranged attack using your Constitution modifier + your
+proficiency bonus. On a hit, the target is pulled up to 15 feet
+towards the object.
+Find the Thing. As an action, you focus your energy through
+a navigational object (such as a compass, GPS, or map).
+Doing so allows you to cast the Locate Object* spell with
+the following changes:
+◊ The spell doesn't require you to concentrate on it.
+◊ The spell's duration is 1 hour.
+◊ The spell can detect an object within 1 mile of you
+instead of 1,000 feet.
+First Age Steed. You enact a ritual that creates a bond with
+a special vehicle of your choice (such as a bicycle, moped,
+or similar object you can sit on). This vehicle can only carry
+one creature, has a walking speed of 60 feet, and does not
+have a flying speed.
+As an action, you can summon that vehicle to your side.
+While summoned the vehicle is indestructible and disappears in a puff of smoke after 1 hour.
+Goggled Vision. While wearing an ocular covering (such as
+ski goggles, spectacles, sunglasses, or a welding mask), you
+can use an action to see in dim light within 60 feet of you
+as if it were bright light, and in darkness as if it were
+dim light. You can’t discern color in darkness, only shades
+of gray.
+Additionally, you have advantage on Intelligence (Investigation) checks to determine if something is an illusion.
+These effects on your goggles last for 1 hour.
+
+139
+
+Leaping Sneakers. While wearing a pair of shoes you can
+use a bonus action to add a spring to your step. For 1 hour,
+you gain the benefits of the Jump* spell.
+Pocket Voice. You spend 1 minute enacting a ritual that
+binds your voice to an object you can see that looks as if it
+would produce a sound (such as a boombox, pair of headphones, statue with a mouth, portrait of a person, radio, or
+jewelry box).
+Your voice stays bound to the object for 1 hour, or until
+you dismiss the effect as a bonus action. While bound,
+everything you say can also be heard through the object.
+Water Jettison. As a bonus action, you spray a misty stream
+of water from a container on your person (such as a waterskin, soda can, squirt water bottle, or spray bottle). Doing so
+moves you 10 feet backwards in a straight line and grants
+you the benefits of the Disengage action.
+
+JOLT
+Evocation cantrip (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: 1 action
+Range: 30 feet
+Components: V, S
+Duration: Instantaneous
+A jolt of electricity springs from your hand towards a
+creature you can see within range. Make a ranged spell
+attack against the target. On a hit, the target takes 1d8
+lightning damage.
+Alternatively, you can target a machine within range and
+temporarily turn it on, allowing it to function as if it were
+whelmed by a spirit or permanently enchanted. Machines
+targeted by this spell stay powered for 18 seconds before
+turning back off. For a machine to function using this spell,
+it must still be in working condition.
+The spell's damage increases by 1d8 when you reach 5th
+level (2d8), 11th level (3d8), and 17th level (4d8).
+
+Sheep Dragon Shepherd
+Monk
+
+The sheep dragon is often regarded as the epitome of
+goodness and authenticity on the island. These creatures
+are dedicated to freedom and unwavering kinship. Those
+shepherds living and training among the wandering sheep
+dragons learn to care deeply for those around them and
+understand how a flock works together to overcome obstacles. They must be ready to flee to safety yet know when
+to defend their herd. The role of a sheep dragon shepherd
+requires resilience, compassion, and a kind heart. Because
+of this, shepherds across the island are regarded by
+the people of Obojima as heroic and sometimes even
+mythic figures.
+
+Historic Past
+As the tale goes, the first shepherd was a wind spirit who
+went by the name Ventu. The spirit lived among the grass
+and called all that grazed the central fields of Obojima their
+friend, but of those creatures, none pleased Ventu more
+than the playful sheep dragon. In time Ventu and the sheep
+dragon became inseparable. The seasons would speed away,
+and still, the pair would frolic and parade the Gale Fields
+with careless glee. It's during this time that people say
+Ventu gifted the sheep dragon the ability to fly and control
+the winds.
+One day, as Ventu explored the fields, they noticed
+something unsettling in the distance. A great pillar of black
+smoke split the horizon in two. Ventu rushed across the
+rolling hills, only to be met by terrible disaster. A raging fire
+had scorched the southern fields and slowly crawled northward. Ventu, heartbroken at the thought of what might
+become of the sheep dragon just beyond the hillside, made
+the heroic choice to stand against the inferno by themself.
+To this day, it's unknown what became of Ventu, but the
+majestic sheep dragon stands as a testament to their kindness and bravery.
+
+Herding Sheep
+At 3rd level, you gain the ability to herd your allies, calling them closer or moving them out of danger. As a bonus
+action, you can spend 1 or more ki points to cause a willing
+creature that you can see within 60 feet of you to move
+toward you or in any other direction. This movement
+doesn’t provoke opportunity attacks. If the creature moves
+toward you, it can move up to 15 feet per ki point spent; if it
+moves in any other direction, it can move up to 10 feet per
+ki point spent. A creature can’t move in this way more than
+its speed would allow.
+At higher levels, when you use this feature you can target
+additional creatures. At 5th level you can target 2 creatures,
+3 creatures at 10th, and 4 creatures at 15th.
+
+140
+
+Wind Shot
+
+Take to the Skies
+
+When you reach 6th level, you gain the ability to mimic the
+sheep dragon's wind pistol, blasting enemies with powerful gale forces at a distance. When you make an unarmed
+strike, you can instead choose to make a special attack, firing
+a compressed blast of air from your mouth. This ranged
+weapon attack has a range of 60 feet, and it uses the same
+attack bonus and damage die as your unarmed strike.
+
+By the time you reach 11th level, you’ve mastered a unique
+technique that lets you glide on the wind, just like a majestic sheep dragon. When you use your Step of the Wind, you
+also gain a flying speed equal to your walking speed. This
+flying speed lasts until the end of your turn.
+
+Additionally, when you hit a target with this special
+attack, you can choose to spend 1 ki point to force the target
+to make a Strength saving throw against your ki save DC. On
+a failed save, the target is knocked prone or pushed 10 feet
+away from you (your choice).
+
+Intercepting Maneuver
+Also at 6th level, your protective nature comes out in
+heightened moments of skillful deflection for a nearby ally.
+As a reaction, when a friendly creature within 10 feet of you
+is hit by an attack, you can spend 1 ki point to reduce the
+damage it takes by an amount equal
+to one roll of your Martial Arts die
++ your Dexterity modifier.
+
+Additionally, when you use your Step of the Wind, you
+simultaneously take both the Disengage and Dash action.
+
+Guide to the Herd
+At 17th level, your vigilant watch of your companions while
+in the midst of combat allows you to give them cues as
+to when they should raise their defenses. Whenever you
+use your Patient Defense to gain the benefits of the Dodge
+action, you can spend 1 additional ki point to share that
+benefit with your allies. Each friendly creature that can see
+or hear you and is within 30 feet of you can immediately
+use its reaction to also gain the benefits of the Dodge action
+until the start of your next turn.
+
+141
+
+Tenets of the River
+The tenets of the Oath of The River vary by paladin, but
+all of them revolve around embracing the flow and adaptability found in water. Paladins who uphold these tenets
+must understand when it is best to dispatch justice through
+violence or through understanding and forgiveness. The
+core principles of the tenets are:
+The River Flows On. Forgiveness can be as sharp as
+any blade.
+The River Quenches or Drowns. Judgment is reserved
+for those truly deserving of it.
+The River Rages. If I must battle, I will fight with all my
+passion and strength.
+The River Seeks the Sea…Always. I will not abandon my
+duty, especially when others are counting on me.
+
+Oath Spells
+You gain oath spells at the paladin levels listed.
+
+Religious Archetypes
+In Obojima, there are no deities of any sort,
+which means characters like clerics and paladins
+must instead draw their power from some other
+sources. Alternatively, these heroic characters
+draw their strength from their devotion to ideals
+and the natural magic that comes from a person
+who dedicates their life to their beliefs.
+
+Oath of the River
+Paladin
+
+Those who commit themselves to the Oath of the River
+have found guidance in the shifting waters and the great
+creatures that live within them. These diverse individuals model their lives and the tenets they follow after the
+tranquil waters of a blue pool and the rushing rapids that
+spill over a great waterfall, always striving to flow around
+obstacles if possible, but ready to crash through them when
+left with no other option. As the river flows and bends, it
+seeks the path of least resistance in its travels to the ocean.
+Like the river, paladins who have sworn this oath remain
+adaptable but steadfast in their own course.
+
+142
+
+Paladin
+Level
+
+Spells
+
+3rd
+
+Bless*, Whelm Weapon
+
+5th
+
+Find Steed*, Lesser Restoration*
+
+9th
+
+Water Breathing*, Water Walk*
+
+13th
+
+Control Water*, Freedom of Movement*
+
+17th
+
+Mass Cure Wounds*, Submerge
+
+Channel Divinity
+When you take this oath at 3rd level, you gain the following
+two Channel Divinity options.
+Rushing Rapids. As an action, you can cause a forceful
+wave of water to erupt outward in a 20-foot radius centered
+on you. Each Large or smaller creature of your choice in the
+area must succeed on a Strength saving throw or be pushed
+5 feet outside of it.
+Blessed Pool. As a bonus action, you speak gentle yet
+courageous words that encourage your allies and heal them.
+Choose a number of creatures up to twice your Charisma
+modifier (minimum 2) that you can see within 30 feet of
+you. Each creature regains 2d6 hit points.
+
+Aura of the River
+Starting at 7th level, you emanate an aura that causes the
+area around you to feel as if wading into a body of water,
+slowing down your enemies as they approach. The area
+within 10 feet of you is considered difficult terrain for other
+creatures. You can designate any number of creatures you
+can see to be unaffected by it (no action required).
+
+However this fate has befallen you, you now are both
+cursed and empowered by the Corruption’s rotting, withering magic that is slowly taking you over bit by bit, replacing
+your own flesh with its unearthly power.
+As a corrupted being you must choose your future wisely,
+it’s hard to say what this illness will manifest in you.
+
+In addition, the first time you hit a Large or smaller
+creature on your turn with a melee attack, you can use your
+aura to move the target up to 10 feet to an unoccupied space
+you choose.
+At 18th level, the area within 30 feet of you, instead of 10
+feet, is considered difficult terrain for other creatures.
+
+Shielding Spirit
+Beginning at 15th level, whenever you make a Dexterity saving throw, you can use your reaction to halve any
+damage you would take from the effect. When you do so,
+you can also expend a spell slot to extend this benefit to
+nearby allies. Choose a number of creatures within 10 feet
+of you equal to the level of the spell slot expended; the
+damage is also halved for each of those creatures.
+
+Form of the River
+Starting at 20th level, you can manifest the powerful visage
+of a river spirit around your body. As a bonus action, you
+gain the following benefits for 1 minute:
+◊ You gain a swimming speed of 60 feet, and your walking
+speed increases by 15 feet.
+◊ You have advantage on all saving throws.
+◊ Whenever you successfully move a creature with your
+aura you can choose to deal 2d8 bludgeoning damage to it.
+Once you use this bonus action, you can’t use it again
+until you finish a long rest, unless you expend a 5th-level
+spell slot to use it again.
+
+Corrupted Ranger
+Ranger
+
+You have become afflicted by the mysterious illness that
+haunts the island known as the Corruption. This same foul
+magic, which has stained the coastlines black, now resides
+within your body. It curses your skin and seeps from your
+pores, and in time it will even become difficult to distinguish you from it.
+How this has happened is your story to tell. You may have
+been one of the first responders to the Corruption when it
+came to the shores of Obojima leaving you to possibly be
+the only survivor of that brave band of rangers. Perhaps you
+were an explorer, who stumbled on a pocket of Corruption
+and became infected, or maybe you were inflicted with this
+Corruption by an evil witch.
+
+1st Manifestation
+Starting at 3rd level, the Corruption within begins to manifest in combat.
+Whenever you take damage, you also receive a curse
+marker; if the damage was from a critical hit, you receive
+two curse markers instead. These markers will remain
+active until the end of your next turn, and the maximum
+number of curse markers you can accumulate at a time is 2.
+When you hit a creature with a weapon attack, all the curse
+markers you have gained are instantly consumed, dealing
+an extra 1d4 necrotic damage to the target for each curse
+marker consumed.
+
+143
+
+Alternatively, you can use a bonus action to call upon
+your Corruption to immediately gain the maximum
+number of curse markers available to you. When you
+use this ability, you can’t gain more than your maximum
+number of curse markers.
+
+Alternatively, you can give your breath to another creature. Whenever a creature you can see makes a Dexterity
+saving throw, you can use your reaction to give it advantage
+on the saving throw and increase its speed by 15 feet until
+the start of your next turn.
+
+The number of curse markers you can accumulate at once
+increases when you reach certain levels in this class: 3 at
+5th level, 4 at 11th level, and 5 at 17th level.
+
+Losing Feeling. Numbness creeps into your muscles and
+bones and across your skin. The vibrancy of feeling gives
+way to a broad antagonism. Your hands and arms instead
+burn with a cold ethereal flame, which only you can see.
+As a bonus action, you can target a creature you can see
+within 60 feet of you, enveloping it with the same cursed
+flames. When you deal damage with your curse markers to a
+creature that has been enveloped by your flames, each curse
+marker deals an extra 1d6 necrotic damage, instead of 1d4.
+
+2nd Manifestation
+At 3rd level, you start to observe peculiar happenings
+within your own body. At times you notice that your limbs
+and torso exhibit independent movements, seemingly
+acting of their own volition.
+When you make a Strength or Dexterity check, you can
+choose to replace the result with a number equal to 10 +
+your ranger level. You can wait until after you roll the d20
+before deciding to use this feature, but must decide before
+the GM says whether the roll succeeds or fails. You can use
+this feature a number of times equal to half your proficiency bonus (rounded up), and you regain all expended
+uses when you finish a long rest.
+
+3rd Manifestation
+Starting at 7th level, when you make a weapon attack against
+a creature, you can expend one curse marker to roll a d4
+and add it to the attack roll. You can choose to use a curse
+marker in this way before or after making the attack roll. You
+can expend a curse marker in this way only once per turn.
+Additionally, whenever you take damage, you can use your
+reaction to reduce the damage taken by an amount equal to
+your ranger level. Once you reduce damage in this way, you
+can’t do so again until you finish a short or long rest.
+
+4th Manifestation
+At 11th level, your ailment is beginning to have side effects on
+your body. Gain one of the following ailments of your choice.
+Graying Vision. Your eyes weaken and the world around
+you begins to lose some of its colorful luster. To adjust to
+your slowly worsening vision, you’ve gained blindsight out
+to a range of 15 feet. In addition, you automatically detect
+visual illusions if their Intelligence (Investigation) check DC
+is less than or equal to your ranger spell save DC.
+Failing Lungs. YYour lungs have begun to ache and your
+days are filled with excessive coughing. At times you feel
+yourself gasping for air, and it’s in those moments you’ve
+learned to steal another’s breath. As an action, you pull
+your next breath from a creature you can see. The target
+falls prone and can’t take reactions until the start of your
+next turn. Additionally, all of your curse markers are
+consumed, dealing 1d4 necrotic damage to the creature for
+each marker consumed in this way.
+
+144
+
+Once you use this feature, you can’t use it again until you
+finish a short or long rest.
+
+5th Manifestation
+Starting at 15th level, you gain the ability to call upon the
+Corruption which greatly alters your natural capabilities. As
+a bonus action, you can activate this feature, doubling your
+walking speed, increasing your AC by 2, and allowing you to
+make two additional attacks when taking the Attack action.
+In addition, all attacks are treated as if you have the maximum number of curse markers accumulated. The effects of
+this feature last until the start of your next turn. You can
+use this ability without negative effects once per long rest.
+If you use this feature a second time before finishing a
+long rest, in addition to the effects wearing off at the start
+of your next turn, you also suffer one level of exhaustion
+and immediately drop to 1 hit point if you have more than 1
+hit point at the start of your turn.
+Once you use this feature a second time, you can’t use it
+again until you finish a long rest.
+
+Waxwork Rogue
+Rogue
+
+Waxwork rogues have a long history on the island of
+Obojima in dealing with the dangerous and the arcane.
+They’re known for having an array of tools and tricks to
+delve into the most perilous of places and almost always
+coming back with treasures and tales. To a Waxwork rogue,
+any challenge or danger can be solved with a bit of wax, a
+pinch of smarts, and a whole lot of magic.
+
+In the Beginning
+The Courier Brigade was created to carry packages between
+villages as well as guard merchant wagons through treacherous areas. But there are some areas on Obojima that are rife
+with the arcane, spirit dangers, and uncanny occurrences.
+Legend says that it was Lydia Starwright, Courier Brigade
+First Class, who, against all advice, sought out the aid of
+a powerful witch who was rumored to live within a hut
+of melted wax deep within the Land of Hot Water. It was
+there in that melted hut where the witch taught Lydia the
+arcane practices known only to certain spirits of the island,
+the ability to enchant wax and fire in wondrous ways. It
+was this knowledge that transformed Lydi into the first
+Waxwork Rogue.
+
+Saving Throws. Some of your enchantments require creatures to make a saving throw to resist the enchantment’s
+effects. The saving throw DC is calculated as follows:
+Enchantment save DC = 8 + your proficiency
+bonus + your Intelligence or Charisma modifier
+(your choice)
+Wick Points. You have 3 wick points, which represent your
+current ability to harness the magic from the Spirit Realm.
+Manipulating the magic from another realm and pulling
+its energy into an object, even one as small and simple as a
+candle, can be both physically and mentally taxing. When
+you spend a wick point, it is unavailable until you finish a
+short or long rest, at the end of which you regain all of your
+expended wick points.
+Whenever you gain a level in this class, you gain 1 additional wick point.
+
+Lydia brought back this knowledge to the Courier Brigade,
+and formed the Waxworks Division, a dedicated group of
+arcane rogues who would volunteer for the most perilous
+assignments and deliveries of the Courier Brigade.
+In the present day, Waxwork rogues
+have transcended the ranks of the Courier
+Brigade, and their skill sets are practiced
+across the island.
+
+Conjure Flame
+At 3rd level, you learn the Dancing Lights* cantrip
+(the lights appear as floating candles) and the
+Produce Flame* cantrip.
+
+Wax Enchantments
+When you choose this archetype at 3rd
+level, you learn wax enchantments, which are
+fueled by your ability to pull and manipulate magic
+from the Spirit Realm. These are represented by a
+number of wick points.
+Enchantments. You learn three enchantments
+of your choice, which are detailed under
+“Enchantments” below.
+You learn two additional enchantments of your
+choice at 5th, 10th, and 15th level. Each time you
+learn new enchantments, you can also replace one
+enchantment you know with a different one.
+
+145
+
+Enchantments
+The enchantments are presented in alphabetical order.
+Blooming Light. As an action, you can spend 1 wick point
+to ignite a dark green candle, which burns in a similar hue,
+shedding dim light in a 10-foot radius centered on itself.
+Creatures in the candle’s light are hidden from divination
+magic, and they can’t be targeted by such magic or perceived
+through magical scrying sensors. This effect lasts for 1 hour.
+Bocha Glue Wax. Bocha glue is a delicate mixture of the
+finest waxes available and a collection of ingredients known
+only to the Waxwork Rogues. When enchanted properly, it
+can temporarily hold any two objects together. As an action,
+you can spend 1 wick point to create an adhesive bond
+between two objects using just a small amount of bocha
+glue. The two objects remain bound together for 24 hours,
+at which point the enchantment fades and the two objects
+are separated. A creature within reach of the objects can use
+an action to make a Strength (Athletics) check against your
+Enchantment save DC, breaking the bond early on a success.
+Burning Delay (5th Level Required). You can spend 3 additional wick points to simultaneously activate Burning Delay
+when you use one of the following candle enchantments:
+candle pop, fish fat candle, or detonate. When you do so, you
+delay that enchantment’s activation by 1 round, 1 minute, or
+10 minutes (your choice).
+Candle Pop. As a bonus action, you can spend 2 wick points
+to ignite and hurl a misshapen yellow candle at a creature
+you can see within 60 feet of you. The target must make a
+Dexterity saving throw to avoid being partially encased in
+wax as the candle explodes on impact. On a failed save, the
+target is restrained by the wax. At the end of each of its
+turns, a restrained target can repeat the saving throw, ending
+the effect on itself on a success.
+Consuming Flame (10th Level Required). When you see a
+hostile creature within 60 feet of you casting a spell, you can
+use your reaction and spend 3 wick points to quickly ignite
+the flame of a thin white candle and cast Counterspell*. If
+the spell was successfully countered and was 3rd level or
+lower, you can spend an additional 2 wick points to reactivate this ability and store the spell inside your candle.
+While holding the candle, you can cast any spell stored
+in it. The spell uses the slot level, spell save DC, spell attack
+modifier, and spellcasting ability of the original caster, but is
+otherwise treated as if you cast the spell. Once the spell has
+been cast, the candle is sundered and becomes unusable. A
+spell can be stored inside a candle for 24 hours, after which
+the spell fades and is no longer able to be used.
+Delicacy. As an action, you can spend 1 wick point to imbue
+the tart flavor of a Pyramid Melon and the healing properties of a river spirit into your candle. As a bonus action,
+a creature can consume the candle, causing it to regain 1d6
+hit points and providing enough nourishment to sustain it
+
+146
+
+for one day. A candle holds this enchantment for 24 hours,
+after which the properties of delicacy fade. You can have no
+more than 2 candles with this enchantment at a time.
+Detonate. (5th Level Required) As an action, you can spend
+3 wick points to ignite and throw a dark black candle at a
+point you can see within 60 feet of you. A brilliant eruption
+of flame sweeps out from the candle, causing each creature
+in a 20-foot-radius sphere centered on that point to make
+a Dexterity saving throw. A target takes 2d6 fire damage
+and 2d8 thunder damage on a failed save, or half as
+much damage on a successful one. When you use this
+enchantment, you can spend additional wick points to
+increase the fire damage dealt by 1d6 for each additional
+wick point spent.
+The fire spreads around corners. It ignites flammable
+objects in the area that aren't being worn or carried.
+Fish Fat Candle. As an action, you can spend 1 wick point
+to ignite and throw an oily brick of blubber candle wax that
+lands in an unoccupied space you can see on the ground
+within 60 feet of you. One round after the candle lands,
+it emits a cloud of colorful smoke that creates a heavily
+obscured area in a 20-foot radius centered on it. The candle
+continues to spew smoke for 1 minute and creates a visible
+trail in the sky that can be seen from 10 miles away.
+Flooding Abundance. As an action, you can spend 2 wick
+points to ignite and throw a tea light candle into an unoccupied space you can see on the ground within 60 feet of
+you. After landing, the candle melts rapidly, bubbling and
+boiling with an overwhelming amount of wax, which flows
+over and fills a 15-foot-square centered on the candle. The
+wax remains for 1 minute. It is flammable, and a 5-foot
+square of wax exposed to fire burns away in 3 rounds, dealing 2d6 fire damage to any creature that starts its turn in
+the fire. All spaces covered in the wax are difficult terrain
+for the duration.
+Iron Seal. As an action, you can spend 1 wick point to melt
+and press the wax seal of iron onto any door or object with
+a lid. Once imbued with your seal, the object becomes magically shut and can’t be opened unless a creature makes a
+successful Strength (Athletics) check against your Enchantment save DC, at which point the seal breaks. The iron seal
+lasts until it is broken or dispelled (as if it were a 1st-level
+spell). You can use an action to touch one of your iron seals
+and end its effects early.
+Lost Wax Carving. Using the lost form of wax carving you
+craft a detailed replica of an object. When using the wax
+carving technique, you can spend 2 wick points over the
+course of 10 minutes to produce the effects of the Duplicate
+spell. The object you duplicate can be no larger than a
+1-foot cube.
+Maker’s Mark. When you make an attack with a
+one-handed weapon as part of the Attack action on your
+turn, you can spend 1 wick point to make an unarmed strike
+
+as part of the same action using a signet ring. This attack
+deals bludgeoning damage equal to 1d4 + your Dexterity
+modifier, plus an extra 1d6 fire damage. This attack can
+benefit from your Sneak Attack, provided you haven’t
+already dealt your Sneak Attack damage this turn.
+You can use this enchantment once per turn.
+Shielding Seal. As an action, you can spend 1 wick point
+to melt and press the wax seal of shielding onto a willing
+creature or object, protecting it from incoming damage. The
+target of the seal gains 5 temporary hit points, which last
+for 24 hours. You can grant an additional 5 temporary hit
+points for each additional wick point spent, to a maximum
+of 15 temporary hit points. You can only have one shielding
+seal active at a time. Creating a shielding seal while another
+seal of the same type is already active ends the effects of
+the initial seal early.
+Spark Shower. As a bonus action, you can spend 2 wick
+points to bring your free hand to your mouth, igniting your
+next breath. Exhaling creates a dazzling shower of sparks
+aimed toward a creature within 5 feet of you. You have
+advantage on the next weapon attack roll you make against
+the target this turn, and the target can’t make opportunity
+attacks until the end of your turn.
+Waxlings. By reaching through the veil and into the Spirit
+Realm, you can temporarily pull and trap a minor spirit
+within a candle, granting the candle sentience. As an action,
+you can spend 2 wick points to summon a waxling, casting
+the Find Familiar* spell with the following changes:
+◊ In place of an animal familiar, you instead imbue life into
+a candle, which causes it to grow appendages and eyes.
+◊ Your waxling familiar uses the statistics of a rat.
+◊ You can command the familiar to use its action to touch
+a flammable object that isn’t being worn or carried and
+ignite it.
+◊ The familiar sheds bright light in a 5-foot radius and dim
+light for an additional 10 feet.
+◊ You can’t temporarily dismiss the familiar.
+◊ The familiar is dismissed permanently after 1 hour or
+when it is reduced to 0 hit points.
+◊ You can have more than one of these familiars at a time.
+Wick Whip. As a bonus action, you can spend 3 wick points
+to ignite a 10-foot length of candlewick that has been soaking in the stomach acid of a dragon frog. The flames burn at
+an intense heat that warps the air around them, shedding
+bright light in a 15-foot radius and dim light for an additional 15 feet. The wick burns for 1 minute, during which
+you can use it as a melee weapon that you're considered
+proficient with. It deals 3d4 fire damage on a hit (adding
+your ability modifier to the damage roll as normal), and it
+has the finesse, light, and reach properties.
+
+Burn Cycle
+Starting at 9th level, you can ignite your weapons in a flash
+of hot white flames when you successfully catch an enemy
+off guard. When you deal Sneak Attack damage on your
+turn, you can spend wick points to deal extra fire damage
+to the target, in addition to the weapon’s damage. The extra
+damage is 1d6 for each wick point spent, to a maximum
+of 4d6.
+
+Advanced Enchantments
+When you reach 13th level, some of your enchantments
+become more potent. You now use the alternate enchantments features found below. If you have yet to learn any of
+the following enchantments, you may learn one as part of
+this feature.
+Blooming Light. Starting at 13th level, the effects of blooming light lasts for 8 hours.
+Burning Delay. Starting at 13th level, you can delay the
+effects of your candle enchantments by 1 round, 3 rounds, 1
+minute, 10 minutes, or 1 hour.
+Candle Pop. Starting at 13th level, candle pop affects the
+target and each creature within 5 feet of it.
+Delicacy. Starting at 13th level, the creature regains 1d12
+hit points, instead of 1d6, and you can have up to 4 candles
+with this enchantment at a time.
+Maker’s Mark. Starting at 13th level, maker’s mark has no
+limit to the number of times you can use it per turn.
+Shielding Seal. Starting at 13th level, you can have up to
+three shielding seals active at a time, instead of one.
+Waxlings. Starting at 13th level, you can spend 3 wicks
+points as an action, instead of 2, to summon two
+waxlings simultaneously.
+
+Spirit Flame
+At 17th level, you learn to craft a specialty candle made of
+pink wax. As a bonus action, you can ignite this candle,
+which burns for 1 minute. As long as the burning candle is
+on your person, you gain the following benefits:
+◊ The wick point cost of your enchantments is reduced
+by 1.
+◊ You have immunity to fire damage.
+◊ Spirits have disadvantage on attack rolls against you.
+If you fall prone while the burning candle is on your
+person, you must succeed on a DC 15 Dexterity saving throw
+or the candle is extinguished early.
+Once you use this feature, you can’t use it again until you
+finish a long rest.
+
+147
+
+Oni Bloodline
+Sorcerer
+
+In the realm of magic, there exists a lineage of sorcerers
+whose blood bears an ancient connection to the oni. These
+sorcerers, known as Oni Kin, harness the magic of their
+lineage to weave powerful spells. But, as they delve deeper
+into their arcane abilities, they find themselves gradually
+transforming, both physically and spiritually, into embodiments of the oni’s fearsome might.
+At the onset of their journey and as they use their powers,
+Oni Kin begin to see subtle manifestations of their lineage’s
+traits—changes in appearance and temperament. However, as
+they channel their magic with more skill, these traits begin
+to intensify. Their skin may change, their eyes may glow with
+an eerie light, and their once-subtle features become more
+pronounced, bearing the unmistakable visage of an oni.
+As their power reaches its zenith, Oni Kin reach a pinnacle where they can fully embrace their heritage and assume
+the form of a true oni. In this form, they stand as towering
+figures of terror, wielding unparalleled magical might and
+physical prowess. Yet, with this transformation comes a
+perilous temptation—the struggle to maintain control over
+the oni ’s insatiable hunger for chaos and destruction. This
+struggle is not unnoticed by islanders, most of which fear or
+distrust the Oni Kin.
+
+Arcane Prison
+Trapped inside of you is the essence of the First Oni, passed
+down through its children and stretched across a long and
+treacherous lineage. As you grow in strength, so does the
+spirit within you. It desperately wishes to bubble to the
+surface, and it does so when you’re at your weakest. At 1st
+level, you gain the traits of the oni, which manifest as you
+expend sorcery points. Each oni trait becomes available to
+you based on how many sorcery points you’re missing from
+your total, represented by the table below. Regaining sorcery
+points can cause you to lose one or more oni traits.
+Each oni trait has both a physical and an arcane manifestation, which lasts until you finish a long rest.
+
+Sorcery Points Missing
+
+Manifestation
+
+0–1
+
+Eyes
+
+2–4
+
+Horns
+
+5–9
+
+Skin
+
+10–14
+
+Tongue
+
+15 or more
+
+Hair
+
+148
+
+Oni Traits
+Eyes. Your eyes shimmer with an almost mesmerizing
+quality. As an action, you can activate your innate ocular
+charm. For 1 minute, you have advantage on all Charisma
+checks directed at one creature of your choice that isn’t
+hostile toward you, provided it can see your eyes. When the
+effect ends, the creature must make a Wisdom saving throw
+against your spell save DC. On a success, the target realizes
+that you used magic to influence its mood and becomes
+hostile toward you. A creature prone to violence might
+attack you. Another creature might seek retribution in other
+ways (at the GM’s discretion), depending on the nature of
+your interaction with it.
+Horns. You gain horns which rapidly grow and jut out from
+your head. When casting a cantrip that requires you to
+make a melee or ranged spell attack, you can instead make
+a melee spell attack using your horns, channeling the spell
+through them. When you hit a creature with a cantrip cast
+in this way, the target takes an extra 1d6 piercing damage.
+
+Additionally, when a hostile creature’s movement
+provokes an opportunity attack from you, you can use your
+reaction to cast a cantrip at the creature using your horns
+rather than making an opportunity attack. The spell
+must have a casting time of 1 action and must target only
+that creature.
+Skin. The hue of your skin turns to a dull red, green, or blue
+color and you adopt the regenerative powers of the oni.
+Whenever you cast a spell of 1st level or higher, you regain
+a number of hit points equal to the spell’s level + your
+Constitution modifier. You don’t gain this benefit if you
+activate the Tongue trait for that casting.
+Tongue. With every incantation cast, the twisted and
+demonic voice of the First Oni can be heard within your
+speech. When you cast a spell that requires a verbal component and targets a single creature, you can also use your
+bonus action to cause the target to recoil in fear. The target
+must make a Wisdom saving throw against your spell save
+DC. On a failed save, the target must use its reaction, if
+available, to move up to half its speed away from you or fall
+prone (your choice).
+Hair. Your hair turns a shocking white and stretches
+towards the ground as it grows to cover your back. You gain
+a +2 bonus to your AC.
+
+Ogre Manipulation
+Starting at 6th level, you can manifest one of your oni traits,
+regardless of how many sorcery points you’re missing. As a
+bonus action, you can gain one of the oni traits you could
+normally obtain through the expenditure of sorcery points
+and draw it out early. This trait lasts for 1 minute, and you
+lose it if you haven’t gained the trait by normal means in
+that time.
+Once you use this feature, you can’t do so again until you
+finish a long rest.
+
+Boiling Power
+At 14th level, your oni traits grow in strength. The following
+changes apply to your traits:
+Eyes. In addition to the benefits you normally have, you
+learn the Zone of Truth* spell, which you can cast without
+expending a spell slot. When you cast it, only one creature
+of your choice within 60 feet of you is affected by the spell.
+The target must make its saving throw against the spell
+at the start of each of its turns, provided it can see your
+eyes; the spell ends early if the target can no longer see
+your eyes.
+Horns. The extra damage dealt by your horns increases
+to 1d12.
+Skin. Whenever you cast a spell of 1st level or higher, you
+now regain a number of hit points equal to twice the spell’s
+level + your Constitution modifier.
+Tongue. When you activate the Tongue trait using a spell
+slot of 5th level or higher, in place of the trait’s normal
+effects, you can instead cause the target to tremble in
+fear, becoming hyper fixated on you. The target’s passive
+Wisdom (Perception) score is reduced to 5 and it takes a −5
+penalty to its AC against all attacks that aren’t made by you.
+This effect lasts until the start of your next turn.
+
+Transformation
+Beginning at 18th level, you can fully embody the fabled
+visage of your demon ancestor without needing to exhaust
+your sorcerous power. As an action, you can instantly manifest all of your oni traits, regardless of how many sorcery
+points you’re missing. While manifesting your oni traits in
+this way, you gain resistance to bludgeoning, piercing, and
+slashing damage from nonmagical attacks, and you can’t be
+charmed or frightened.
+This effect lasts for 1 minute, after which you lose any trait
+you haven’t gained by normal means in that time. Once you
+use this feature, you can’t do so again until you finish a long
+rest, unless you spend 5 sorcery points to use it again.
+
+149
+
+The Lantern
+
+Spells
+
+Warlock
+
+Warlocks who make a pact with a powerful spirit are able
+to tap into the magic that flows through the Spirit Realm.
+These warlocks are known by the special lanterns they
+carry—lanterns that burn with the essence of their patron.
+The illumination of this vessel carries with it the attributes
+of the spirit, granting the warlock an array of abilities.
+When spirits enter pacts with people, there is often more
+to it than generosity. Spirits powerful enough to lend out
+bits of their magic do so for a variety of reasons. Perhaps
+the spirit is beholden to do so due to a bargain or curse. It
+could be that the spirit needs allies (though they might not
+readily admit it). Or maybe they simply see something in
+you that amuses them. The things that motivate spirits are
+as varied as they are. And truly powerful spirits can
+be inscrutable.
+
+1st
+
+Faerie Fire*, Identify*
+
+2nd
+
+Locate Object*, Swallow Magic
+
+3rd
+
+Daylight*, Nondetection*
+
+4th
+
+Guardian of Faith*, Locate Creature*
+
+5th
+
+Create Spirit Train Stop, Tamh Gon’s Fiery
+Festival Feast
+
+Illuminating Aura
+Starting at 1st level, the essence of your spirit patron is
+channeled into a lantern, where it appears as a minor form
+of itself. You can use your lantern as a spellcasting focus for
+your warlock spells.
+As a bonus action, you can activate your lantern, causing
+it to shed bright light in a 20-foot radius and dim light for
+an additional 20 feet. This light lasts for 1 minute, or until
+you let go of the lantern or choose to end this effect
+early (no action required). For the duration, you gain the
+following benefits:
+◊ Whenever you see a creature in your lantern’s bright light
+make a saving throw, you can use your reaction to grant
+that creature a bonus to the save equal to your Charisma
+modifier (minimum of +1).
+◊ Whenever a hostile creature within your lantern’s dim
+light fails a saving throw, it takes radiant damage equal to
+half your warlock level (rounded up).
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+
+Revealing Light
+Starting at 1st level, you can use an action to cause your
+lantern to illuminate with a vibrant maroon light, which
+sheds bright light in a 10-foot radius and dim light for an
+additional 10 feet. Invisible creatures and objects are visible
+as long as they are in the lantern’s bright light. The lantern
+sheds light in this manner for 1 hour or until you snuff it
+out early as a bonus action.
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+
+150
+
+Dangerous Tool
+
+Brighter Still
+
+Starting at 6th level, your Illuminating Aura no longer ends
+if you let go of your lantern. While you aren’t holding your
+lantern, you can magically take control of it for 1 minute (no
+action required), using it as if it were a Spiritual Weapon*
+cast as a 2nd-level spell. Your lantern continues to act
+as your spellcasting focus while using this feature, even
+though you are no longer holding the lantern.
+
+At 14th level, you gain the ability to activate your lantern’s
+Illuminating Aura at will. Features such as Dangerous Tool
+and Brilliant Illumination that work in conjunction with
+Illuminating Aura are still limited to the number of uses
+described in their respective features.
+
+The level at which Spiritual Weapon* is cast increases
+when you reach certain levels in this class, increasing to
+a 4th-level spell at 10th level and a 6th-level spell at
+15th level.
+
+Additionally, while holding your lantern, you can use an
+action to cause it to illuminate with a pale blue light, revealing a glowing arcane path to a location you’re familiar with,
+as if casting the Find the Path* spell.
+Once you use your lantern in this way, you can’t do so
+again until you finish a long rest.
+
+Once you take control of your lantern in this way, you
+can’t do so again until you finish a long rest, unless you
+expend a warlock spell slot to take control of it again.
+
+Oracle Illumination
+Beginning at 6th level, you can spend an action to magically connect your mind to a light source such as a candle
+or torch that you can see or are familiar with. The light
+source acts as if it were the sensor created by the Clairvoyance* spell, granting you the same benefits. You can use the
+light source in this way for 10 minutes or until you use this
+feature again.
+Once you use this feature on a light source, you can’t use
+it on the same light source again until you finish a long rest.
+
+Brilliant Illumination
+Starting at 10th level, while your lantern’s Illuminating
+Aura is active you can use an action to cause the light to
+flare with an overwhelmingly brilliant flash. Each creature
+other than you illuminated by either your lantern’s bright
+light or dim light (your choice) must make a Constitution
+saving throw against your warlock spell save DC. On a failed
+save, a creature takes radiant damage equal to 2d8 + your
+warlock level and is blinded until the end of your next
+turn. On a successful save, the creature takes half as much
+damage and isn’t blinded.
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+
+151
+
+Origami Mage
+Wizard
+
+Origami Mages are wielders of a unique form of magic that
+combines precision, creativity, and imagination. With a flick
+of their wrist and a whisper of arcane words, they transform
+simple sheets of paper into awe-inspiring manifestations of
+elemental forces, mystical beings, and fantastical creatures.
+Drawing inspiration from the mysterious elegance of
+origami, these mages are not bound by traditional spell
+components but instead rely on the meticulous manipulation of paper to channel their magical energies. Origami
+magic is not without its challenges. Mastery of this arcane
+discipline demands patience, dexterity, and a keen eye for
+detail. Each fold must be precise, each crease exact, for even
+the smallest imperfection can disrupt the flow of magic and
+render a spell ineffective. Yet, for those who persevere, the
+rewards are boundless.
+
+An Arcane Art
+At 2nd level, you learn to weave magic into origami, allowing you to create magnificent moving art pieces, which act
+on your behalf. As a bonus action, you can fold and imbue
+life into a paper construct that takes a form you choose
+from the list below. When crafted, an origami construct
+becomes bound to you or another creature of your choice
+that you can see within 60 feet of you.
+A creature with a bound origami construct gains the
+unique effects and features listed for that construct. A
+creature can’t have more than one of the same origami
+construct bound to it at a time, unless stated otherwise.
+A bound construct occupies the same space as the creature
+it’s bound to.
+These constructs stay imbued with life for a number of
+hours equal to half your wizard level. Origami constructs
+have an AC equal to your spell save DC, are immune to
+poison and psychic damage, and are destroyed when they
+take any damage. You can use this feature to create an
+origami construct a number of times equal to your proficiency bonus, and you regain all expended uses when you
+finish a long rest.
+
+Origami Constructs
+The constructs are presented in alphabetical order.
+Bird. While the origami bird is bound to your person, you
+gain proficiency in the Perception skill. Additionally, you
+deal an additional 2 slashing damage whenever you hit a
+target with a ranged attack.
+Cat. While the origami cat is bound to your person, you
+gain proficiency in the Stealth skill. Additionally, once
+on each of your turns when you hit a target with a melee
+weapon attack, the origami cat can make a melee spell
+attack against the same target. Its attack modifier is equal to
+your weapon attack modifier, and on a hit, the target takes
+1d6 slashing damage.
+The origami cat’s damage increases when you reach
+certain levels in this class: 1d8 at 5th level, 1d10 at 11th
+level, and 1d12 at 17th level.
+Crab. While the origami crab is bound to your person, you
+gain a +1 bonus to your AC and proficiency in the Athletics skill. If the wizard that crafted this origami crab creates
+another, this origami crab is destroyed.
+Dragon. While the origami dragon is bound to your person,
+you have disadvantage on Dexterity (Stealth) checks and
+can’t benefit from being invisible. Additionally, you take 1d4
+fire damage at the start of each of your turns. You can have
+multiple origami dragons bound to you at the same time.
+When the construct is destroyed, it quickly pops in an
+audible explosion, dealing 2d6 fire damage to each creature
+within 5 feet of it.
+
+152
+
+Frog. While the origami frog is bound to your person, you
+gain proficiency in the Acrobatics skill. As a reaction, when
+you would fail a Dexterity saving throw, you can add a
+bonus to the roll equal to the spellcasting ability modifier
+of the wizard that crafted the construct; using this feature
+destroys the origami frog.
+
+Origami Familiar
+
+Origami Servant
+Beginning at 10th level, you learn the Unseen Servant*
+spell; you always have it prepared, and it doesn’t count
+against the number of spells you can prepare each day. In
+addition, you can cast it without expending a spell slot, but
+the maximum number of servants you can have at a time is
+equal to half your wizard level (rounded up). When you cast
+it, it has the following changes:
+
+At 2nd level, you learn the Find Familiar* spell; you always
+have it prepared, and it doesn’t count against the number of
+spells you can prepare each day. Your familiar appears as an
+origami version of itself, is immune to poison and psychic
+damage, and is a construct, instead of a celestial, fey, or
+fiend. In addition to the familiar’s normal statistics, it also
+gains access to the following abilities.
+
+◊ The spell lasts for a number of hours equal to your proficiency bonus, instead of 1 hour.
+
+Camouflage. You can command your familiar to shift
+into a flattened paper form. In this form the familiar
+looks nearly indistinguishable from a normal piece
+of paper. If a creature uses its action to examine the
+familiar, it can discern the familiar for what it is with a
+successful Intelligence (Investigation) check against your
+spell save DC. The familiar can use an action to shift
+back into its origami form.
+
+◊ When you use your bonus action to command a servant,
+you can issue a unique command to each servant you
+have created as part of the same bonus action.
+
+Last Resort. As an action, your origami familiar can
+dive toward a creature, unfurling itself and wrapping
+around the target’s face, as if a sheet of paper blown
+by the wind. The target must make a Dexterity saving
+throw against your spell save DC or become blinded for 1
+minute. A creature blinded by the paper or one that can
+touch the creature can use its action to make a Strength
+check against your spell save DC. On a success, the
+target is no longer blinded. When this effect ends, your
+familiar is destroyed.
+
+◊ As an action, while your servant is within 100 feet of you,
+you can see through your servant’s eyes and hear what
+it hears until the start of your next turn, gaining the
+benefits of any special senses that the servant has.
+During this time, you are deaf and blind with regard to
+your own senses.
+
+Reconnaissance. As an action, you can command your
+familiar to spy. The origami familiar will then spend 1
+minute listening to any and all sounds within 15 feet of
+itself, recording what is overhears on its paper body. It
+then returns to you and dispels its familiar form, leaving
+behind a transcript of its findings written in a language
+of your choice that you know.
+
+◊ Your servant appears as a visible origami version of itself.
+◊ Your servant is immune to poison and psychic damage.
+◊ Your servant can move through a space as narrow as 1
+inch wide without squeezing.
+
+◊ Your servant falls at a rate of 60 feet per round and takes
+no falling damage.
+◊ Your servant can see invisible creatures and objects as if
+they were visible.
+
+Arcane Refresh
+At 14th level, your origami constructs return the magic you
+lent them when you imbued them with life whenever they
+are destroyed. When one of your constructs is destroyed,
+you can regain 10 hit points or regain a spell slot of 2nd
+level or lower (your choice).
+Additionally, when one of your constructs would take
+damage, you can use your reaction to negate the damage
+against it. Once you use this ability, you can’t do so again
+until you finish a long rest.
+
+Binding Release
+Starting at 6th level, you can use a bonus action to move
+one of your origami constructs to a creature that you can
+see within 30 feet of it.
+
+Paper Path
+Also at 6th level, when you cast a spell with a range of
+touch, your origami construct can deliver the spell as if it
+had cast the spell. Your construct must be within 100 feet of
+you. If the spell requires an attack roll, you use your attack
+modifier for the roll.
+
+153
+
+BACKGROUNDS
+This section describes backgrounds that are unique to Obojima. Many of them are associated with one of the factions
+outlined on page 17. Feel free to use the ones found in the Player’s Handbook, and consider how they might fit into
+the setting.
+
+Apprentice of
+AHA
+You spent time studying
+with the archaeologists,
+historians, and archivists of
+AHA, the group of adventuring academics who
+seek knowledge about the
+nature of Obojima and its past. With your mentor, you
+pursued answers to one of the island’s mysteries. During
+your apprenticeship, you traveled to one or more of AHA’s
+excavation sites and worked alongside the organization, but
+never became an official member. Even now, unanswered
+questions from your time with the group continue to rattle
+around in your mind. For more on AHA, see page 17.
+Skill Proficiencies: History, Investigation
+Tool Proficiencies: You gain proficiency in an Artisan’s
+Tool of your choice.
+Equipment: An Explorer’s Pack, 5 candles, shovel, signal
+whistle, a journal full of old research from your time as an
+apprentice, and 13 gold flowers.
+
+FEATURE: WISE REPUTATION
+Due to your time spent in the field you’ve met or are familiar with many of the intellectuals and creative minds in
+Obojima’s villages.
+
+Apprentice Diver
+You are or once were a
+member of the Mariners’
+Guild, an intrepid group of
+aquatic explorers and mariners. Working as an apprentice
+diver in the lodge you have
+learned much about the Shallows—you know what is dangerous and what is delicious.
+You have climbed the cliffs around the island, explored
+many beaches, and learned how to use the gear needed to
+survive under the waves. For more on the Mariners’ Guild,
+see page 17.
+Skill Proficiencies: Athletics, Nature
+Tool Proficiencies: Divers Armor
+Equipment: An Explorer’s Pack, a chest, grappling hook,
+
+154
+
+fishing tackle, a faction coin marking which lodge you
+trained under, and 11 gold flowers.
+
+FEATURE: ONCE A MEMBER ALWAYS
+A MEMBER
+When visiting either of the Coastal Diver’s Lodges, you
+always have free room and board. Additionally, the lodge
+will assist you in your endeavors as best they can.
+
+Apprentice
+Witch
+The ways of witchery
+are mysterious and often
+guarded by its practitioners.
+Whether you sought it
+out or a witch recognized something in you, you came to
+apprentice for a witch or coven. Under their tutelage, you
+were introduced to Obojima’s folk magic tradition, where
+you learned the rudiments of potions and other magical
+preparations. Although you may have trained under one for
+some time, you never officially joined one of the covens and
+are considered a witch without a crest. For more on witch
+covens, see page 19.
+Skill Proficiencies: Arcana, Survival
+Tool Proficiencies: Alchemist’s supplies
+Equipment: Alchemist's supplies, 9 common ingredients
+(which you know the attributes for), a hat or robe from your
+time as an apprentice, and 9 gold flowers.
+
+FEATURE: SIBLING STUDENT
+You have a close and trustworthy friend who studied under
+the same witch as you and has now made it into one of the
+six main covens. When needed, they act as your liaison to
+the coven or covens they’re connected to.
+If a player chooses an apprentice background
+for their character, it doesn’t mean they are full
+members of that faction. An apprentice witch,
+for example, learned under a witch for a time,
+but it doesn’t mean that character was inducted
+into a coven yet. It does mean that the apprentice
+had a mentor, though. Work with that player to
+figure out who their character’s mentor or mentors were, and determine what that character’s
+current level of involvement is with that faction.
+
+Courier
+Brigade Cadet
+
+Spirit Kin
+
+Skill Proficiencies: Stealth, Survival
+
+Though everyone living on
+Obojima comes in contact
+with spirits to one degree
+or another, your interaction with the Spirit Realm
+has always occurred with
+peculiar regularity. All
+your life you’ve had a special kinship with spirits that few
+share in. You’ve come to love their food, their culture, and
+their people more than the average material being. These
+habits have drawn fascination, suspicion, and confusion
+from locals, but that doesn’t stop them from enlisting your
+talents when spirit stuff gets weird.
+
+Tool Proficiencies: Cobbler’s tools
+
+Skill Proficiencies: Mechanics, Persuasion
+
+Equipment: An Explorer’s Pack, cobbler’s tools, climber's kit, hooded lantern, lock, an old uniform issued by the
+courier brigade, and 11 gold flowers.
+
+Languages: Torum
+
+You were a cadet with the
+noble Courier Brigade, where
+you trained at arms, learned
+to traverse the landscape
+quickly and quietly, and
+practiced the hallowed task of properly delivering a package.
+The couriers’ code—“Deliverance through delivery”—taught
+you that your purpose is to be of service to others, and that
+one of the highest virtues is seeing things through to the
+end. For more on the Courier Brigade, see page 17.
+
+FEATURE: POCKET MAP
+You have an old worn out pocket map of the island from
+your time as a cadet. The map is inscribed with a handful of
+paths known only to the Courier Brigade.
+
+Mechanic
+You’ve spent most of your
+life working on mechanisms
+and machines. For you,
+understanding both new
+and old technology requires a more hands on approach.
+Through trial and error, you have learned to create, repair,
+and modify all things mechanical and electronic, and you
+have honed your eye to recognize useful parts among
+the scattered bits of technology that are found throughout
+the island.
+
+Equipment: A bedroll, 10 candles, two different common
+ingredients (linked to your spirit allies), a special item gifted
+to you by a spirit, and 10 gold flowers.
+
+FEATURE: CONNECTIONS BEYOND
+MATERIAL
+You have come to know two spirits by name, and through
+your relationship have learned special rituals and techniques that allow you to find them across the Physical and
+Spirit Realms.
+By using two unique ingredients that you choose when
+taking this background, you can contact these spirits from
+any distance or plane of existence. The ritual you enact to
+utilize these ingredients and contact a spirit is uniquely
+your own—it might involve a tea ceremony, or perhaps the
+burning of the ingredients and partaking in the aromatic
+smoke they produce.
+
+Skill Proficiencies: Mechanics, Salvage
+Tool Proficiencies: You gain proficiency in three Artisan’s
+Tools of your choice.
+Equipment: An abacus, ball bearings (1000), block and
+tackle, flask of oil, an unfinished mechanical trinket, and 15
+gold flowers.
+
+FEATURE: MACHINE WHISPERER
+You have a knack for machines and can tell what state one
+is in by spending a few minutes with it. Machines that
+have been sundered are unusable and should be scrapped
+for parts. Machines in disrepair could potentially function
+again if someone fixed them up, and functioning machines
+do just that. Function!
+
+155
+
+LANGUAGES
+The languages spoken on Obojima all sound different because each language has its own mysterious origin. The croaking
+language of the Nakudama is very different from the whispered language of the spirits. There are various dialects that
+have developed among the human villages around the island that sound similar having had a common ancestry, but the
+language of humans and elves compared to that of the dara or the Nakudama are as different as night and day.
+Over time, Obojimans have developed their own common tongue which allows everyone to converse, trade, tell tales,
+and poke fun at one another.
+
+TORUM (SPIRIT LANGUAGE)
+
+ARCHAIC FIRST AGE LANGUAGES
+
+NAKU NAKU (NAKUDAMA)
+
+COMMON
+
+EQUIPMENT
+Obojimans are known for their ability to find a use for everything and the island has all kinds of odd tools and contraptions from every era of its long and mysterious history. Thus, when an adventurer goes to outfit themselves for their
+journey, there might be all kinds of interesting tools, weapons, and exotic merchandise for them to peruse before choosing
+what equipment will best suit the needs of their quest.
+
+Armor
+Bark Armor. While wearing bark armor, you gain advantage on stealth checks made in wooded areas.
+Divers Armor. While wearing divers armor your movement is reduced by 10, unless your Strength score is equal
+to or greater than 18. Additionally, whenever the spell
+Water Breathing* is cast on you while wearing the divers
+armor, the duration of the spell is doubled for you.
+
+DIVERS
+ARMOR
+
+Pot Lid. When taking the attack action with a finesse or
+light melee weapon that you’re holding in one hand, you
+can use a bonus action to attack with a pot lid that you’re
+holding in the other hand. On a hit, the pot lid deals 1d4
+bludgeoning damage. You don’t add your ability modifier to
+the damage of the bonus attack, unless that modifier
+is negative.
+
+Armor Name
+
+Cost
+
+Armor Class
+
+Strength
+
+8 gp
+
+11 + Dex Modifier
+
+-
+
+60 gp
+
+15 + Dex Modifier (Max 1)
+
+2,000 gp
+
+1 gp
+
+Stealth
+
+Weight
+
+Special
+
+-
+
+14 lb.
+
+Special
+
+-
+
+-
+
+22 lb.
+
+-
+
+17
+
+Str 16
+
+Disadvantage
+
+100 lb.
+
+Special
+
++1
+
+-
+
+-
+
+2 lb.
+
+Special
+
+Light Armor
+Bark Armor
+Medium Armor
+Scumweed Armor
+Heavy Armor
+Divers Armor
+Shield
+Pot Lid
+
+157
+
+Shield Mechanics
+This optional rule allows shield bearers to sacrifice their shield in order to reduce damage from
+an incoming attack. In this rule system, non-magical shields have their own set of hit points,
+which you can use in place of yours when the moment calls for it. When a creature wielding a
+shield is hit by an attack, it can use its reaction to direct damage from the incoming attack to
+the shield’s pool of hit points, instead of taking the damage itself. If the shield is reduced to
+0 hit points, it is broken, and any excess damage is dealt to the creature wielding the shield
+as normal. A broken shield gives no bonus to the shield bearer’s AC.
+POT LID
+
+A shield’s durability is based on the material it’s made of.
+Below is a list of example shields.
+
+Shield Durability Table
+
+Shield Repair
+
+Wooden shield
+
+5 HP
+
+If a shield takes damage or is broken, it can be repaired at
+any armorsmith at a cost of 1 gold petal for each hit point
+recovered.
+
+Metal shield
+
+10 HP
+
+Well-crafted wooden shield
+
+10 HP
+
+Well-crafted metal shield
+
+20 HP
+
+When a shield is damaged in this way, it is
+unable to be repaired by the tools available to an
+adventurer on the road such as their travelers
+artisan’s tools, or the Mending* spell. Instead, to
+return the shield to its original condition it must
+be taken to a shop and repaired by a craftsman.
+
+Weapons
+Simple Melee Weapons
+Name
+
+Cost
+
+Damage
+
+Weight
+
+Properties
+
+Boat Oar
+
+8 sp
+
+1d10 bludgeoning
+
+8 lbs
+
+Two-handed
+
+Boomerang
+
+2 gp
+
+1d6 slashing
+
+1 lbs
+
+Finesse, thrown (60/180 ft.),
+special
+
+Butterfly Staff
+
+4 cb
+
+1d4 bludgeoning
+
+1 lbs
+
+Finesse, versatile (1d6), special
+
+Fan
+
+2 cb
+
+1d4 slashing
+
+1/4 lbs
+
+Finesse, light, special
+
+Frying Pan
+
+3 sp
+
+1d6 bludgeoning
+
+6 lbs
+
+Versatile (1d8), special
+
+Iron Tea Kettle
+
+1 sp
+
+2d4 bludgeoning
+
+2 lbs
+
+Shovel
+
+3 sp
+
+1d6 bludgeoning or slashing
+(you choose)
+
+4 lbs
+
+Versatile (1d8)
+
+Umbrella
+
+5 sp
+
+1d4 bludgeoning
+
+2 lbs
+
+Finesse, special
+
+158
+
+Martial Melee Weapons
+Name
+
+Cost
+
+Damage
+
+Weight
+
+Properties
+
+Bellow Flute
+
+1 gp
+
+1d6 bludgeoning
+
+1/2 lbs
+
+Finesse
+
+Candlemaker’s Club
+
+7 sp
+
+2d6 bludgeoning
+
+10 lbs
+
+Heavy, two-handed, special
+
+Dandelion Spear
+
+5 gp
+
+1d8 piercing
+
+6 lbs
+
+Heavy, reach, versatile (1d10)
+
+Drive Shaft
+
+100 gp
+
+3d4 bludgeoning
+
+20 lbs
+
+Heavy, two-handed
+
+Lom Lom Dagger
+
+15 gp
+
+1d6 slashing
+
+1 lbs
+
+Finesse, light, thrown (20/60 ft.)
+
+Secret Stone Sword
+
+30 gp
+
+1d6 bludgeoning
+
+1 lbs
+
+Light, versatile (1d8)
+
+Shepherd Crook
+
+7 sp
+
+1d6 bludgeoning
+
+4 lbs
+
+Reach, special
+
+Tapper Sack
+
+1 gp
+
+1d6 bludgeoning
+
+5 lbs
+
+Reach, versatile (1d8)
+
+Vertebrae Sword
+
+6 sp
+
+1d8 piercing
+
+1 lbs
+
+Special
+
+Vaulter’s Axe
+
+5 gp
+
+1d10 slashing
+
+15 lbs
+
+Heavy, reach, special, two-handed
+
+Field Spear
+
+2 gp
+
+1d6 slashing
+
+1 lbs
+
+Finesse, thrown (30/90 ft.), versatile (1d8)
+
+Martial Ranged Weapons
+Name
+
+Cost
+
+Damage
+
+Weight
+
+Properties
+
+Nakudama Bubble Rod
+
+22 gp
+
+2d4 bludgeoning
+
+1 lbs
+
+Ammunition (range 50/200 ft.)
+
+Island Weapons
+Weapons unique to Obojima are described here.
+Bellow Flute. The traditional Obojiman instrument has
+gotten a second life as a swift club-like weapon commonly
+used by traveling performers. It is crafted from a special
+coral found all across the shallows, which naturally forms
+with dozens of tiny holes that run throughout the body of
+the instrumental weapon. When swung it emits a beautiful
+harmonic sound.
+Dandelion Spear. This strange and intimidating weapon
+was made for fishing in the reefs and crags of the Shallows.
+Its long haft is tipped with a spherical array of thin sharp
+barbs, which gave the spear its title, as its silhouette is
+reminiscent of a blooming dandelion.
+
+Field Spear. Also known as the merchant's blade, the field
+spear was proven a useful and sturdy tool by the hundreds
+of merchants and travelers that use it in their expeditions
+across the island. Its shorter haft is roughly half the size of
+a standard spear and its tip is more similar to a wide blade
+or dagger than the traditional spear tip.
+Lom Lom Dagger. The short and angular blade of a lom
+lom dagger was designed for cleaving and quickly became a
+staple in most of Obojima's kitchens. Over time, the blade
+length grew longer and longer, and eventually the lom lom
+dagger made its way out of the kitchen and into the hands
+of adventurers, who favored it for its balance and accuracy
+when thrown.
+
+159
+
+VERTEBRAE
+SWORD
+
+Nakudama
+BUBBLE ROD
+
+FRYING
+PAN
+
+FAN
+
+UMBRELLA
+SECRET
+STONE SWORD
+
+Nakudama Bubble Rod. The Nakudama bubble rod is
+most recognizable by the curious sounds it produces when
+used. The wet descending whistle of multiple water filled
+glass marbles shot from the end of the oblong tube, quickly
+followed by the unmistakable pop of the ammunition as
+they hit their target.
+
+While wielding a candlemaker’s club, you can use a bonus
+action to extinguish a flame within 5 feet of you.
+
+Secret Stone Sword. Although it's not much of a secret nowadays, the magical stone known as feather rock, which is used
+to craft these stone swords, was once coveted and kept hidden
+by the Nakudama. Even though feather rock is now commonly
+used by potion brewers, and the craft of making one of these
+swords is fairly common, the name has stayed the same.
+
+Frying Pan. When wielding a frying pan, you can use
+your bonus action to add a +1 bonus to your AC until the
+end of your next turn. You can’t gain this benefit while
+wielding a shield.
+
+Tapper Sack. A tapper sack is a simple tool and weapon
+used by farmers. At the end of a fine, yet sturdy, braided
+cord is a simple bag which has been filled with sand.
+Although it's not very flashy, in the hands of a skilled
+adventurer this humble weapon packs quite a punch.
+
+Special Weapons
+Weapons with special rules are described here.
+Boomerang. When thrown, the boomerang returns to an
+unoccupied space adjacent to you. As a reaction, you can
+choose to catch it.
+Butterfly Staff. Although it can be used as a weapon, the
+butterfly staff is more commonly used as a tool to catch small
+spirits and critters. Its tall haft is capped with a well-woven
+net, which is often made from sheep dragon wool.
+When you make a grapple check while holding the butterfly staff, you can use the staff to target a Small or smaller
+creature that is up to 10 feet away from you. When you do so,
+you use your attack modifier for the weapon in place of your
+Strength (Athletics) check. While grappling a creature in this
+way, you can’t make another attack with the butterfly staff.
+Candlemaker’s Club. These heavy honey dipper shaped
+clubs are traditionally used for mixing the giant vats of
+wax used by the Courier Brigade to seal packages and craft
+candles. They’re now used by postal knights and adventurers as a useful defensive and offensive tool.
+
+160
+
+Fan. When you’re hit by a ranged weapon attack, you can
+use your reaction to reduce the incoming damage of the
+attack by a number equal to your Dexterity modifier.
+
+Shepherd Crook. As a bonus action, you can make a
+contested Strength check against a creature within range,
+moving the target to another unoccupied space within 5
+feet of you on a success.
+Umbrella. Whenever you take falling damage while wielding an umbrella, you can use your reaction to reduce the
+damage by a number equal to twice your proficiency bonus.
+Vertebrae Sword. The jagged vertebrae sword of a fishfolk
+warrior can barely be called a sword. Locals would say it’s
+better described as a makeshift weapon crafted from a fish
+skeleton and sea trash. Its poor construction is the reason
+it's not often a weapon seen on land, though when used by
+a skilled fighter, it most certainly can be a formidable tool.
+When you successfully hit a creature with a vertebrae
+sword, you can use a bonus action to rake and twist the
+weapon, breaking off some of the sword's boney barbs and
+dealing an extra 1d8 piercing damage. The vertebrae sword
+can only be used in this way 5 times before it becomes
+unusable as a weapon.
+Vaulter’s Axe. The vaulter’s axe was designed by the Rangers
+of the Greenward Path for exploring the Brackwater Wetlands.
+Its tall haft allows wielders of the axe to easily check water
+depths and vault over obstacles. To this day it's a useful tool
+for anyone exploring the eastern side of the island.
+As part of your movement, you can use the vaulter's axe to
+launch yourself 15 feet over a creature or obstacle. Using your
+movement in this way ignores nonmagical difficult terrain.
+
+ADVENTURING GEAR
+Below you’ll find an array of nonmagical objects and equipment commonly used by the islanders. This list includes
+First Age technology, recreations of First Age technology, and new creations.
+
+Arcane Detection Kit. Arcane Detection Kits (or ADKs)
+have been popularized by witches in the last two decades
+as the desire for potions from local islanders has gradually
+increased. Although the contents of these kits vary depending on the coven and individual using them, there are a few
+staples found in nearly every kit, such as spark powder and
+arcana oil. No matter the contents, a skilled potion brewer
+can use the kit to sniff out the latent magic found in objects
+all across the island.
+Bicycle. These First Age vehicles have become increasingly
+popular over the years as recreations started being crafted
+out of Yatamon. Both the recreations and the originals have
+a speed of 60 feet while being ridden.
+Sea Sink Boots. These weighted boots are used by the
+Mariners’ Guild to quickly descend into the Shallows and
+explore the shallow beds. While wearing the boots, all
+nonmagical speeds you possess are reduced to 10 feet, you
+descend into water at a rate of 100 feet per round, and you
+can walk across the ocean floor as if you weren't buoyant.
+
+Glider. A creature holding onto a glider with both hands
+while falling, descends at a rate of 10 feet per round and
+can travel up to 50 feet horizontally. A creature can use its
+action to operate the glider, changing the direction they’re
+moving and avoiding any obstacles in their path. If a creature is still in the air after 1 minute has passed, it must
+succeed on a DC 10 Strength saving throw or let go of the
+glider, falling as it normally would. This saving throw is
+repeated every minute, with the DC increasing by 2 every
+time the saving throw is made (to a maximum of DC 20).
+Hook Sling. This heavy metal contraption can be used to
+hurl a barbed hook at the surface of a solid object within
+20 feet of you, latching onto it and pulling you toward
+the target. The hook can be hurled using a bonus action,
+and it requires an action to wind it back in before you can
+use it again. You can hurl the hook using only one hand,
+but it requires two hands to wind the hook back in. If the
+targeted surface has no lip to grasp or is otherwise too
+difficult for the barb to hook onto, the hook fails to latch
+onto it and pull you.
+
+161
+
+FEATS
+Feats are a way to customize and enhance your character without increasing ability scores—an option that your GM can
+choose to include in your game. These feats are filled with flavor designed to make your character feel more a part of the
+world of Obojima.
+
+Boomerang Expert
+
+Cloud Hopper
+
+You have mastered the versatile boomerang and are capable
+of performing extraordinary feats with the weapon. You gain
+the following benefits:
+
+Your exposure to the great wind spirit has changed you. You
+gain the following benefits:
+
+◊ The damage die for the boomerang is now a d8 for you.
+◊ Attacking at long range doesn't impose disadvantage on
+ranged attack rolls made with a boomerang.
+◊ You automatically catch the boomerang after throwing it
+without needing to use your reaction.
+
+Bumbling Fool
+You have a peculiar way of fumbling through life that somehow always works out in your favor, succeeding in situations
+through what others might view as accidental luck. When
+you fail an ability check and roll a number on the die equal
+to half your level (rounded up) or lower, you can choose to
+replace the die roll with a 15 instead. You can use this ability
+three times, and you regain all expended uses when you
+finish a long rest.
+
+Canden and Moon’s Master Cut
+Prerequisite: You must have beaten a master at Master Canden
+and Moon’s Sword School
+Having trained with the masters of the first sword school
+of Obojima, you’ve picked up a handful of useful skills. You
+gain the following benefits:
+◊ Your walking speed increases by 5 feet.
+◊ Immediately after rolling initiative, you can use your reaction before the first turn of combat to draw a weapon and
+move up to half your speed (rounded up). If you end this
+movement within reach of another creature, you can use
+the weapon to make one melee attack against that creature.
+◊ When you are hit by an attack, you can use a reaction to
+assume a defensive stance, allowing you to fend off incoming strikes. Until the start of your next turn, you have a +5
+bonus to AC, including against the triggering attack. Once
+you assume this stance, you can’t do so again until you
+finish a long rest.
+
+◊ When you move on your turn, you can choose to conjure
+tiny clouds below your feet, allowing you to move into
+unoccupied spaces in the air. You can move a number of
+feet in this way equal to 5 × your proficiency bonus before
+the clouds stop appearing. Ending this movement while
+in the air causes you to fall as normal.
+◊ You learn the Fog Cloud* and Gust of Wind* spells, each
+of which you can cast once without expending a spell
+slot. You regain the ability to cast these two spells in this
+way when you finish a long rest. You can also cast the
+spells using spell slots you have of the appropriate level.
+Your spellcasting ability for this spell is Intelligence,
+Wisdom, or Charisma (your choice).
+
+Coven Witch
+Prerequisite: You must be a member of a witches coven
+You have become an official member of a witches coven.
+You gain the following benefits:
+◊ Increase your Intelligence or Wisdom score by 1, to a
+maximum of 20.
+◊ You learn two random common and uncommon potion
+recipes from your coven.
+◊ You learn two 1st-level spells of your choice. The 1st-level
+spells must be from the divination, conjuration, or transmutation school of magic. You can cast each of these
+spells once without expending a spell slot. You regain
+the ability to cast these two spells in this way when you
+finish a long rest. You can also cast these spells using
+spell slots you have of the appropriate level. The spells’
+spellcasting ability is the ability increased by this feat.
+
+Forager
+You’ve spent countless hours exploring the island searching
+for ingredients. You gain the following benefits:
+◊ Increase your Wisdom score by 1, to a maximum of 20.
+◊ You gain proficiency in the Survival skill. If you already
+have this proficiency, you instead gain expertise with that
+
+162
+
+skill, which means your proficiency bonus is doubled for
+any ability check you make using it.
+
+which means your proficiency bonus is doubled for any
+ability check you make with it.
+
+◊ You produce twice the number of common or uncommon
+ingredients when foraging.
+
+◊ When you succeed on a Dexterity (Sleight of Hand) check
+to steal something, you can magically turn the object you
+stole invisible as part of the same action, as if you had
+cast the Obscure Object spell. The object must be small
+enough to fit in the palm of your hand, and this effect
+lasts for 1 minute. You can use this ability a number of
+times per day equal to your proficiency bonus, and you
+regain all expended uses when you finish a long rest.
+
+Freediver
+You have undergone extensive underwater training. You
+gain the following benefits:
+◊ Increase your Constitution score by 1, to a maximum
+of 20.
+◊ You gain a swimming speed equal to twice your Constitution score (rounded up to the nearest 5 feet). If you
+already have a swimming speed, it instead increases by
+10 feet.
+◊ You triple your Constitution modifier when calculating
+how long you can hold your breath.
+◊ You gain resistance to cold damage.
+
+Group Combatant
+You’ve honed your fighting skills and are just as comfortable
+fighting a group of enemies as you are facing a combatant
+one on one. You gain the following benefits:
+◊ Bludgeoning, piercing, and slashing damage that you take
+from nonmagical attacks is reduced by 2, to a minimum
+of 1.
+◊ Creatures don’t gain advantage on attacks made against
+you using the optional flanking rules.
+◊ After you provoke an opportunity attack on your turn,
+your movement doesn't provoke opportunity attacks for
+the rest of the turn.
+
+Light Foot
+You are exceptionally speedy and agile. You gain the following benefits:
+◊ While you aren’t wearing heavy armor, you gain a +1
+bonus to your AC.
+◊ Whenever you take the Attack action, you can forgo one
+of your attacks to move up to half your speed.
+◊ Nonmagical difficult terrain costs you no
+extra movement.
+◊ You can move through a hostile creature's space, regardless of its size.
+
+Magically Mischievous
+
+Member of AHA
+Prerequisite: You must be a member of AHA
+You have become an official member of AHA. You gain the
+following benefits:
+◊ Increase your Intelligence score by 1, to a maximum of 20.
+◊ You learn the Jolt cantrip. You also learn one of the
+following spells of your choice: Comprehend Languages*,
+Detect Magic*, Identify*, or Illusory Script*. You can
+cast the chosen spell once without expending a spell slot,
+and you must finish a long rest before you can cast it in
+this way again. You can also cast the spell using any spell
+slots you have. Intelligence is your spellcasting ability for
+these spells.
+
+Minor Corruption
+You were exposed to the Corruption, a dark magic that's
+poisoning the island. It’s now begun to alter you as well.
+You gain the following benefits:
+◊ You gain a +1 bonus to AC while you have less than half
+of your hit points remaining.
+◊ You can draw upon the Corruption within you to channel
+your magical power. You don’t need to use a spellcasting
+focus for your spells, allowing you to ignore the material
+components specified for the spell, unless the component
+indicates a cost or is consumed by the spell.
+◊ As a reaction, when you take damage, you can temporarily negate an amount of the damage equal to three times
+your level; you take any excess damage as normal. At the
+end of your next turn, you must make a Constitution
+saving throw, the DC of which is equal to 10 or one-third
+the damage you would have taken, whichever number
+is higher. On a failed save, you immediately take the
+negated damage. You must continue to make a Constitution saving throw at the end of each of your turns for 1
+minute or until you fail the save, at which point you take
+the negated damage. Once you take this reaction, you
+can’t do so again until you finish a long rest.
+
+You’ve picked up a few magical tricks that assist your nefarious skills. You gain the following benefits:
+◊ You gain proficiency in the Sleight of Hand skill. If you
+already have proficiency, you gain expertise instead,
+
+163
+
+Nakudama’s Electric Bloodline
+
+Potion Brewer
+
+Prerequisite: You must be a Nakudama
+
+Your expertise and understanding of magical potions and
+elixirs allow you to finesse ingredients and recipes to your
+specifications. You gain the following benefits:
+
+Although it's uncommon in today's day and age, some
+Nakudama are able to awaken the now dormant skills held
+by their warring ancestors. You gain the following benefits:
+◊ You have resistance to lightning damage.
+◊ You have an electrified tongue that you can use to make
+unarmed strikes. It has the finesse and reach properties, and when you hit with it, the strike deals lightning
+damage equal to 1d6 + your Strength or Dexterity modifier, instead of the bludgeoning damage normal for an
+unarmed strike. The damage from your tongue increases
+when you reach 5th level (1d8), 11th level (1d10), and 17th
+level (1d12).
+◊ When you become grappled by a creature, you can use
+your reaction to force the creature to make a Constitution
+saving throw (DC 8 + your Constitution modifier + your
+proficiency bonus). On a failed save, the creature takes
+1d10 lightning damage and the grapple ends.
+
+Nakudama’s Toxin Bloodline
+Prerequisite: You must be a Nakudama
+Although it's uncommon in today's day and age, some
+Nakudama are able to awaken the now dormant skills held
+by their warring ancestors. You gain the following benefits:
+◊ You have resistance to poison damage.
+◊ You have advantage on saving throws against
+being poisoned.
+◊ You can cause your cheeks to swell and bubble out as
+your mouth fills with liquid poison. As an action, you can
+spit several globs of poison in quick succession, targeting
+a number of creatures equal to your proficiency bonus.
+Each target must be within 30 feet of you and must make
+a Constitution saving throw (DC 8 + your Constitution
+modifier + your proficiency bonus). A target takes poison
+damage equal to 1d8 + your proficiency bonus on a failed
+save, or half as much damage on a successful one.
+
+Postal Knight
+Prerequisite: You must be a member of the Courier Brigade
+You have trained as a member of the Courier Brigade. You
+gain the following benefits:
+◊ Increase your Constitution or Wisdom score by 1, to a
+maximum of 20.
+◊ You gain proficiency in the Athletics and Survival skills.
+◊ Exhaustion doesn't cause you to have disadvantage on
+ability checks.
+
+164
+
+◊ When brewing potions, you can choose to take the
+second-highest ingredient attribute number from your
+potion recipe, instead of the first.
+◊ When brewing a potion, you can roll percentile dice. If
+you roll a number equal to or lower than your level, you
+create two potions instead of one.
+
+Tellu and Scale’s Master Cut
+Prerequisite: You must have beaten a master at Master Tellu and
+Scale’s Sword School
+Having trained with the masters of the valley sword school,
+you have learned the usefulness of quickly changing
+between different fighting techniques in the midst of battle.
+You gain the following benefits:
+◊ One Handed. While wielding a versatile weapon in one
+hand, your quick movements and agile defense allow you
+to regain ground even when your enemy advances. Once
+before the start of your next turn when you’re missed
+by a melee attack from a creature within your reach, the
+attacker takes damage from your weapon equal to twice
+your proficiency bonus.
+◊ Two Handed. When wielding a versatile weapon in two
+hands, your powerful stance allows you to catch your
+target off guard. Whenever an enemy within your reach
+makes a melee weapon attack against you and misses, you
+can use your reaction to attempt to knock the attacker off
+balance. The target must succeed on a Dexterity saving
+throw (DC 8 + your Strength modifier + your proficiency
+bonus) or be knocked prone.
+
+Toraf and Bolder’s Master Cut
+Prerequisite: You must have beaten a master at Master Toraf and
+Bolder’s Sword School
+Having trained with the masters of the mountain sword
+school, you’ve learned how to pull off difficult weapon
+maneuvers which allow you to target specific parts of a
+creature's anatomy. You gain the following benefits:
+◊ Head Strike. Before you make a melee attack with a
+weapon that you are proficient with, you can choose to
+take a −5 penalty to the attack roll. If the attack hits, the
+target has disadvantage on the next attack roll it makes
+before the end of its next turn.
+◊ Torso Strike. Before you make a melee attack with a
+weapon that you are proficient with, you can choose to
+take a −5 penalty to the attack roll. If the attack hits, the
+target can’t speak until the start of your next turn, after
+which it is immune to the effects of Torso Strike for the
+next minute.
+
+◊ Leg Strike. Before you make a melee attack with a weapon
+that you are proficient with, you can choose to take a −5
+penalty to the attack roll. If the attack hits, the target's
+speed is reduced by 10 feet (to a minimum speed of 10
+feet). This effect lasts until the start of your next turn.
+
+Once you have succeeded on this check three times, you
+can’t use this benefit again until the next dawn.
+
+You can only use one of these strikes per attack.
+
+Your deep knowledge of the dangerous creatures that
+inhabit the world aid you in both fighting and tracking
+them. You gain the following benefits:
+
+Vocalist Arcanist
+Your unique method of weaving song into magic allows you
+to enhance your spells through your magical vocals. When
+you cast a spell that forces a target to make a saving throw
+or requires you to make a spell attack roll, you can choose
+to enhance the spell through song. You can wait until after
+you roll the d20 before deciding to use this, but must decide
+before the GM says whether the roll succeeds or fails.
+When you do so, make a Charisma (Performance) check.
+The DC for this check is equal to 10 + the spell’s level. On
+a success, your proficiency bonus is doubled for the spell
+attack roll or your save DC for that casting of the spell.
+
+Wetland Explorer
+
+◊ Select two creature types of your choice. Whenever you
+roll initiative at the start of a combat that has one or
+more hostile creatures of the chosen type, you can add
+your proficiency bonus to the roll. If a creature has magically altered its form to appear as another creature type,
+you don’t gain this benefit.
+◊ You gain a +5 bonus to Dexterity (Stealth) and Wisdom
+(Survival) checks involving one or more of the chosen
+creature types.
+◊ You gain a +2 bonus to attack rolls made against a target
+of the chosen creature type.
+
+SKILLS
+Below you’ll find two skills which are new to D&D and specifically used on the island of Obojima by crafters and potion
+brewers alike.
+
+Mechanics
+
+Salvage
+
+Your Intelligence (Mechanic) check measures
+your ability to comprehend, operate, craft, and
+repair non-magical machines.
+
+The GM might ask you to make an Intelligence
+(Salvage) check to search for, disassemble, or
+otherwise recall information about mechanical
+parts that are useful for magical and non-magical machines or potions.
+
+CONDITIONS
+Below you’ll find a condition which is new to D&D and used by creatures and in spells found on the island of Obojima.
+
+Pacify
+A pacified creature can’t attack, cast a spell that affects an enemy, or deal damage to another creature.
+
+165
+
+I
+
+MAGIC ITEMS
+
+n the world of Obojima, magic items are abundant and diverse, each possessing unique powers and abilities which are
+sought after by a wide variety of people from spirit merchants and ramen chefs, to witches and adventurers alike. Some
+magic items are imbued with the essence of elemental forces, such as fire, water, wind, and earth. Others may be relics of
+the First Age or gifts from elder spirits, each with its own mysterious origins and hidden potential. Whether it be a sword that
+bursts into flames with every swing or a magic bicycle that grants its rider the ability to soar through the skies, these magic
+items play a crucial role in shaping the fate of those who possess them on Obojima.
+
+Mundane 

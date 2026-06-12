@@ -1005,7 +1005,7 @@ export default function AdventureFlow() {
       <section id="scene-5" className="relative" style={{ background: scenes[4].bgTint }}>
         <SceneHeader scene={scenes[4]} />
         <Content>
-          <MapDisplay src="/map_main_floor_faithful.jpeg" caption="Main Floor Battlemap (4x3 Grid)" />
+          <MapDisplay src="/hero_workshop_interior.png" caption="Main Floor Battlemap (4x3 Grid)" />
 
           <SectionTitle color="#C47171">The Hallway</SectionTitle>
           <ReadAloud>

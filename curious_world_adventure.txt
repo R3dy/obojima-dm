@@ -1,0 +1,1876 @@
+ADVENTURE: THE
+CURIOUS WORLD WITHIN
+
+T
+
+"The Curious World Within” is intended for 2 to 4 2nd-level characters.
+
+he adventurers have decided to help out a young postal knight and find themselves shrunk to the size of a mouse
+when they infiltrate a witch’s workshop in hopes of procuring a letter. As they navigate the strange landscape,
+they’ll have to fend off bora bugs, handle pixie tricksters, talk to a giant cat, and perhaps even fight a giant Venus
+fly rat that calls the witch’s bizarre workshop home.
+
+342
+
+Adventure Begins!
+As they wander through Okiri Village, the party hears the
+sound of weeping. When they investigate, they find Lomi,
+a 13 year old boy, sitting on a stone across from a small,
+wooden house with his head in his hands. Next to him is
+a sad-looking pack mule loaded with several sacks, each
+marked with the insignia of the Courier Brigade.
+
+Lomi’s Dilemma
+Lomi is the younger brother of Ashi, a knight of the Courier
+Brigade. All his young life, he’s wanted to be a postal
+knight and impress his older sister. When one of the postal
+knights fell ill, Ashi entrusted her little brother to deliver
+their packages and letters as a first test of his commitment
+to the organization—it was Lomi’s big chance!
+Unfortunately for Lomi, he has delivered the letter to the
+wrong residence, and now he can’t get inside to retrieve the
+goods. Lomi laments that if he returns and admits that he’s
+delivered the letter to the wrong address, his dreams of
+being a postal knight are sure to be over.
+If asked, Lomi says that all he knows about this place is
+that it is the workshop of Miss Lindley, but the letter was
+intended for Mrs. Linfrey—an honest mistake, that’s now
+led to a giant dilemma.
+There’s a chance (DC 14 Intelligence check) that one of
+the adventurers might have heard of Miss Lindley—the
+local witch of the small village and the resident fixer and
+mender of goods. You can read more on Miss Lindley in the
+Locations Chapter under “Okiri Village—NPCs” section.
+Any witch or warlock in the party will have advantage on
+the roll.
+
+Lomi’s Offer
+Although Lomi has little to offer as a young boy away from
+his home, he’s absolutely desperate and at this moment is
+willing to offer more than what he has. Lomi can't give the
+adventures much besides a few sea petals and a couple of
+non-magical First Age trinkets. He will however offer his
+services as an assistant for a short time, and if he really
+needs to, the gold flowers he would earn for delivering
+the letter.
+
+Approaching Miss Lindley’s
+Workshop
+Miss Lindley’s workshop is a small and humble wooden
+house in Okiri Village. There is a little cobble path that
+leads to the front door, which is painted a bright green. A
+sign that hangs above the door reads “closed” written in
+faded cursive. On either side of the front entrance are Boom
+Beri bushes, which have been picked clean of fruit. The
+windows all across the house have been frosted over, and
+numerous birds have begun to nest on the tiled roof.
+
+Some facts about the workshop:
+◊ Although it looks seemingly mundane, the workshop is
+magical. Beside the fact that it is invulnerable, it has a
+variety of spells and enchantments that Miss Lindley has
+placed on it over the years.
+◊ Besides the doors and windows there are no other
+entrances into the house. The house has no chimney or
+other small entrances.
+◊ A powerful enchantment keeps the home's entrances
+fully locked. This enchantment only lifts when Miss
+Lindley is on the premises. This is true for all windows
+and doors besides the padlocked double door to the cellar,
+which is found in the back of the house. Many years ago
+Miss Lindley had heaps of potion ingredients delivered
+to her home regularly, letting them in through the cellar
+doors when she wasn’t around. These deliveries stopped
+some time ago, which is why the cellar doors now see
+little use and are covered in ivy.
+
+Entering the Workshop
+There are three main ways to enter the workshop:
+1. Through the ivy-covered double door that leads into
+the cellar.
+2. Through one of the windows.
+3. Through the front door.
+Although any of these options are available to the
+adventurers, the padlocked double door to the cellar is the
+easiest route inside. It is non-magical and takes a successful
+DC 13 Dexterity check to pick the lock. It can also be broken
+off with a successful attack vs. AC 13.
+The windows and front door are magically locked and
+require some method of dispelling magic to briefly enter. It
+is difficult at their level, but it is not impossible, so be
+prepared for clever adventurers to skip past the cellar,
+staircase, and Emerson the cat, as they would jump straight
+to the workshop's Main Floor.
+
+The Shrink
+As soon as all the party members enter the house, they are
+shrunk down to Tiny size via a powerful magic trap left by
+Miss Lindley while she’s away. When that happens, all the
+open doors and windows shut themselves, and the house
+magically re-locks itself.
+If party members stay outside on guard, then they will
+remain their normal size unless they decide to enter, at
+which time, they will become Tiny sized.
+The stat blocks in this adventure are all designed to be
+relative to the character’s Tiny size.
+
+343
+
+1 square = 5 feet
+
+Entering the Cellar
+If the party enters from the double door outside, they see a
+flight of wooden stairs going down. As they begin to walk
+down, read the following:
+
+This shadowy cellar smells of damp earth and
+some pungent, unrecognizable odor—perhaps
+from the centuries of bubbling concoctions that
+now stain the earthen floor.
+Magic flames flicker within soot-caked lanterns
+that hang on the walls, each casting an eerie
+glow upon old wooden crates and rows of sagging
+shelves that hold all manner of dust-covered
+bottles and curios—some of which are covered
+in sackcloth. As the last of you steps off the
+staircase, the ground illuminates in sporadic
+arcane glyphs that cover the cellar floor. In an
+instant your perspective warps, your eyes blur
+before focusing once more on the world around
+you. As you look about you quickly conclude that
+you’ve either shrunk down to the size of a mouse
+or this house is a lot more spacious inside than
+you initially anticipated.
+
+344
+
+Moments after the adventurers shrink down to Tiny, the
+doors magically shut and lock behind them, dust falling
+from the ceiling above as they do.
+
+Inside the Cellar
+The cellar serves as Miss Lindley’s catch all room. It stores
+old projects, spare supplies, and potion ingredients she
+rarely uses.
+A search of the crates and shelves reveals:
+◊ Paw prints and claw marks from what appears to be a cat,
+which as a Tiny creature seem massive.
+◊ Spoiled and unfinished elixirs and potions.
+◊ An uncommon ingredient from a region other than the
+Gift of Shuritashi.
+◊ An old, broken First Age trinket.
+If the adventurers are not overly cautious and make a
+ruckus, their activity will alert Emerson, the Witch’s Cat
+(see Emerson the Cat later on this page). Once alerted,
+Emerson will (depending on how hungry he is) either
+skulk over to investigate or wait lazily atop his cushion
+while idly licking a paw.
+
+1 square = 5 feet
+
+The Staircase
+
+Emerson, the Witch’s Cat
+
+To leave the cellar, the adventurers must travel up the staircase opposite to where they came in from, read the following:
+
+Emerson is an imperious cat who boasts a portly paunch,
+crooked whiskers, and a coat of thick fur that sticks out
+at all angles which makes him always look as if he’s just
+woken up. Emerson has the run of the workshop, but
+prefers the hallway and basement where he can be away
+from the pesky pixies and stalk any vermin that try to
+invade his domain.
+
+What would ordinarily be a normal staircase
+is now a series of towering steps, each one about
+15 feet tall that lead up to a landing piled with
+books and boxes.
+
+This flight of rickety wooden stairs connects the cellar
+and the main floor of the workshop. At the top of the stairs
+is the hallway and Emerson’s cushion.
+
+BUG ATTACK!
+If you choose, while the adventurers strenuously climb
+the stairs they are ambushed by 1d4+1 bora bugs (see
+“Monsters” below for stat block) that crawl from cracks in
+the walls.
+
+Emerson generally can be found sleeping at the top of the
+stairs, which connect the cellar to the hallway that leads to
+the workshop. Like a dragon guarding its lair, Emerson sits
+atop a comfortable cushion embroidered with his name.
+Emerson uses the stats of a Lion* with an intelligence of 11.
+
+Emerson and the Pixies
+Emerson has a strained relationship with the pixies that
+live on the main floor, as each tries to be the favorite of
+Miss Lindley. Miss Lindley heaps oodles of attention to both
+the pixies and Emerson, but once she leaves, the feuding
+between the pixies and Emerson begins.
+In the most recent episode of the feud, the pixies have
+taken Emerson’s treats and hid them atop the bookcase in
+the main workshop—a place that Emerson can’t get to.
+
+345
+
+What Emerson Knows
+If Emerson is befriended, he barters knowledge. He knows
+which potion on the work table upstairs will restore the
+adventurer’s size, and he may even know what some of the
+other items in the workshop do.
+If Emerson trusts the party, he will give his information
+up front so that once the party is restored to normal size,
+they can get him his treats. If he doesn’t trust the party,
+Emerson holds back his knowledge of the potion, only
+telling the party once his treats are safely in his paws.
+
+Workshop Main Floor
+This is the main area where Miss Lindley fixes all kinds of
+farm tools and some First Age artifacts like bicycles and
+sunglasses. Although there are no such items in here now,
+there are an array of tools hanging from the walls which
+are used by Miss Lindley in her craft.
+There are three areas on the workshop’s main floor:
+4. The Hallway
+5. The Bookcase
+6. The Witch’s Worktable
+
+Once they become aware of the adventurers, the pixies
+are overjoyed and immediately begin to invent games to
+play with them, casting spells (like Confusion*) at the
+party as they try to navigate the giant workshop.
+Tina and Meena might take bets on who Emerson will eat
+or who will get to the table top first. All the while their
+buzzing wings and invisible laughter can be heard from all
+corners of the workshop, adding another level of irritation
+for the party.
+With a word, the pixies can magically close all the shutters
+and douse the candles, plunging the workshop into darkness.
+
+The Hallway
+The narrow hallway is piled with old books, papers, jars,
+and other various clutter. To a tiny creature, traveling along
+here would be a perilous affair, like crossing through a
+canyon with unstable cliffs.
+If the party irks the pixies and gets on their bad sides,
+they are not above causing a cascade of heavy books to fall
+on them for the fun of it.
+Emerson may also knock a stack of books over by
+accident (especially if he’s startled) causing an avalanche
+that could damage a tiny party.
+
+There is also a small end table, on top is a cage that
+contains a venus fly rat (see “Monsters” below).
+
+Tabitha Turnip
+Miss Lindley is helped by a turnip spirit called Tabitha.
+Tabitha is chronically grumpy and dour and only reveals
+herself to clean up spills, put out fires, or deal with any such
+forms of chaos that could cause damage or destruction to the
+workshop. Tabitha does her tasks in a slow and deliberate
+manner, all the while paying no mind to the world around
+her. She responds (if at all) with eye rolls, sighs, and side
+long glances of mild displeasure. Even the pixies fail to get
+under her thick skin.
+Tabitha is the only one who knows beyond all
+doubt, every magic item in the workshop.
+Getting her to help identify every one is a
+task worthy of the greatest of heroes.
+
+Pesky Pixies
+There are two giant pixies
+(see giant pixie stat block
+in “Monsters” section below)
+here named Teena and Meena,
+and they are essentially tricksy
+agents of mischief and mayhem
+who may taunt and tease the adventurers if
+it pleases them or lead the party astray and
+cause doubt. You can also have the pixies
+be less mischievous and actually help the party to
+identify the scores of magic trinkets here (although
+they make stuff up half the time).
+
+346
+
+AVALANCHE!
+If an avalanche of books, crates, jars, or papers happens,
+any creature in the affected area falls prone, and they must
+make a DC 15 Strength saving throw, taking 1d10 bludgeoning damage and retraining the character on a failed save.
+If you chose to not have the bora bugs attack on the
+stairway, they could also attack after an avalanche in
+the hallway.
+
+The Bookcase
+This is a tall bookcase that is filled with papers, notebooks,
+and dusty tomes that Miss Lindley has amassed
+over the years. Most of the books are heady manuscripts about the art of witchcraft.
+Also on the bookcase is:
+◊ 1 cassette with the spell Vegetable Blade stored
+inside it (as if a scroll).
+◊ The potion recipe for Elder Elixir. (Ingredients
+needed: Spindle Leg Spider Webs, Origami Crane,
+and Brush Reed.)
+◊ The letter addressed to Mrs. Linfrey that Lomi has
+misplaced. The pixies have put it here.
+◊ At the top of the bookcase is a sachet embroidered
+with the name “Emerson” on it. Inside are a cluster
+of pungent smelling cat treats.
+
+1 square = 2 inches
+
+Witch’s Work Table
+
+The Venus Fly Rat
+
+In the center of the room is a large work table that is
+covered with the tools of Miss Lindley’s arcane trade. It is
+here that the adventures will find the elixir that will return
+them to normal. Though to find it amongst the collection
+of potions is no easy task. By trial and error, or through
+the help of the Pixies or Emerson, the correct bottle can be
+identified. However the real danger of the workshop is lurking just around the corner.
+
+Hiding amongst the mess is the recently freed Venus Fly
+Rat (see giant venus fly rat stat block in “Monsters” section
+below), a creature originally intended to be used as an ingredient that now serves as a dangerous threat for the adventurers as they search for the potion on top of the workshop table.
+
+Getting on the Table
+To get on to the table where the elixer is, the party will
+have to climb up the (relative to them) 60-foot tall wooden
+table legs and navigate the overhang to get onto the surface
+of the table top. Any player character with a climbing speed
+can make it to the top without issue, all other characters
+must succeed a DC 14 Strength Athletics check.
+Getting on to the table should be fraught with difficulty,
+but to make it even harder you can have the pixies cause all
+kinds of mayhem during the climb. Going as far as a brief
+and playful combat.
+
+Player characters with a Passive Perception of 14 or higher
+will notice the venus fly rat before it notices them. Otherwise the fly rat attacks the moment an unsuspecting
+adventurer gets close to the center of the table.
+
+Bubbling Cauldron
+A small iron cauldron bubbles over a low heat from a First
+Age propane burner. Inside the cauldron is an arcane
+mixture of herbs, liquids, and magic. It smells aromatic and
+changes with every inhalation so that exactly what herb or
+spice was used can never quite be grasped.
+When approached by a Tiny creature, the cauldron sits
+atop a large, metal platform from the center of which a
+circle of blue flames hiss and lick the underside of the
+cauldron making it hot to the touch. The rim of the
+cauldron is 15-feet (relative) off the table top.
+
+347
+
+If an adventurer drinks the brew or finds themselves
+inside of the liquid, they must roll a d6.
+◊ On a 1: Everything is Funny. For the next hour, the
+character can’t help cracking up. They have disadvantage
+on any roll unless they can succeed on a DC 13 Intelligence check to keep from laughing like a hyena.
+◊ On a 2-4: Harness the Wind. The character is
+surrounded by billowing gusts of wind that they can
+use like a feather fall spell to cushion a fall. The potion’s
+effects last for 5 minutes.
+◊ On a 5-6: Touch of Nature. The character becomes
+infused with what some might say is the spirit of
+Obojima, allowing them to cast the spell Pillar of Force
+once before the effects of the potion fade. The spell casting modifier for pillar of force is Intelligence, Wisdom, or
+Charisma (whichever is higher)
+
+List of Potions
+Besides the potion that will return the adventures to their
+normal size, the following potions can be found on Miss
+Lindley’s table.
+
+COMMON COMBAT POTIONS
+◊ Candlecap
+◊ Heroism
+
+COMMON UTILITY POTIONS
+◊ Flip and Skip
+◊ Cat’s Eye
+
+COMMON WHIMSICAL POTIONS
+◊ Bubble Message
+◊ Merriment
+◊ Melodious Bird Calls
+◊ Ladybug Kinship
+◊ Beard Brew
+
+348
+
+Escape!
+If all goes well, the adventurers return to normal after
+drinking the correct potion, they retrieve Mrs. Linfrey’s
+letter, and escape the workshop without a hitch. Lomi is
+overjoyed and thanks the party profusely.
+If you wish to continue the adventure and spin it into
+your next story plot, then Lomi could mention that Mrs.
+Linfrey’s letter still needs to be delivered and ask if the
+party would deliver it for him as he has lost his confidence.
+You can also have Lomi accompany the party as an NPC
+until the letter is delivered. In either case, this can set up
+your next adventure as Mrs. Linfrey can live in another city
+and take the party on a new adventure.
+
+Mrs. Linfrey’s Letter
+If the party chooses to open the letter, Lomi will be horrified and do his best to dissuade them from doing such a
+dishonorable act. He will report them to the Courier Brigade
+which will have consequences in later adventures.
+The letter could have several options of what it contains.
+◊ Could be a letter that hooks into your next adventure.
+◊ It could be a confession (of love or a misdeed) that leads
+to a new tale.
+◊ Could be an invitation to a secret witch’s costume ball.
+
+Monsters
+
+Giant Pixie
+
+The following are the creatures that are found in this
+adventure. The stat blocks have been adjusted relative to
+the party being Tiny creatures.
+
+Giant Bora Bug
+Mostly found in dense forests, Bora Bugs are natural engineers, using their sharp horns and spiked wing casings to
+carve out intricate paths on the earth. They work in large
+colonies, scouring smooth, winding trails. These paths
+often lead to hidden clearings, ancient ruins, or secret
+groves where forest spirits dwell. But bora bugs can also
+carve a path through houses and stone walls which is why
+many Obojimans see them as pests.
+
+The pixies that inhabit the workshop are sweet as pie when
+Miss Lindley is around, but when she leaves for town, they
+get up to all kinds of mischief—especially with Emerson,
+who they love (and love to tease).
+
+Giant Pixie
+Large Spirit, Neutral Good
+
+Armor Class 14 (natural armor)
+Hit Points 22 (4d10)
+Speed 30 ft., flying 30 ft.
+STR
+
+Giant Bora Bug
+Medium Beast, Unaligned
+
+CON
+
+INT
+
+WIS
+
+CHA
+
+10 (+0) 18 (+4) 10 (+0) 14 (+2)
+
+15 (+2)
+
+16 (+3)
+
+Skills Perception +4, Stealth +8
+Senses Passive Perception 14
+Languages Sylvan, Common
+
+Armor Class 12 (natural armor)
+Hit Points 22 (4d8 + 4)
+Speed 30 ft., Climbing 20 ft., Flying 30 ft.
+
+Challenge 1/2 (100 XP)
+
+STR
+
+DEX
+
+CON
+
+INT
+
+WIS
+
+CHA
+
+12 (+1)
+
+14 (+2)
+
+13 (+1)
+
+4 (-3)
+
+12 (+1)
+
+6 (-2)
+
+Skills Perception +3
+Senses Darkvision 60 ft., Passive Perception 13
+Languages ­­—
+Challenge 1/2 (100 XP)
+
+DEX
+
+Proficiency Bonus +2
+
+Bioluminescent Glow. The Giant Bora Bug emits a
+soft light from its spiked wing casing, shedding dim
+light in a 10-foot radius around it.
+
+Actions
+Horn Strike. Melee Weapon Attack: +3 to hit, reach 5
+ft., one target. Hit: 5 (1d8 + 1) piercing damage.
+Spike Flurry (Recharge 5–6). The Giant Bora Bug
+releases a flurry of spikes. Each creature within 10 feet
+of the Giant Bora Bug must make a DC 12 Dexterity
+saving throw, taking 7 (2d6) piercing damage on a failed
+save, or half as much damage on a successful one.
+
+Proficiency Bonus +2
+
+Magic Resistance. The Pixie has advantage on saving
+throws against spells and other magical effects.
+Innate Spellcasting. The Pixie’s innate spellcasting
+ability is Charisma (spell save DC 13, +5 to hit with
+spell attacks). It can innately cast the following spells,
+requiring no material components:
+◊ At will: Druidcraft*, Jolt, Root Grab, Transparency
+◊ 1/day each: Confusion*, Control Animal, Detect
+Thoughts*, Entangle*, Obscure Object, Pacify
+Person, Sleep*, Whelm Weapon
+
+Actions
+Gift of Flight. The Pixie magically grants a creature it
+can see a Flying speed of 30 feet. The creature keeps its
+Flying speed, as long as the Pixie is holding its breath.
+The Pixie can hold its breath for a number of minutes
+equal to 1 + its Constitution modifier (minimum of 30
+seconds). The Pixie can only grant this effect to one
+creature at a time, and when the effect ends, it must
+wait 1 minute before using it again.
+
+349
+
+Giant Venus Fly Rat
+The Venus Fly Rat is a bizarre blend of rodent and carnivorous plant that is usually found in woodlands and marshes.
+
+Giant Venus Fly Rat
+Large Beast, Unaligned
+
+Armor Class 14 (natural armor)
+Hit Points 34 (4d10 + 12)
+Speed 30 ft., Climbing 20 ft.
+STR
+
+DEX
+
+CON
+
+INT
+
+WIS
+
+CHA
+
+15 (+2)
+
+15 (+2)
+
+12 (+1)
+
+12 (+1)
+
+14 (+2)
+
+7 (-2)
+
+Skills Stealth +5
+Damage Resistances Poison; Bludgeoning, Piercing,
+and Slashing from Nonmagical Attacks
+Condition Immunities Blinded, Charmed, Frightened
+Senses Blindsight 30 ft., Darkvision 60 ft.,
+Passive Perception 11
+Languages ­—
+Challenge 1/2 (100 XP)
+
+350
+
+Proficiency Bonus +2
+
+Actions
+Snap Jaw. Melee Weapon Attack: +4 to hit, reach 5 ft.,
+one target. Hit: 4 (1d4 + 2) piercing damage. If the target
+is a creature, it is also Grappled (escape DC 12) as the
+Venus Fly Rat clamps down with its powerful jaws.
+While Grappled in this way, the target takes 4 (1d4 + 2)
+piercing damage at the start of each of its turns.
+Tail Strike. Melee Weapon Attack: +4 to hit, reach 10 ft.,
+one target. Hit: 5 (1d6 + 2) bludgeoning damage.
+Pollen Burst (Recharge 5–6). The Venus Fly Rat
+releases a burst of pollen in a 15-foot cone. Each creature in that area must succeed on a DC 11 Wisdom
+saving throw or be affected by the Confusion* spell for
+1 minute. An affected creature can repeat the saving
+throw at the end of each of its turns, ending the effect
+on itself on a success.
+
+ADVENTURE:
+BELOW THE SHALLOWS
+
+T
+
+“Below The Shallows” is intended for 2 to 4 4th-level characters.
+
+he adventurers are called to help a young boy recover his grandfather’s kite-plane, which was hijacked by fish folk
+and crashed into the Shallows. The adventurers must now dive to the ocean floor, explore a mysterious sunken
+town, find the kite-plane, and then bargain (or fight) with a host of fish folk pirates, before returning to the young
+boy before his grandfather finds out.
+
+Adventure Prologue
+This adventure's inciting incident doesn't actually occur until
+later in this chapter. Still, to make for a more impactful story
+we recommend having the adventurers meet some of the
+supporting characters before they’re asked to help them.
+To do this, the prologue should take place on a dirt road
+leading to Sky Kite Valley. Perhaps the adventurers are
+going to the village to attend one of the grand kite festivals,
+to see the mass migration of floating jellyfish, or perhaps
+even deliver the letter given to them at the end of “The
+Curious World Within” adventure. Whatever the reason, it is
+on this dirt road where the story begins.
+
+Attack of the Harpies
+As the adventurers are traveling, a band of harpies are
+tracking them, waiting for the right time to strike. The
+number of harpies should be enough to make the party
+think twice about fighting (2 to 3 harpies per player). As the
+harpies swoop down they land on the road in front of them
+and then try to intimidate the adventurers to give up their
+loot without a fight.
+
+351
+
+Aerial Assistance
+Whether a fight breaks out or the adventurers are considering handing over their valuables, a noise comes from
+overhead as a flying machine—a kite-plane—comes to the
+party’s aid. The kite-plane is piloted by a young boy, Tokko
+(human, male, commoner*), and his grandfather known as
+Gramps (human, male, commoner*).
+The combat goes as follows:
+◊ Gramps hurls down Bottled Bombs (common combat
+potion) as Tokko skillfully navigates the kite-plane.
+◊ For non-lethal combat, you can have Gramps using bottles
+filled with scented oil or some other substance that the
+harpies loathe and causes them to fly away spitting curses
+and shaking their feathers.
+If this combat becomes lethal, the harpies will flee if two
+or more of their comrades perish.
+
+No matter how Tokko and Gramps interact with
+the harpies, their arrival should feel like an
+assistance, not a rescue. Although a quirky kid and
+old man coming to save the day is fun in books
+and films, most players still want to feel like the
+heroes of their own story. So be cautious in this
+interaction not to make the players feel less than.
+
+Victory!
+After the harpies are driven off, the kite-plane circles above
+the adventurers as Tokko and Gramps wave down shouting
+and cheering, eventually taking off in the direction of Sky
+Kite Valley before an unfortunate and audible clacking can
+be heard. Read the following text:
+
+The delighted laughter and shouts of the
+flying duo can be heard over their kite-planes
+rhythmic hum as they circle above. The young
+pilot tilts the aircraft's wings at a dramatic
+angle, to better see you below. With an
+exaggerated wave and brimming smile, he bids
+you all farewell— straightening the plane once
+more before taking off towards Sky Kite Valley.
+It's at that moment that a resounding clank and
+pop can be heard from the front of the plane.
+This is shortly followed by a sudden plume of
+smoke which begins to billow from the front of
+the craft as they slowly begin to lose altitude.
+Moments later, the once excited duo meets the
+earth as their kite-plane sputters to a sad and
+underwhelming halt.
+
+352
+
+After crashing their kite-plane Tokko and Gramps laugh it
+off and quickly begin to prepare the craft to be dragged
+back to the city. After officially meeting everyone, Gramps
+asks the adventurers for some assistance getting the
+kite-plane back to the city, with a promise of dinner for
+their troubles.
+
+Dinner Party
+The dinner with Gramps, Tokko, and their family can be
+whatever you envision. You can have Tokko’s family be a
+large one with all kinds of quirky relatives or it could be
+just Tokko and his grandfather. Either way, the goal of the
+dinner party is to get the players attached to Tokko and
+Gramps, as that will be what draws them into helping Tokko
+when the kite-plane is stolen and crashed into the Shallows.
+Possible dinner party topics of conversation include:
+◊ The family is divided in their opinions about Rock Raley
+and his efforts to fly to the Sky King (read “Sky Kite
+Valley” in the Locations chapter). They would love to
+know what the adventurers thoughts on Rock Raley are.
+◊ The kite-plane is an innovative new design prototype that
+Gramps and Tokko have built together. Gramps believes
+the design might finally get Tokko on Rock Raley’s team
+of aeronauts—a dream of Tokko’s. Gramps believes that
+Tokko will be the one to solve the aerodynamics needed
+to get Rock Raley’s team to the Sky King.
+◊ One of the player characters could be challenged by
+Tokko or a relative to cook a dish for the dinner party as a
+friendly competition to see whose dish is the tastiest.
+
+After the Party
+After the dinner party, everyone's free to go about their
+business and there’s some breathing room before the
+adventure continues.
+The adventurers can explore Sky Kite Valley and maybe
+catch a jellyfish sighting, frequent one of the taverns, or go
+on a mini quest. Meanwhile Tokko works on the kite-plane
+with help from Gramps in hopes of winning Rock Raley’s
+Top Kite Competition.
+
+Crash of the Kite-Plane
+When you’re ready to begin the second part of the adventure,
+read the following:
+
+It’s a bright and sunny day in the town of
+Sky Kite when suddenly you see what looks like
+Tokko's plane coming dangerously low across
+the village, clipping one of the tall buildings as
+it erratically swoops down the hillside toward
+the ocean.
+Tokko can be seen running down the hill,
+chasing after the plane with his notes and
+schematics flying everywhere as he begins to
+wave his arms frantically and shout.
+You can see what looks like a giant seahorse
+spirit in the cockpit of the kite-plane. As the
+plane goes overhead, the seahorse yells, “Sorry!
+I didn’t want to do this!”
+
+Even if the adventurers shoot or cast spells at the
+kite-plane or its seahorse pilot, they can’t stop it from
+careening out over the Shallows. Once it is clear that
+nothing can be done, read the following:
+Tokko finally arrives, gasping for air.
+Villagers cluster around as everyone helplessly
+watches the kite-plane get smaller and smaller
+over the waves. Then, everyone lets out a gasp
+and Tokko puts his hands to his head as the
+kite-plane suddenly tilts and crash-lands into
+the ocean with a splash.
+
+Payment
+If the party asks Tokko for money to recover the kite-plane,
+he agrees, stating he has something very valuable he can
+give them as a reward. The truth of the matter is, Tokko,
+when put on the spot, panicked and promised something he
+doesn’t have. So, despite his better judgment he steals a gold
+statue of a sun panther from the Sun Panther temple near
+Sky Kite. While the gold statue is worth far more than the
+party is asking to recover the kite-plane, it is also an item
+sacred to the Sun Panther druids—an order of shapeshifters near Sky Kite Valley. They will eventually track down
+Tokko and then find whoever is holding their sacred item—
+perhaps delivering a stern moral lesson in the process.
+
+made their headquarters in a sunken First Age town and
+are led by Bloodfin the Foul, a cunning fish folk captain
+who sees the kite-plane as her way to get back into the
+Lionfish King’s good graces as an offering of tribute.
+All the while, Bloodfin is being swayed into deeper waters
+of evil by a sea ha,g known as Slurpgill, who is urging her
+protege to join forces with Venomous Rex. Slurpgill wishes
+Bloodfin to fully embrace evil so she can turn Bloodfin into a
+sea hag and build her coven. Slurpgill uses Bloodfin’s painful
+past to manipulate her into leaving the Lionfish King.
+Morris, the giant seahorse spirit that stole the kite-plane,
+was intimidated into doing so by Bloodfin.
+
+Preparing for the Mission
+Tokko knows where the kite-plane went down, near a reef
+at the far edge of the Shallows, a place where sailors say
+that there’s a sunken town. No one goes there as it is notorious for snagging fishing lines and rumored to be a hideout
+for fish folk pirates. Some even say it is haunted.
+To get there, the party will need a boat, preferably a barge
+large enough to recover the kite-plane. There are many
+potential ways for the party to accomplish its mission.
+As they are formulating their plan, keep the following
+in mind:
+◊ Dock workers and ship pilots will warn them of the
+dangers of the Shallows—whirlpools, sea monsters,
+hammer gulls, and fish folk pirates. Getting out to the
+reef should feel dangerous.
+◊ The party could also choose to hire a sea-glider out there
+or a hot air balloon. To accomplish this, you could make
+up a place like Old Jimbo’s Seaplane Shop or Belinda’s
+Balloonery which could spawn a fun side quest or earn a
+valuable (and possibly quirky) ally for future adventures
+in Obojima. How they would then use those methods to
+get the kite-plane back is up to their ingenuity.
+◊ If they are not already familiar with the Mariners’ Guild,
+the party should be made aware of them for access to
+information and equipment (see “Holly and the Mariners’ Guild” below).
+
+Whatever means the party chooses to get out
+to the reef and the sunken town can be fraught
+with peril. Monster attacks, natural dangers, or
+a comically malfunctioning boat or plane can
+turn up the drama.
+
+Stealing from the Sun Panther temple could cost Tokko
+his reputation and a chance at joining Rock Raley’s team if
+word gets out about the theft.
+
+Undersea Thieves
+The fish folk who have taken Tokko’s kite-plane are a band
+of exiles from the Lionfish King’s domain. The exiles have
+
+353
+
+Holly and the Coastal Divers’ Lodge
+The Mariners’ Guild can help with underwater exploration providing information, equipment, potions, and other
+magic items. You can have the characters meet and talk
+with a Mariners’ Guild member in Sky Kite Valley.
+
+Potion of Water Breathing
+Uncommon, See page 235
+
+You can also open a larger adventure by having the party
+travel to the Northern Branch of the Mariners’ Guild to
+meet Holly Clintock herself. There, they will learn about
+her quest to rebuild the Pointue (see “Coastal Divers’ Lodge,
+Northern Branch” in Locations) which can continue the
+adventure after this one is completed.
+Mariners’ Guild members are generally friendly and
+helpful. They are of course operating on their love of the
+ocean environment, boundless enthusiasm, and a shoestring budget. Any assistance is always greatly appreciated.
+The Mariners’ Guild can offer:
+◊ Diving Armor. This specialty diving suit is made from
+a heavy metal as has been painstakingly crafted by the
+divers lodge. While wearing divers armor your movement
+is reduced by 10, unless your Strength score is equal to or
+greater than 18. Additionally, whenever the spell Water
+Breathing* is cast on you while wearing the divers armor,
+the duration of the spell is doubled for you. There is only
+one diving suit.
+◊ Goatskin Balloons. These are balloon-like leather sacks,
+made from a whole goatskin, that magically inflate. They
+are mainly used for buoyancy in an emergency. As an
+action, the user can pull the chord on the balloon, magically filling it with air and sending a character holding
+the balloon rocketing towards the water's surface at a
+speed of 100 ft. per round. There are as many goatskin
+balloons as there are members of the mission.
+◊ Fishfins. These are fish-like fins that an adventurer can
+put on their hands and feet. When worn, fishfins grant
+the wearer 40-foot movement while underwater. The
+lodge only has 1 set of fishfins.
+◊ Flarestones. When struck underwater, these little stones
+sputter with a bright light in a 20-foot radius and dim
+light for an additional 20 feet. Flarestones last for 15
+minutes and the lodge can give up to 3 per adventurer.
+Above water, they are normal stones.
+◊ Enough potions of water breathing to give each character
+1 potion.
+◊ Diver’s Candy. A hard candy specially made by the
+Mariners’ Guild that you can bite down on to release
+a puff of air that gives an adventurer 1 turn of Water
+Breathing*. Each character is given 1.
+
+354
+
+The Sunken Town
+Once preparations are made, Tokko directs the party to
+the reef where the kite-plane went down. Tokko is not a
+sailor, so if they choose to go via boat, the party must hire a
+captain or try to pilot the boat themselves.
+The trip to the reef can be perilous or smooth sailing. But
+once the party arrives, they can see a colorful reef wall
+below the crystal clear waves that goes down 200 feet to a
+white sand bottom. After a brief search over the reef, they
+can see, far below, a bit of torn cloth caught on an outcropping of coral that Tokko recognizes as a piece of the fabric
+cover of the kite-plane.
+Once the adventurers go underwater and get to the
+bottom of the reef, they can see in the distance, strange
+outlines of the sunken town as well as a path leading from
+their current location towards it.
+
+Diving in the Shallows
+The waters of the Shallows are magically clear allowing for
+200-foot visibility before details begin to get fuzzy due to
+particles floating in the water.
+As adventurers dive beneath the waves, colors begin to
+get lost, but the Shallows are magical and colors remain
+longer due to their crystal clear waters.
+Colors are lost in the following order:
+◊ Red at 100 feet
+◊ Orange at 150 feet
+◊ Yellow at 200 feet
+◊ Green at 300 feet
+◊ Blue at 500 feet
+Rarely are the Shallows deeper than 500 feet.
+
+BUOYANCY
+To sink in salt water, characters need to be counterweighted—usually a 20-pound sack of stones worn on the
+belt. If they lose this counterweight during their journey
+underwater, they will pop to the surface like a balloon at
+a movement rate of 40 feet. Because characters are not
+breathing compressed air, they will not suffer any ill effects
+like the bends, but being highly buoyant can make for some
+interesting (and difficult) situations.
+
+SOUND
+While words are not understandable underwater, sounds
+are highly audible—especially metallic, buzzing, and sharp
+clicking sounds—which travel through water at a much
+higher speed than air. Because the ears of surface dwellers
+are designed for an air environment, sounds made underwater are difficult to locate. This can create an unsettling
+mood when a character hears a crunching or strange buzzing noise but can’t locate exactly where its origin is.
+
+VISIBILITY
+If a fight occurs on the seafloor or if a character thrashes
+around at the bottom, you can choose to impair their visibility due to silt and sand being kicked up. After a round
+of combat or if someone uses the dash action, or otherwise
+disturbs the seafloor, a cloud of silt 15 feet in diameter is
+created. Anyone within it suffers the blinded condition.
+This area of poor visibility lasts for 1 minute after all movement has ceased.
+If you choose to use this in your game, a character must
+be at least 5 feet off the seafloor to not incur this effect.
+
+CURRENTS
+Generally, the waters of the Shallows are relatively calm,
+but occasionally (if you want to throw in a bit of chaos)
+there are strong currents that flow across the sea floor
+powerful enough to blow a character over and send them
+flying. When a current comes along, each player rolls a d6.
+On a roll of 5 or 6, their character gets blown 30 feet in
+a direction of your choice unless they succeed at a DC 13
+Strength saving throw and hold on to something stationary.
+If they are not anchored to the floor, loose objects
+(such as a kite-plane) can get carried away in the current.
+
+You can make the experience of being underwater
+as much a part of your game as you want to.
+Having players deal with the 3D environment,
+ambient noises, potentially blinding silt, and other
+underwater anomalies can either be a source of
+fun or frustration. Make sure you have the kind of
+players who enjoy these challenges and limitations
+before putting them into play as they are all easily
+removed due to “the magic of the Shallows”, which
+can be the excuse for why being underwater here is
+just about the same as being on land.
+
+Exploring the Sunken Town
+The sunken town is from the First Age and can therefore
+be as magical as you need it to be to explain any anomalies or quirks of physics and reality. There might be weird
+magic effects like an anti-magic zone where potions of water
+breathing are nullified or areas that are perfectly dry and
+free of water. It’s all your call.
+You can also have the adventurers discover how this
+place became submerged, plunging them into a deeper
+mystery that leads to an adventure after this one.
+Before the adventurers near the town, figure out what
+direction they are approaching it from. Then describe what
+they see as they move onto the map.
+The following locations are keyed to the Map of the
+Sunken Town.
+
+1.
+
+MAIN ROAD
+
+Because it is a First Age site, the asphalt road shows little
+sign of wear or erosion and is fairly clear of any encrustation by marine life like coral and barnacles. There are some
+clusters of Knobble Leaf Seaweed growing through the
+small cracks in the pavement that wave in the current and
+can provide some cover for a small or tiny character but
+mostly the main road is clear of debris.
+
+Witch's Eye Coral
+Common, See page 209
+
+Seashells
+Common, See page 207
+
+Knobble Leaf
+Seaweed
+Common,
+See page 204
+Tangleweed
+Common,
+See page 208
+
+355
+
+1 square = 5 feet
+
+2.
+
+TRAIN CAR
+
+This metal train car has a wood and fabric paneled interior
+and can be entered through one of the small hatches in the
+roof or through one of the windows or doors on the side of
+the car. To allow the characters to enter silently, one of the
+windows could be broken.
+Inside the train cars are eerie rows of empty seats amid
+waving clumps of Tangle Weed.
+If you would like, the tracks and depot can also be a stop
+for the Wandering Line (see “Wandering Line” in Locations).
+
+3.
+
+TRAIN DEPOT
+
+This is a well-built wooden structure that has arrival and
+departure times for the train still visible that are posted
+within a glass-covered frame. Behind the ticket counter is
+a large cluster of Witch’s Eye Coral. Underneath the coral
+cluster is a tiny burrow that is home to a mischievous sea
+sprite (use the elemental spirit stat block) companion
+spirit named Sligo.
+
+356
+
+Sligo wants the pearl inside of the giant clam that lives in
+area 9 (Bloodfin’s Lair). If Sligo is promised the pearl, it will
+tell the party all it knows about the fish folk pirates
+including some idea of the relationship between Bloodfin
+and Slurpgill.
+If you would like, Sligo can also give the party a ticket for the
+Wandering Line that it keeps buried deep within its burrow.
+
+4.
+
+JOLLY CONE
+
+This was once a First Age ice cream parlor that is now
+home to 1d6+2 Blue-Back Salmon.
+The stainless steel ice cream
+machines are still here although
+they no longer work and are
+covered in Knobble Leaf Seaweed.
+Inside the cash register are a
+handful of Seashells.
+
+Blue Back Salmon
+Common, See page 201
+
+5.
+
+FISH FOLK HIDEOUT
+
+In this large warehouse, there are 8 fish folk pirates who
+are on alert, guarding the kite-plane while Bloodfin figures
+out her plan of either presenting her prize to the Lionfish
+King or taking it to Venomous Rex to spite her former king.
+Bloodfin has a 25% chance of being here when the
+characters investigate.
+Up to 10 Fish Folk Teeth can be found here after a
+10-minute search.
+
+6.
+
+MOXY’S MUSIC GROTTO
+
+Moxy’s is an ancient First Age music store. Rows of racks
+that once held vinyl albums, cassettes, and CDs line the
+store. Hidden behind the counter is a Vinyl Record.
+
+MORRIS
+Swimming inside the music store is a giant sea horse spirit
+(use the aquatic beast spirit stat block) named Morris, the
+cowardly thief of the kite-plane. Morris is terrified of Slurpgill and is doing his best to get through a dangerous partnership with her, which is why he felt compelled to steal the
+kite-plane when asked by Bloodfin—her new favorite pet.
+Although he is scared of Bloodfin, he is even more
+terrified of Slurpgil, which is why he will remind Bloodfin
+at times, “That’s not what Slurpgill would want” if he
+senses that she might not bend to the sea hag’s will.
+Because of his fears, he won’t hesitate to lie to or tattle on
+the party to Bloodfin to survive.
+
+7.
+
+KAT’S ISLAND KITCHEN
+
+This was a First Age cafe. There’s a few tables for customers,
+a counter where the food was ordered and a small kitchen
+with all the utensils, cookware, chef’s tools, and cafe items.
+A series of thumping sounds can be heard coming from
+inside the oven. The window to see the inside of the oven
+is obscured by a layer of soot. If anyone opens the oven
+door, a blowbelly pufferfish (see stat block below) bursts
+out in a jump scare moment.
+
+8.
+
+JERRY’S GARAGE
+
+This is a First Age garage with all the tools still intact. There
+are wrenches, a mechanical car jack, oil cans, grease guns,
+and gauges. There’s an old kei truck and 2 mopeds here.
+
+8A.
+
+TOOLSHED
+
+This is a First Age tool shed that still has a wide assortment of
+spanners and ratchets, but it is now a lair for 4 giant crabs*.
+
+9.
+
+BLOODFIN’S LAIR
+
+Bloodfin’s Lair is actually an old Goodie Mart—a First Age
+chain of markets. This Goodie Mart is now the private lair
+of Bloodfin the Foul (use the merrow* stat block) who
+has removed all of the usual things that one would find
+in a mini market and has decorated it in what can only be
+described as “gothic deepsea chic”.
+Among the decorative ribbons of Tangle Weed, skeletons
+of sea creatures, garlands of Oporion Glass, Seashells and
+sea urchins, Bloodfin has a giant clam that has a 500gp
+pearl inside of it. The clam can be opened with a successful
+DC 16 Strength (Athletics) check. Also in the giant clam is a
+large cluster of giant octopus eggs that belong to the giant
+octopus, Lucinda (see area 10a. “Giant Octopus Den” below).
+
+10.
+
+BORISSS’ LAIR
+
+Borisss is a sea snake spirit (use the giant constrictor
+snake* stat block but with an INT of 10) who is fiercely
+loyal to Bloodfin. He is currently coiled up around his
+favorite teddy bear that he found when Bloodfin’s gang first
+came to the sunken town.
+There is nothing of value here.
+
+10A.
+
+GIANT OCTOPUS DEN
+
+In this little shack is a sad Awakened Giant Octopus (use
+the giant octopus* stat block but with an INT of 10)
+named Lucinda. Lucinda is a gentle creature, but Bloodfin
+is holding her eggs hostage and is forcing Lucinda to be
+her junkyard dog. Lucinda doesn’t know her own strength,
+but she fears both Bloodfin and Slurpgill and can’t figure
+out a way to get her eggs back.
+
+11.
+
+TRAIN STATION STORAGE LOCKERS
+
+This building contains rows of storage lockers, many of
+which are open but there are a few that are still locked
+(DC 20 Dexterity check to unlock).
+Inside one of the storage lockers is an indestructible
+suitcase covered in coral. To open the suitcase
+requires a successful DC 25 Dexterity check to
+open the magic lock. If it is opened, inside is a
+Neko Ronin figurine in its original
+packaging. The interior of the suitcase
+has been magically kept dry, but
+if opened underwater, the
+enchantment is broken and the
+pristine contents are soaked.
+
+Neko Ronin Figurine
+Rare, See page
+
+357
+
+Using Monsters to Avert Mayhem
+
+Common Enemy
+
+At any time during the exploration, you can choose to use
+monsters to create tension, chaos, or an uneasy alliance,
+especially if you want your adventure to be more of a roleplaying experience than a combat experience.
+
+If a fight breaks out between the adventures and the fish
+folk and you wish to give the adventures another opportunity to make amends through conversation. We recommend
+introducing two seaweed elementals at the beginning
+of the second round of combat with Bloodfin and the fish
+folk. Bloodfin and her gang may be villains, but they’re not
+dummies, and when faced with the threat of the elementals, they can be reasoned with and perhaps even become
+allies, if just for a moment.
+
+◊ The blowbelly pufferfish (see below) can act like a ticking time bomb or a laser motion sensor that can go off if
+a character makes one wrong move, causing all kinds of
+interesting situations. It can also be used against enemies
+if used carefully.
+◊ A school of frenzied giant sharks* can also be used as a
+surprise threat.
+◊ Seaweed elementals can be introduced as a deadly and
+common enemy to create an alliance between the party
+and Bloodfin’s gang.
+
+Pirates
+No matter which direction they approach from or how many
+buildings they explore, the adventurers will eventually need
+to face the fish folk guarding the kite-plane. This conflict can
+be solved through clever roleplay and bargaining or combat.
+As the party deals with the fish folk in the sunken town,
+keep the following in mind:
+◊ If an adventurer rolls a natural 20 in combat against a
+fish folk, they knock out a fish folk tooth—an item which
+can be used to make potions.
+◊ Fish folk are always on the lookout for a Nakudama princess of royal bearing who the Lionfish King is so eager to
+marry. (For more details, read “Domain of the Lionfish
+King - Royal Aspirations” in the Locations section).
+◊ If one fish folk is alerted, an alarm is sounded (banging a
+tin can), and the other pirates in the gang come running.
+◊ Fish folk will flee when there are 3 or less of them left.
+◊ Bloodfin the Foul may barter for the glider. Keep in mind
+her objective which is to either rejoin the Lionfish King
+or betray her former king and join with his archrival,
+Venomous Rex, which will please her evil mentor, Slurpgill. Bloodfin will start with unreasonable demands for
+the kite-plane. Here are a few ideas:
+• Wanting Holly Clintock as a captive in exchange for
+the kite-plane.
+• Destroy the new Pointue and bring back a trophy for
+proof of its destruction.
+• Destroy the Mariners’ Guild Northern headquarters.
+
+Slurpgill
+Slurpgill is a sea hag who is attempting to start her own coven.
+For that, she needs two other hags and Slurpgill believes that
+Bloodfin will make a fine hag with the proper training; her
+anger and exiled status are perfect tools for manipulation and
+drawing her deeper into the hag’s evil clutches.
+All the water spirits tremble when they hear Slurpgill’s
+name, and her reputation even extends to the witch covens
+on land. While Slurpgill doesn’t make a physical appearance
+in this adventure, the threat of her power and influence is
+felt by all the NPCs that the party interact with in the
+sunken town. Slurpgill, like Venomous Rex, is designed to
+be an underwater nemesis who can plague the party
+throughout their adventures on Obojima. Where Slurpgill’s
+lair is, is up to you.
+The more you play up the NPCs fear of Slurpgill and have
+them tell stories of her wickedness, the more effective and
+fun she becomes as a villain in your story. A great villain
+makes great heroes.
+
+Wrapping it All Up
+Once the adventures have finally obtained the kite-plane,
+they’ll have to get creative to remove the craft from the
+seafloor. We recommend rewarding creativity here, but if
+necessary, Tokko can give a gentle nudge to use any remaining goatskin balloons to help surface the sunken kite-plane.
+If needed, he may even have one or two on the ship he can
+offer to the party.
+Once Tokko returns, he fesses up to Gramps and explains
+what has happened. Rather than being angry, Gramps is
+incredibly grateful that Tokko is safe and will turn to
+embrace the party. Gramps, in Tokko’s absence, has been
+worried sick about the grandson. When he saw the kiteplane missing and Tokko along with it, he feared the worst.
+So with their return, a huge relief washes over him and he
+begins to shed tears of joy.
+With the kite-plane returned, along with Tokko, the
+adventurers have made friends for life and if you choose,
+the story can continue. Tokko and Gramps have a lot of
+work ahead of them if they still plan to finish the kite-plane
+and enter it into the Rock Raley aviation contest. This will
+assuredly lead to numerous adventures and side quests.
+
+358
+
+MAGIC ITEMS
+Here is a unique Magic Item that can be found in this
+adventure.
+
+Blowbelly Pufferfish
+Small Beast, Unaligned
+
+SUNKEN SUITCASE
+Very Rare, Wondrous
+This magic suitcase is indestructible and fully sealed from
+the outside world. When closed, it magically locks itself,
+setting its DC equal to 1d20+5.
+
+MONSTERS
+Here is a unique monster that can be found in the Shallows.
+
+Blowbelly Pufferfish
+Blowbelly pufferfish are generally docile creatures but are
+easily startled. If they feel threatened, they inflate instantly
+to an enormous size. Anyone touching their prickly skin
+can get injected with doses of toxins. When a blowbelly
+pufferfish dies, they burst, sending a spray of poisonous
+spines in all directions.
+Blowbelly pufferfish are often found bobbing along coral
+reefs and on the sandy bottom of the sea.
+
+Armor Class 12 (natural armor)
+Hit Points 55 (10d6 + 20)
+Speed 5 ft., Swimming 30 ft.
+CON
+
+INT
+
+WIS
+
+CHA
+
+14 (+2) 10 (+0) 14 (+2)
+
+STR
+
+DEX
+
+2 (−4)
+
+12 (+1)
+
+5 (-3)
+
+Saving Throws Con +4
+Skills Perception +5, Stealth +5
+Senses Darkvision 60 ft., Passive Perception 13
+Languages —
+Challenge 2 (450 XP)
+Death Burst. When the blowbelly pufferfish dies, it
+bursts. Each creature within 15 feet of it must make a
+DC 12 Dexterity saving throw, taking 9 (2d8) piercing
+damage on a failed save, or half as much damage on a
+successful one.
+
+Actions
+Multiattack. The blowbelly pufferfish makes two
+Chomp attacks.
+Chomp. Melee Weapon Attack: +4 to hit, reach 5 ft.,
+one target. Hit: 8 (1d10 + 3) piercing damage.
+Puff Up (Recharge 5-6). The blowbelly pufferfish
+inflates its size, becoming Huge and filling its space.
+Each creature in its space is pushed to an unoccupied
+space outside the area and must make a DC 13 Constitution saving throw. On a failed save, a creature takes
+9 (2d8) poison damage and is Poisoned for 1 minute as
+the barbs of the pufferfish poke and prod them. On a
+successful save, the target takes half as much damage
+and isn’t Poisoned. If the creature is pushed into a wall
+or similar solid surface, it takes an extra 4 (1d8) bludgeoning damage and is Grappled (escape DC 13); until
+this Grapple ends, the creature is also Restrained.
+The blowbelly pufferfish stays puffed up until the start
+of its next turn, after which it returns to its normal
+size. While puffed up, it gains a +2 bonus to its AC.
+
+359
+
+ADVENTURE:
+LOST WITHIN THE
+CRAWLING CANOPY
+
+T
+
+“Lost Within The Crawling Canopy” is intended for 2 to 4 5th-level characters.
+
+he adventurers have saved Miga, a dara novelist, and Goose, her beloved dog companion from a dangerous howler
+attack, only to be surrounded and engulfed by the Crawling Canopy—a moving forest that roams the Gale Fields.
+While in the forest, the party encounters a fearsome monstrosity—a crow-like abomination that captures their
+newfound friend and melts into the forest. They must now save Miga from this unfortunate series of events and return
+her beloved Goose to her.
+
+360
+
+Adventure Begins!
+
+Inside The Canopy
+
+While wandering in the Gale Fields, the adventurers hear
+sounds of distress amid the cackling of howlers. If they
+investigate, they see a lone dara named Miga (female dara,
+commoner*) who is fending off 5 howler yippers.
+
+Whether the adventurers woke up in the forest or were
+overtaken by its crawling trees read the following:
+
+On closer inspection, the adventurers can see that one
+of the howlers is holding a small dog, which is yapping
+and writhing in the hands of the cackling creature. This is
+Miga’s beloved pup, Goose, which the howlers have taken
+from poor Miga and who she is desperately trying to get
+back from them.
+When the adventurers arrive, the howlers stay for no
+longer than one round, after which they attempt to flee
+with Goose in hand. Miga will run after them and ask for
+assistance getting her dog back.
+
+After the Conflict
+After the encounter, Miga will rejoice as she reconnects
+with Goose. She will thank the adventurers and return to
+where the fight took place to pick up her scattered papers
+and books. Miga tells the party that she is wandering
+Obojima looking for glyphs from other dara and writing a
+novel about her adventures.
+It's at this point that she exclaims how exciting this chapter will be in her book and how she desperately needs to
+know more about the beloved heroes who came to her and
+Goose’s aid. She'll then ask that the party join her for a meal
+and share a camp with her for just one night, after which
+she will leave them to continue their journey without her.
+Miga’s personality is quite bubbly and excited. She’s quite
+young for a dara at the age of 17 and is overly interested in
+learning about life outside of Roa Kala (see page 94 to learn
+more about Roa Kala).
+
+The trunks and treetops of the forest
+that now surrounds you gently sway in all
+directions—their bulbous roots curling above
+ground like a corkscrew drilling into the soil.
+Pillars of light pierce through the canopy above,
+before suddenly disappearing as the ground
+begins to rumble and shake. In the distance,
+you watch as a copse of trees uproot themselves,
+shifting and trading places, before planting
+their roots once more.
+
+While inside the Crawling Canopy, the forest is constantly
+moving and changing. (To learn more about this magical
+location see page 78)
+
+Flying Characters
+At this level, it would be quite uncommon for the party to
+have the ability to give all characters flight to escape. If one
+or more characters try to fly away, you can describe that the
+forest stretches for miles in each direction, making it an
+arduous task to attempt to lead the party out of the forest,
+especially as it's constantly shifting and changing.
+
+Other Adventures in the
+Crawling Canopy
+
+Engulfed by the Crawling Canopy
+
+Now that the adventurers are thoroughly stuck, you can
+choose to extend the story by having the party encounter
+a number of mysteries, characters, and odd magics. These
+encounters can grow the adventurers’ understanding of the
+forest, plant seeds for future adventures, or give breathing
+space until the next plot point.
+
+During camp, like the ocean crashing around a stone, the
+Crawling Canopy surrounds the party after they’ve been
+lulled to sleep by the sweet scent of spinning Windbloom.
+
+Use any of the NPCs or Notable Locations in the Crawling Canopy section of this book. You can also use any of
+the following:
+
+If someone is on watch, they hear the forest coming
+in the darkness, the rustling of leaves and branches, the
+groaning of wood, and the shaking of the earth, all growing
+in intensity as the forest encroaches and encircles the party.
+
+Overgrown Caravan
+
+If they try to make a run for freedom, it makes no difference. No matter what direction the party sets off in, they
+encounter a wall of trees. The forest is miles wide.
+
+What Miga Knows
+Miga has heard rumors about the Crawling Canopy. How
+much she knows is up to you, but at a minimum, she tells
+the party that the Crawling Canopy shifts and changes, and
+the unlucky are trapped in it for a lifetime.
+
+The adventurers discover a caravan of three wagons, overgrown with roots and vines; their once bright colors now
+faded. The wagons are intact, though their wooden wheels
+are fused with the forest floor by roots.
+With an Intelligence (Investigation) check DC 14, the
+adventurers will find Lover’s Vine, Peeping Willow, and
+Essence of Glumbug stashed away inside the wagons.
+Among some rotting ledgers and inventory lists, there
+is a journal that tells the tale of a group of merchants who
+entered the Crawling Canopy lured by tales of rare herbs,
+only to become hopelessly lost as the forest shifted around
+them. The journal ends abruptly.
+
+361
+
+1 square = 5 feet
+
+Flying Squirrels
+
+Wandering Monsters
+
+These curious forest creatures follow the party from high in the
+canopy and eat any fruit, bread crumbs, or nuts left behind.
+
+Anytime you feel your players need an encounter or a
+combat as they are exploring the forest, feel free to choose
+one of these monsters.
+
+Breath of the Forest
+Every so often, the forest pauses, and a cool breeze blows
+through the trees which all sway in unison as if breathing
+one great breath.
+
+Echo of the Canopy
+Every now and then, the party may hear distorted echoes of
+their own voices. It could be a conversation that they had
+or a version of it. They could also hear premonitions, their
+voices bordering on panic at being lost forever or their voices
+could carry a warning of a monster that is hunting them.
+
+362
+
+Roll d20
+
+Monster
+
+1
+
+Stul
+
+2-4
+
+Watchwood Tree (can be more than 1)
+
+5-8
+
+1d6+2 Mosslings
+
+9-14
+
+Lion's Blume (can be more than 1)
+
+15-16
+
+Kafuka
+
+17-19
+
+1d4+2 Howlers
+
+20
+
+Yellow Slime
+
+Senmo the Corvid
+
+The Search
+
+When you are ready, the adventurers encounter Senmo, an
+old and delusional crowlike creature who’s called the crawling canopy its home for over 70 years.
+
+If the adventurers decide to give chase, they’ll be thrust into
+a paced sprint where they’ll need to navigate the changing environment while keeping track of the beast they’re
+hunting. As you describe the shifting trees and adventurer’s
+efforts to find Miga and Senmo, have each player roll two
+skill checks (one Survival and one Acrobatics). If the sum
+of a player's two skill checks is less than 25, their character
+suddenly falls behind and is left out of the chase.
+
+Read the following:
+You walk in an area darkened by thick
+clusters of trees when you catch wind of a
+sickening stench wafting on the breeze. The
+same zephyr sends a chill up your body, as the
+ambient sounds of the forest animals suddenly
+grow louder and louder—the croaking of frogs
+and buzzing of insects now burning your ears
+with their intensity.
+Then, as if switched off like some ancient
+machine, the air goes silent, and from the
+distance, you hear a hollow clacking that
+echoes across the forest floor.
+
+Each player must make this dual skill check 3 times before
+Senmo eventually escapes with Miga. If any of the players
+are able to succeed in all 3 of these skill checks, they are
+rewarded with a trinket that will aid them in their search for
+Miga. While running, Senmo accidentally slams into one of
+the moving trees, knocking loose one of his black feathers.
+
+Meeting the Sheep
+
+A rasping voice then hisses, “I smell you, Dara.”
+
+Whether it is directly after the abduction or during a wrong
+turn while chasing Senmo, the adventurers will eventually
+stumble on a curious sheep creature who’s taking a break
+on a downed tree.
+
+Senmo was made from Malgrotha’s torn flesh and is a
+distorted copy or “child” of the imprisoned creature. (see
+more on Malgarotha and the origin of the Crawling Canopy
+on page 340)
+
+Mr. Sheep can be found wandering all over Obojima
+and the Spirit Realm and is known by many names—Lord
+Dengu, Ram-Ram, Omen, Din-Poko, and many more, but he
+is fine with being called Mr. Sheep. Some say he is an elder
+spirit while others say he’s something far beyond that, but
+no one knows for sure.
+
+Since Senmo’s creation, it's been wandering the forest
+searching for the dara that imprisoned Malgrotha all those
+years ago. It too is bound to the confines and the Crawling
+Canopy, and after 70 years of searching for dara, has begun
+to lose its mind.
+Even in its confused and altered state, it still recognizes
+its goal. So when it saw Miga it was quick to act. Its tactic is
+to rush in, grab Miga, and run off into the forest and back
+to its lair, allowing the constantly shifting forest to cover its
+tracks behind it.
+If one of the party members is a dara, Senmo might hiss
+in a panic, unsure which dara to grab, before eventually
+deciding to take Miga. While acting out its actions, it might
+shout “Which one!?! Which one!?! Which ONE!?!”
+In this encounter, Senmo wants to capture its prey and
+flee. The moment it has successfully grappled Miga, it will
+dash away as quickly as it can, using its abilities to slow and
+distract the party when necessary.
+
+Attack of Opportunity
+To make Senmo feel even more cunning, you could have it
+attack the party during an encounter from the Wandering
+Monster Table from the previous page.
+
+Mr. Sheep is usually accompanied by a host of mice that
+walk on their hind legs and chatter in nonsensical language.
+There are always as many mice as there are lit candles in
+Mr. Sheep’s magic lantern as the mice are people who have
+broken deals they have made with him.
+
+Deals with the Sheep
+Mr. Sheep has a bubbly and curious personality. When he
+speaks, he does so with odd phrasing and misused words.
+Though no matter how confusing he might be, he never
+seems to be confused himself, as he always seems to have
+the answer for everything.
+When the adventurers first stumble upon him he seems
+quite intrigued and immediately offers the party a seat at
+his table, the fallen tree he’s laid a small pile of crackers on.
+It's here, in this moment, that he’ll poke and prod in his
+disarming way to uncover what the party desires—eventually offering to make a deal with them.
+Though Mr. Sheep is known to make simple deals, especially for his favorite food—goat cheese, he’s also known
+to ask for more cryptic items such as “the color green” or
+“the sound of birds”. Should a character make a deal with
+Mr. Sheep, he, more often than not, has the magic ability
+to deliver on that deal, resulting in the character losing the
+ability to see the color green or hear birdsong for example.
+This deal can be permanent or temporary.
+
+363
+
+Should a character make a deal with Mr. Sheep to help
+find Miga, he explains that he knows how to find a sage,
+who in return can lead them to the Senmo’s lair. What the
+players don’t know is that the Sage is being held by the
+Sheep as one of his mouse followers (see “The Mice” below).
+Breaking a Deal. Should a character attempt to break a
+deal, a curious thing happens. Mr. Sheep gives one warning.
+If Mr. Sheep is not around, this warning can come telepathically or in a dream. If the warning is not heeded, he
+lights one of its candles, and the character is turned into
+a mouse—thereafter following him on his merry journey
+until their debt is paid.
+
+Roleplaying The Sheep
+Mr. Sheep never expresses any negative emotions, strolling
+through danger and rarely showing alarm or distress. He
+instead finds most things amusing and treats them as playthings. Though he is often curious and nosey, he’s just as
+likely to lose interest in or outright ignore things he doesn’t
+care about. Beyond his seemingly endless array of known
+magics, he also seems to be completely invulnerable, able to
+consume anything, and immune to spells that attempt to
+make him reveal the truth, change form, charm, or try to
+read his mind.
+There is no stat block for the Sheep as he is not meant for
+combat and will simply disappear if attacked.
+
+The Mice
+The mice are all cursed, deal breakers who are serving out
+their sentences, and they are all wary of Mr. Sheep’s uncanny
+power. Every now and then, one of the mice may try to sneak
+a hand gesture to get a party member’s attention, but the
+Sheep shoots them a stern look and they go back to behaving. The Sheep doesn’t reveal the true nature of the mice and
+if asked, says that they just follow him, but because they are
+mischievous, he has to keep an eye on them.
+The Sage is one of these deal breakers who is now a
+mouse in the Sheep’s entourage.
+
+GET LOST, SHEEP!
+If the party chooses to not deal with the Sheep, then after
+the encounter, the Sage (in his mouse form) finds the party
+and gestures for them to follow him (the Sage in mouse
+form can’t speak Common but can understand it). If the
+party follows him to his hut, and assists in bringing him
+one of his old potions, he’ll drink it to restore his form and
+will answer their questions.
+
+The Sage
+The Sage was a powerful witch who lived within the Crawling Canopy. One hundred and fifty years ago, he broke a
+deal with the Sheep and ever since then he has been one of
+the mice, cursed to follow the Sheep. The Sage can’t remember what the deal was that he broke, he has been a mouse
+
+364
+
+for so long that many of his memories have vanished only
+to be replaced by a burgeoning desire for cheese and a
+furtive fear of predators.
+
+The Sage’s Hut
+Whether Mr. Sheep takes the adventurers or they are led
+by the Sage in mouse form, they arrive at an old abandoned
+hut in the woods. The inside of the hut is covered in dust,
+and is now home to an array of forest critters.
+Once the Sage is inside, either the Sheep releases him and
+then vanishes or the Sage asks the party through charades
+to fetch a dusty potion from a locked cabinet (DC 14), after
+which he drinks it and is restored to his human form.
+Grateful for being saved, the Sage agrees to help the party
+by giving them an ornate box with a golden beetle inside.
+Once released from its box, the golden beetle will fly away
+leaving a trail of glowing light—a path of the shortest
+distance to the edge of the Crawling Canopy. The golden
+trail vanishes in 1 minute, so the Sage warns to only release
+the beetle when they are ready to leave.
+The Sage also gives them a bottle with a piglet spirit
+inside of it. This piglet spirit can sniff out the Senmo and
+lead the party to its lair and their friend, Miga.
+
+Showdown!
+As the party nears the lair of the lair of Senmo, read
+the following:
+
+Again, a sickening stench assaults the senses
+as you near the monster’s lair. The trees get
+thicker and more twisted until they are no
+longer trees but a slick, snarl of thick roots,
+trunks, and interwoven vines that create a
+massive, squirming nest. Locked within knotted
+roots are the carcasses of rusted and crushed
+cars, mashed and bent from the pressure of the
+squirming trees.
+You can hear an unearthly muttering coming
+from within the tangled structure. “You will
+free us or you will die, dara.”
+
+If one of the adventurers was able to procure one of
+Senmo’s feathers, then the party is able to sneak up on
+Senmo without it noticing.
+In the crushed bed of an old truck is Miga, she looks up
+in distress and Senmo paces beside the vehicle berating her,
+hoping to obtain some information on the magic that binds
+it to the forest.
+Its attention is on Miga unless it senses any invaders in
+its domain. If it does, it attacks.
+
+Non Combat Option
+Although it's likely to end in some conflict, Senmo can be
+reasoned with. It has begun to lose some of its better judgment, and so a clever or conniving character might be able
+to outwit the creature or convince it to let Miga go.
+
+Senmo
+
+After The Encounter
+
+Armor Class 15 (natural armor)
+Hit Points 123 (13d10 + 52)
+Speed 30 ft.
+
+With skill, bravery, and a bit of luck, the Senmo is defeated
+or outsmarted and Miga is saved. If Senmo is dispatched
+the party can then search its lair for loot.
+In the tangle, they find:
+
+Large Monstrosity, Neutral Evil
+
+STR
+
+DEX
+
+CON
+
+INT
+
+WIS
+
+CHA
+
+18 (+4)
+
+14 (+2)
+
+12 (+1)
+
+14 (+2)
+
+13 (+1) 10 (+0)
+
+◊ 1 Black Pearl (Ingredient)
+◊ 1 Potion of Stink Brew
+◊ 6 Spark Plugs (Ingredient)
+◊ 1 Sunbaked Cassette (Magic Item)
+◊ 1 Potion of Freezing
+Once all the loot is divided up, then the party can release
+the golden bug and follow it out of the Crawling Canopy.
+
+MONSTERS
+Here is what can be found in the Crawling Canopy:
+
+Senmo (The Child of Malgrotha)
+Every now and then, Malgrotha tears at its own body in
+mindless rage, rending off a piece of its own flesh. This
+flesh then wriggles and grows, sprouting limbs and talons
+of its own as it struggles to its feet and lurches off into the
+forest to hunt. These are the Children of Malgrotha, and
+they tirelessly search the forest for their mother. They
+believe that every dara is the First Dara—the being that
+imprisoned their mother in the Crawling Canopy and who
+has the key to releasing them from this moving prison.
+
+Saving Throws Dex +5, Wis +6
+Skills Perception +6, Stealth +5
+Condition Immunities Frightened
+Damage Immunities Necrotic
+Senses Darkvision 60 ft., Passive Perception 16
+Languages Common, Dara
+Proficiency Bonus +3
+Challenge 7 (2,900 XP)
+Keen Sight. Senmo has advantage on Wisdom (Perception) checks that rely on sight.
+Innate Spellcasting. Senmo’s innate spellcasting ability
+is Wisdom (spell save DC 14, +6 to hit with spell attacks).
+Senmo can innately cast the following spells, requiring
+no material components:
+◊ At will: Control Animal, Fog Cloud*, Swallow Magic
+◊ 2/day each: Beast Transmutation, Mirror Image*,
+Misty Step*
+◊ 1/day: Lightning Bolt*
+
+Actions
+Multiattack. Senmo makes two attacks: one with its
+Beak and one with its Talons.
+Beak. Melee Weapon Attack: +7 to hit, reach 5 ft., one
+target. Hit: 11 (2d6 + 4) piercing damage.
+Talons. Melee Weapon Attack: +7 to hit, reach 5 ft., one
+target. Hit: 9 (2d4 + 4) slashing damage.
+Black Feather Storm (Recharge 6). Senmo flaps its
+twisted wings, unleashing a flurry of sharp, magical
+feathers. Each creature in a 30-foot cone must make a
+DC 14 Dexterity saving throw, taking 18 (4d8) slashing
+damage and being knocked Prone on a failed save, or
+half as much damage and not being knocked Prone on a
+successful one.
+
+365
+
+Thank You
+We’ll see you all in the next adventure
+
+

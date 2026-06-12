@@ -36,7 +36,7 @@ const locations: LocationMap[] = [
     name: 'Main Floor',
     description:
       'The workshop\'s main floor where Miss Lindley conducts her magical experiments. Bookshelves become cliff faces and every surface holds new dangers at Tiny size.',
-    image: '/map_main_floor_faithful.jpeg',
+    image: '/hero_workshop_interior.png',
     gridScale: '1 square = 5 feet',
     details: [
       'Towering bookshelves filled with centuries of arcane tomes',
