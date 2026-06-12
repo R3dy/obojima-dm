@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-parchment: #F5F0E6;
+    --color-ink: #1A1410;
+    --color-walnut: #2D2016;
+    --color-copper: #B87333;
+    --color-copper-light: #D4956A;
+    --color-moss: #4A5D3F;
+    --color-sage: #8FA678;
+    --color-slate: #3E4A5E;
+    --color-gold: #C9A84C;
+    --color-blood: #8B3A3A;
+    --color-violet: #6B4C7A;
+
+    --background: 30 20% 8%;
+    --foreground: 40 30% 93%;
+    --card: 25 28% 13%;
+    --card-foreground: 40 30% 93%;
+    --popover: 30 20% 8%;
+    --popover-foreground: 40 30% 93%;
+    --primary: 28 55% 46%;
+    --primary-foreground: 30 20% 8%;
+    --secondary: 25 28% 13%;
+    --secondary-foreground: 40 30% 93%;
+    --muted: 25 28% 13%;
+    --muted-foreground: 40 20% 60%;
+    --accent: 28 55% 46%;
+    --accent-foreground: 40 30% 93%;
+    --destructive: 0 40% 39%;
+    --destructive-foreground: 40 30% 93%;
+    --border: 28 55% 46%;
+    --input: 25 28% 13%;
+    --ring: 28 55% 46%;
+    --radius: 0.625rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1A1410;
+    color: #F5F0E6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1A1410;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B87333;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4956A;
+  }
+}
+
+@layer utilities {
+  .glass-nav {
+    background: rgba(26, 20, 16, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-card {
+    background: rgba(45, 32, 22, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .glass-modal {
+    background: rgba(26, 20, 16, 0.92);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .grad-hero {
+    background: linear-gradient(180deg, rgba(26,20,16,0) 0%, rgba(26,20,16,0.7) 60%, rgba(26,20,16,1) 100%);
+  }
+
+  .grad-card {
+    background: linear-gradient(135deg, #2D2016 0%, #1E1610 100%);
+  }
+
+  .grad-gold-glow {
+    background: radial-gradient(ellipse at center, rgba(201,168,76,0.15) 0%, rgba(201,168,76,0) 70%);
+  }
+
+  .grad-copper-border {
+    background: linear-gradient(90deg, rgba(184,115,51,0) 0%, rgba(184,115,51,0.6) 50%, rgba(184,115,51,0) 100%);
+  }
+
+  .text-display-xl {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+  }
+
+  .text-display-lg {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+  }
+
+  .text-display-md {
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  .text-heading-lg {
+    font-size: clamp(1.3rem, 2vw, 1.8rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+  }
+
+  .text-label {
+    font-size: 0.8rem;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .text-stat {
+    font-size: 0.85rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
+}
