@@ -1,17 +1,10 @@
 
+import { createContext, useContext } from 'react';
 import { motion } from 'framer-motion';
 import {
   ChevronDown,
   ChevronRight,
   MapPin,
-  BookOpen,
-  Eye,
-  Dices,
-  ShieldAlert,
-  CheckCircle2,
-  XCircle,
-  Sparkles,
-  AlertTriangle,
   Scroll,
   Home,
   Wand2,
@@ -19,201 +12,16 @@ import {
   Users,
   Compass,
   Volume2,
+  CheckCircle2,
+  Circle,
+  RotateCcw,
 } from 'lucide-react';
+import { ReadAloud, DMSecret, SkillCheck, TrapWarning } from '../components/DMCallouts';
+import HpTracker from '../components/HpTracker';
+import OptImage from '../components/OptImage';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 
-/* ------------------------------------------------------------------ */
-/*  DM CALLOUTS — local copies since the page must be self-contained   */
-/*  (matches the style of ../components/DMCallouts.tsx exactly)       */
-/* ------------------------------------------------------------------ */
-
-const calloutVariants = {
-  hidden: { opacity: 0, y: 12 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const calloutTransition = {
-  duration: 0.45,
-  ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
-};
-
-function ReadAloud({ children, title }: { children: React.ReactNode; title?: string }) {
-  return (
-    <motion.div
-      variants={calloutVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-      transition={calloutTransition}
-      className="relative rounded-xl p-6 my-6 border-l-4"
-      style={{
-        background: 'rgba(107, 76, 122, 0.1)',
-        borderLeftColor: '#6B4C7A',
-        borderTop: '1px solid rgba(107, 76, 122, 0.2)',
-        borderRight: '1px solid rgba(107, 76, 122, 0.2)',
-        borderBottom: '1px solid rgba(107, 76, 122, 0.2)',
-      }}
-    >
-      <div className="flex items-center gap-2 mb-3">
-        <BookOpen size={16} color="#A084B0" />
-        <span className="text-[0.7rem] tracking-[0.12em] uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#A084B0' }}>
-          {title ?? 'Read Aloud'}
-        </span>
-      </div>
-      <div className="font-body text-[1.05rem] leading-relaxed italic" style={{ color: '#E8DFF0' }}>
-        {children}
-      </div>
-    </motion.div>
-  );
-}
-
-function DMSecret({ children, heading, label }: { children: React.ReactNode; heading?: string; label?: string }) {
-  const displayLabel = heading ?? label ?? 'DM Guidance';
-  return (
-    <motion.div
-      variants={calloutVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-      transition={calloutTransition}
-      className="relative rounded-xl p-5 my-6"
-      style={{ background: 'rgba(45, 32, 22, 0.6)', border: '1px dashed rgba(184, 115, 51, 0.4)' }}
-    >
-      <div className="flex items-center gap-2 mb-3">
-        <Eye size={15} color="#B87333" />
-        <span className="text-[0.7rem] tracking-[0.12em] uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#D4956A' }}>
-          {displayLabel}
-        </span>
-      </div>
-      <div className="font-body text-[0.95rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-        {children}
-      </div>
-    </motion.div>
-  );
-}
-
-function SkillCheck({
-  dc,
-  pass,
-  fail,
-  advantage,
-  skill,
-  title,
-}: {
-  dc: string | number;
-  pass?: string;
-  fail?: string;
-  advantage?: string;
-  skill?: string;
-  title?: string;
-}) {
-  const displayDc =
-    typeof dc === 'number'
-      ? `DC ${dc}${skill ? ` ${skill}` : ''}${title ? ` \u2014 ${title}` : ''}`
-      : dc;
-
-  return (
-    <motion.div
-      variants={calloutVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-      transition={calloutTransition}
-      className="relative rounded-xl p-5 my-5"
-      style={{ background: 'rgba(62, 74, 94, 0.2)', border: '1px solid rgba(107, 127, 160, 0.3)' }}
-    >
-      <div className="flex items-center gap-2 mb-3">
-        <Dices size={16} color="#6B7FA0" />
-        <span className="text-[0.7rem] tracking-[0.12em] uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#6B7FA0' }}>
-          Skill Check
-        </span>
-      </div>
-      <p className="font-body text-[1rem] font-semibold mb-3" style={{ color: '#F5F0E6' }}>
-        {displayDc}
-      </p>
-      <div className="space-y-2">
-        {pass && (
-          <div className="flex items-start gap-2">
-            <CheckCircle2 size={15} color="#8FA678" className="mt-0.5 shrink-0" />
-            <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-              <span className="font-semibold" style={{ color: '#8FA678' }}>Pass:</span> {pass}
-            </p>
-          </div>
-        )}
-        {fail && (
-          <div className="flex items-start gap-2">
-            <XCircle size={15} color="#8B3A3A" className="mt-0.5 shrink-0" />
-            <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-              <span className="font-semibold" style={{ color: '#8B3A3A' }}>Fail:</span> {fail}
-            </p>
-          </div>
-        )}
-        {advantage && (
-          <div className="flex items-start gap-2">
-            <Sparkles size={15} color="#C9A84C" className="mt-0.5 shrink-0" />
-            <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-              <span className="font-semibold" style={{ color: '#C9A84C' }}>Advantage:</span> {advantage}
-            </p>
-          </div>
-        )}
-      </div>
-    </motion.div>
-  );
-}
-
-function TrapWarning({
-  name,
-  trigger,
-  effect,
-  countermeasure,
-}: {
-  name: string;
-  trigger: string;
-  effect: string;
-  countermeasure: string;
-}) {
-  return (
-    <motion.div
-      variants={calloutVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-      transition={calloutTransition}
-      className="relative rounded-xl p-5 my-5"
-      style={{ background: 'rgba(139, 58, 58, 0.12)', border: '1px solid rgba(139, 58, 58, 0.35)' }}
-    >
-      <div className="flex items-center gap-2 mb-3">
-        <ShieldAlert size={16} color="#C47171" />
-        <span className="text-[0.7rem] tracking-[0.12em] uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#C47171' }}>
-          Trap
-        </span>
-      </div>
-      <p className="font-display text-[1.1rem] font-semibold mb-3" style={{ color: '#F5F0E6', fontFamily: "'Cormorant Garamond', serif" }}>
-        {name}
-      </p>
-      <div className="space-y-2.5">
-        <div className="flex items-start gap-2">
-          <AlertTriangle size={14} color="#C47171" className="mt-1 shrink-0" />
-          <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-            <span className="font-semibold" style={{ color: '#C47171' }}>Trigger:</span> {trigger}
-          </p>
-        </div>
-        <div className="flex items-start gap-2">
-          <AlertTriangle size={14} color="#C47171" className="mt-1 shrink-0" />
-          <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-            <span className="font-semibold" style={{ color: '#C47171' }}>Effect:</span> {effect}
-          </p>
-        </div>
-        <div className="flex items-start gap-2">
-          <ShieldAlert size={14} color="#8FA678" className="mt-1 shrink-0" />
-          <p className="font-body text-[0.9rem] leading-relaxed" style={{ color: 'rgba(245, 240, 230, 0.8)' }}>
-            <span className="font-semibold" style={{ color: '#8FA678' }}>Countermeasure:</span> {countermeasure}
-          </p>
-        </div>
-      </div>
-    </motion.div>
-  );
-}
 
 /* ------------------------------------------------------------------ */
 /*  SCENE DATA                                                         */
@@ -256,46 +64,98 @@ const revealScale = {
 };
 
 /* ------------------------------------------------------------------ */
+/*  SCENE PROGRESS  — shared, persisted "ran this scene" tracking       */
+/* ------------------------------------------------------------------ */
+
+interface SceneProgress {
+  completed: Record<string, boolean>;
+  toggle: (id: string) => void;
+  reset: () => void;
+}
+
+const SceneProgressContext = createContext<SceneProgress>({
+  completed: {},
+  toggle: () => {},
+  reset: () => {},
+});
+
+function useSceneProgress() {
+  return useContext(SceneProgressContext);
+}
+
+/* ------------------------------------------------------------------ */
 /*  SCENE NAVIGATOR                                                    */
 /* ------------------------------------------------------------------ */
 
 function SceneNavigator() {
+  const { completed, reset } = useSceneProgress();
+  const doneCount = scenes.filter((s) => completed[s.id]).length;
+
   return (
     <nav className="sticky top-0 z-50 glass-nav border-b" style={{ borderColor: 'rgba(184,115,51,0.15)' }}>
       <div className="max-w-6xl mx-auto px-4 py-3">
-        <div className="flex items-center justify-between">
-          <span
-            className="text-[0.7rem] tracking-[0.12em] uppercase hidden sm:block"
-            style={{ fontFamily: "'Cinzel Decorative', serif", color: '#D4956A' }}
-          >
-            Scene Navigator
-          </span>
-          <div className="flex items-center gap-2 flex-wrap justify-center w-full sm:w-auto">
-            {scenes.map((s) => (
-              <a
-                key={s.id}
-                href={`#${s.id}`}
-                className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all duration-300"
-                style={{ background: 'rgba(184,115,51,0.08)', border: '1px solid rgba(184,115,51,0.15)' }}
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById(s.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }}
+        <div className="flex items-center justify-between gap-3">
+          <div className="hidden sm:flex items-center gap-2 shrink-0">
+            <span
+              className="text-[0.7rem] tracking-[0.12em] uppercase"
+              style={{ fontFamily: "'Cinzel Decorative', serif", color: '#D4956A' }}
+            >
+              Scene Navigator
+            </span>
+            <span className="text-stat text-[0.7rem]" style={{ color: 'rgba(143,166,120,0.9)' }}>
+              {doneCount}/{scenes.length}
+            </span>
+            {doneCount > 0 && (
+              <button
+                type="button"
+                onClick={reset}
+                aria-label="Reset scene progress"
+                title="Reset scene progress"
+                className="p-1 rounded-md transition-colors"
+                style={{ color: 'rgba(245,240,230,0.4)' }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = '#D4956A')}
+                onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,240,230,0.4)')}
               >
-                <span
-                  className="w-5 h-5 rounded-full flex items-center justify-center text-[0.65rem] font-bold transition-colors duration-300"
-                  style={{ background: s.accent, color: '#1A1410' }}
+                <RotateCcw size={12} />
+              </button>
+            )}
+          </div>
+          <div className="flex items-center gap-2 flex-wrap justify-center w-full sm:w-auto">
+            {scenes.map((s) => {
+              const done = !!completed[s.id];
+              return (
+                <a
+                  key={s.id}
+                  href={`#${s.id}`}
+                  className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all duration-300"
+                  style={{
+                    background: done ? 'rgba(74,93,63,0.18)' : 'rgba(184,115,51,0.08)',
+                    border: `1px solid ${done ? 'rgba(143,166,120,0.4)' : 'rgba(184,115,51,0.15)'}`,
+                  }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById(s.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }}
                 >
-                  {s.number}
-                </span>
-                <span
-                  className="text-[0.75rem] hidden md:block transition-colors duration-300 group-hover:text-white"
-                  style={{ color: 'rgba(245,240,230,0.65)' }}
-                >
-                  {s.title}
-                </span>
-              </a>
-            ))}
+                  {done ? (
+                    <CheckCircle2 size={20} color="#8FA678" className="shrink-0" />
+                  ) : (
+                    <span
+                      className="w-5 h-5 rounded-full flex items-center justify-center text-[0.65rem] font-bold transition-colors duration-300"
+                      style={{ background: s.accent, color: '#1A1410' }}
+                    >
+                      {s.number}
+                    </span>
+                  )}
+                  <span
+                    className="text-[0.75rem] hidden md:block transition-colors duration-300 group-hover:text-white"
+                    style={{ color: 'rgba(245,240,230,0.65)' }}
+                  >
+                    {s.title}
+                  </span>
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -344,6 +204,8 @@ function NextSceneButton({ targetId, label }: { targetId: string; label: string 
 
 function SceneHeader({ scene }: { scene: SceneData }) {
   const Icon = scene.icon;
+  const { completed, toggle } = useSceneProgress();
+  const done = !!completed[scene.id];
   return (
     <div
       className="sticky top-[60px] z-40 py-4 px-4 sm:px-6 border-b border-t backdrop-blur-md"
@@ -373,6 +235,20 @@ function SceneHeader({ scene }: { scene: SceneData }) {
             {scene.title}
           </h2>
         </div>
+        <button
+          type="button"
+          onClick={() => toggle(scene.id)}
+          aria-pressed={done}
+          className="ml-auto flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[0.7rem] font-semibold transition-colors shrink-0"
+          style={{
+            background: done ? 'rgba(74,93,63,0.2)' : 'rgba(184,115,51,0.1)',
+            color: done ? '#8FA678' : 'rgba(245,240,230,0.6)',
+            border: `1px solid ${done ? 'rgba(143,166,120,0.4)' : 'rgba(184,115,51,0.2)'}`,
+          }}
+        >
+          {done ? <CheckCircle2 size={14} /> : <Circle size={14} />}
+          <span className="hidden sm:inline">{done ? 'Scene complete' : 'Mark complete'}</span>
+        </button>
       </div>
     </div>
   );
@@ -392,7 +268,7 @@ function MapDisplay({ src, caption }: { src: string; caption: string }) {
       className="my-6 rounded-xl overflow-hidden"
       style={{ border: '1px solid rgba(184,115,51,0.2)' }}
     >
-      <img src={src} alt={caption} loading="lazy" decoding="async" className="w-full h-auto object-cover" />
+      <OptImage src={src} alt={caption} className="w-full h-auto object-cover" />
       <div className="px-4 py-2.5 text-center" style={{ background: 'rgba(45,32,22,0.5)' }}>
         <span className="text-[0.75rem] tracking-wider uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#D4956A' }}>
           {caption}
@@ -416,7 +292,7 @@ function CreatureCard({ src, name, subtitle }: { src: string; name: string; subt
       className="flex items-center gap-4 p-4 rounded-xl my-5"
       style={{ background: 'rgba(45,32,22,0.5)', border: '1px solid rgba(184,115,51,0.2)' }}
     >
-      <img src={src} alt={name} loading="lazy" decoding="async" className="w-20 h-20 rounded-lg object-cover shrink-0" style={{ border: '1px solid rgba(184,115,51,0.3)' }} />
+      <OptImage src={src} alt={name} className="w-20 h-20 rounded-lg object-cover shrink-0" style={{ border: '1px solid rgba(184,115,51,0.3)' }} />
       <div>
         <p className="text-[1.05rem] font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>
           {name}
@@ -439,7 +315,7 @@ function HeroSection() {
   return (
     <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src="/cover_art.jpeg" alt="Adventure Cover" className="w-full h-full object-cover opacity-30" />
+        <OptImage src="/cover_art.jpeg" alt="Adventure Cover" loading="eager" className="w-full h-full object-cover opacity-30" />
         <div
           className="absolute inset-0"
           style={{ background: 'linear-gradient(180deg, rgba(26,20,16,0.3) 0%, rgba(26,20,16,0.8) 60%, #1A1410 100%)' }}
@@ -560,10 +436,18 @@ function BulletList({ items }: { items: React.ReactNode[] }) {
 /* ================================================================== */
 
 export default function AdventureFlow() {
+  const [completed, setCompleted] = useLocalStorage<Record<string, boolean>>('adventure-progress', {});
+  const progress: SceneProgress = {
+    completed,
+    toggle: (id) => setCompleted((prev) => ({ ...prev, [id]: !prev[id] })),
+    reset: () => setCompleted({}),
+  };
+
   return (
-    <div className="min-h-screen" style={{ background: '#1A1410', color: '#F5F0E6' }}>
-      <SceneNavigator />
-      <HeroSection />
+    <SceneProgressContext.Provider value={progress}>
+      <div className="min-h-screen" style={{ background: '#1A1410', color: '#F5F0E6' }}>
+        <SceneNavigator />
+        <HeroSection />
 
       {/* ======================== SCENE 1 ======================== */}
       <section id="scene-1" className="relative" style={{ background: scenes[0].bgTint }}>
@@ -678,9 +562,9 @@ export default function AdventureFlow() {
           <SkillCheck
             dc={12}
             skill="Charisma (Persuasion)"
-            title="Convince Lomi to share what's in the letter"
-            pass="He refuses, says it's dishonorable"
-            fail="He refuses, says it's dishonorable"
+            title="Ask Lomi what's in the letter"
+            pass="He still won't break the courier's oath, but he relaxes — confirms it's addressed to Mrs. Linfrey, that it felt personal, and that Ashi handed it to him sealed."
+            fail="He clams up, wounded that you'd ask him to dishonor the Brigade, and grows more guarded for the rest of the negotiation."
           />
           <SkillCheck
             dc={14}
@@ -947,6 +831,10 @@ export default function AdventureFlow() {
             <p className="text-[0.85rem] mt-3" style={{ color: 'rgba(245,240,230,0.6)' }}>
               <em>Alternative: If you skip the stair ambush, the bora bugs can attack after an avalanche in the hallway.</em>
             </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 mt-2">
+              <HpTracker storageKey="bora-bug-1" name="Bora Bug 1" maxHp={22} accent="#C47171" />
+              <HpTracker storageKey="bora-bug-2" name="Bora Bug 2" maxHp={22} accent="#C47171" />
+            </div>
           </div>
 
           <SectionTitle color="#D4956A">Emerson, the Witch&apos;s Cat</SectionTitle>
@@ -1074,6 +962,11 @@ export default function AdventureFlow() {
             first. They can magically close shutters and douse candles, plunging the workshop into darkness.
           </BodyText>
 
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+            <HpTracker storageKey="pixie-tina" name="Tina" maxHp={22} accent="#A084B0" />
+            <HpTracker storageKey="pixie-meena" name="Meena" maxHp={22} accent="#A084B0" />
+          </div>
+
           <div className="p-5 rounded-xl my-5" style={{ background: 'rgba(107,76,122,0.08)', border: '1px solid rgba(107,76,122,0.2)' }}>
             <h4 className="text-[0.8rem] tracking-[0.12em] uppercase mb-3" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#A084B0' }}>
               Pixie Spell List
@@ -1194,6 +1087,7 @@ export default function AdventureFlow() {
                 </>,
               ]}
             />
+            <HpTracker storageKey="venus-fly-rat" name="Venus Fly Rat" maxHp={34} accent="#C47171" />
           </div>
 
           <SectionTitle color="#C9A84C">The Bubbling Cauldron</SectionTitle>
@@ -1450,6 +1344,7 @@ export default function AdventureFlow() {
           </motion.div>
         </Content>
       </section>
-    </div>
+      </div>
+    </SceneProgressContext.Provider>
   );
 }

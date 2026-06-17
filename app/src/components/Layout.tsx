@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import DustParticles from './DustParticles';
+import SearchPalette from './SearchPalette';
 
 interface LayoutProps {
   children: ReactNode;
@@ -18,6 +19,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="relative min-h-[100dvh] flex flex-col" style={{ backgroundColor: '#1A1410' }}>
       <DustParticles />
+      <SearchPalette />
       <div className="relative" style={{ zIndex: 10, flex: 1, display: 'flex', flexDirection: 'column' }}>
         <Navbar />
         <main className="flex-1">
