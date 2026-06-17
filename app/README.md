@@ -1,73 +1,74 @@
-# React + TypeScript + Vite
+# The Curious World Within — Obojima DM Reference
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital companion for **"The Curious World Within,"** a shrunken-heroes
+adventure for *Obojima: Tales From The Tall Grass*. The party is shrunk to Tiny
+size inside Miss Lindley's witch workshop and must recover a misdelivered letter
+and a potion to restore their size.
 
-Currently, two official plugins are available:
+This is a single-page React app that gives the Dungeon Master everything needed
+to run the session: a scene-by-scene flow, NPCs, interactive battlemaps,
+encounters, a bestiary, potions, and Obojima player options.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
 
-## React Compiler
+- **React 19** + **TypeScript** + **Vite**
+- **React Router** (browser routing)
+- **Tailwind CSS** + **shadcn/ui** components
+- **Framer Motion** + **GSAP** for animation (motion respects
+  `prefers-reduced-motion`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting started
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev      # start the dev server on http://localhost:3000
+npm run build    # type-check and build to dist/
+npm run preview  # preview the production build
+npm run lint     # run ESLint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+  components/        Navbar, Footer, Layout, shared UI (shadcn)
+  pages/             One component per route
+  hooks/             Custom hooks
+  index.css          Global styles + theme tokens
+  main.tsx           Entry point (BrowserRouter)
+  App.tsx            Routes + page transitions
+public/              Images served at the site root (maps, art, favicon)
+```
+
+### Routes
+
+| Path | Page | Notes |
+| --- | --- | --- |
+| `/` | Home | Hero + navigation portals |
+| `/adventure` | Adventure Flow | Scene-by-scene DM guide |
+| `/overview` | Overview | Premise and narrative arc |
+| `/okiri` | Okiri Village | Local lore, NPCs, hooks |
+| `/npcs` | NPCs | The six key characters |
+| `/workshop` | The Workshop | Exterior and entry points |
+| `/locations` | Locations | Interactive battlemaps |
+| `/encounters` | Encounters | Combat, social, and hazards |
+| `/bestiary` | Bestiary | Creature stat blocks |
+| `/potions` | Potions | Brews on the table |
+| `/conclusion` | Conclusion | Endings and hooks |
+| `/subclasses` | Subclasses | Player option |
+| `/feats` | Feats & Conditions | Player option |
+| `/gear` | Backgrounds & Gear | Player option |
+
+## Deployment
+
+Deployed on **Vercel**. Build configuration lives in `../vercel.json` at the
+repository root:
+
+- Build command: `cd app && npm install && npm run build`
+- Output directory: `app/dist`
+- A catch-all rewrite to `/index.html` supports client-side routing.
+
+## Credits
+
+*Obojima: Tales From The Tall Grass* is the work of its respective publisher.
+This is a fan-made DM reference tool for running the adventure at the table.
