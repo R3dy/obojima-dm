@@ -1,6 +1,6 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sword, FlaskConical, Map, BookOpen, PawPrint, Home, Users, TreePine, Route } from 'lucide-react';
+import { Menu, X, Sword, FlaskConical, Map, BookOpen, PawPrint, Home, Users, TreePine, Route, ChevronDown, Sparkles, Shield, Backpack } from 'lucide-react';
 
 const navLinks = [
   { path: '/', label: 'Home', icon: Home },
@@ -15,10 +15,20 @@ const navLinks = [
   { path: '/conclusion', label: 'Conclusion', icon: BookOpen },
 ];
 
+const playerOptionLinks = [
+  { path: '/subclasses', label: 'Subclasses', icon: Sparkles },
+  { path: '/feats', label: 'Feats & Conditions', icon: Shield },
+  { path: '/gear', label: 'Backgrounds & Gear', icon: Backpack },
+];
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [optionsOpen, setOptionsOpen] = useState(false);
+  const optionsRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
+
+  const optionsActive = playerOptionLinks.some((l) => l.path === location.pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +41,7 @@ export default function Navbar() {
 
   useEffect(() => {
     setMobileOpen(false);
+    setOptionsOpen(false);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -41,6 +52,25 @@ export default function Navbar() {
     }
     return () => { document.body.style.overflow = ''; };
   }, [mobileOpen]);
+
+  // Close the desktop dropdown on outside click / Escape
+  useEffect(() => {
+    if (!optionsOpen) return;
+    const onPointer = (e: MouseEvent) => {
+      if (optionsRef.current && !optionsRef.current.contains(e.target as Node)) {
+        setOptionsOpen(false);
+      }
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOptionsOpen(false);
+    };
+    document.addEventListener('mousedown', onPointer);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onPointer);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [optionsOpen]);
 
   const handleNavClick = useCallback(() => {
     setMobileOpen(false);
@@ -71,7 +101,7 @@ export default function Navbar() {
         <div className="max-w-container w-full mx-auto px-4 sm:px-6 flex items-center justify-between">
           <Link
             to="/"
-            className="font-label text-[0.9rem] tracking-[0.1em] text-parchment hover:text-copper-light transition-colors duration-200"
+            className="font-label text-[0.9rem] tracking-[0.1em] text-parchment hover:text-copper-light transition-colors duration-200 shrink-0"
             onClick={handleNavClick}
           >
             The Curious World Within
@@ -86,7 +116,7 @@ export default function Navbar() {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-body transition-all duration-200"
+                  className="relative flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm font-body transition-all duration-200"
                   style={{
                     color: isActive ? '#D4956A' : 'rgba(245,240,230,0.7)',
                   }}
@@ -111,6 +141,58 @@ export default function Navbar() {
                 </Link>
               );
             })}
+
+            {/* Player Options dropdown */}
+            <div className="relative" ref={optionsRef}>
+              <button
+                className="relative flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm font-body transition-all duration-200"
+                style={{ color: optionsActive || optionsOpen ? '#D4956A' : 'rgba(245,240,230,0.7)' }}
+                onClick={() => setOptionsOpen((v) => !v)}
+                aria-expanded={optionsOpen}
+                aria-haspopup="true"
+              >
+                <Sparkles size={15} />
+                <span className="text-xs tracking-wide">Player Options</span>
+                <ChevronDown size={13} className="transition-transform duration-200" style={{ transform: optionsOpen ? 'rotate(180deg)' : 'none' }} />
+                {optionsActive && (
+                  <span
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full"
+                    style={{ backgroundColor: '#B87333', boxShadow: '0 0 6px rgba(201,168,76,0.4)' }}
+                  />
+                )}
+              </button>
+              {optionsOpen && (
+                <div
+                  className="absolute right-0 mt-2 w-56 rounded-lg overflow-hidden"
+                  style={{
+                    background: 'rgba(26,20,16,0.95)',
+                    backdropFilter: 'blur(12px)',
+                    WebkitBackdropFilter: 'blur(12px)',
+                    border: '1px solid rgba(184,115,51,0.25)',
+                    boxShadow: '0 8px 30px rgba(0,0,0,0.4)',
+                  }}
+                >
+                  {playerOptionLinks.map((link) => {
+                    const Icon = link.icon;
+                    const isActive = location.pathname === link.path;
+                    return (
+                      <Link
+                        key={link.path}
+                        to={link.path}
+                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm font-body transition-colors duration-200"
+                        style={{ color: isActive ? '#D4956A' : 'rgba(245,240,230,0.8)' }}
+                        onClick={handleNavClick}
+                        onMouseEnter={(e) => { if (!isActive) e.currentTarget.style.color = '#F5F0E6'; }}
+                        onMouseLeave={(e) => { if (!isActive) e.currentTarget.style.color = 'rgba(245,240,230,0.8)'; }}
+                      >
+                        <Icon size={16} />
+                        {link.label}
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile hamburger */}
@@ -118,6 +200,8 @@ export default function Navbar() {
             className="lg:hidden p-2 text-parchment hover:text-copper-light transition-colors"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-menu"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -127,7 +211,8 @@ export default function Navbar() {
       {/* Mobile menu overlay */}
       {mobileOpen && (
         <div
-          className="fixed inset-0 glass-modal flex flex-col items-center justify-center gap-4"
+          id="mobile-menu"
+          className="fixed inset-0 glass-modal flex flex-col items-center justify-center gap-4 overflow-y-auto py-20"
           style={{ zIndex: 55 }}
         >
           <button
@@ -138,6 +223,28 @@ export default function Navbar() {
             <X size={28} />
           </button>
           {navLinks.map((link) => {
+            const Icon = link.icon;
+            const isActive = location.pathname === link.path;
+            return (
+              <Link
+                key={link.path}
+                to={link.path}
+                className="flex items-center gap-3 text-lg font-body transition-colors duration-200"
+                style={{
+                  color: isActive ? '#D4956A' : '#F5F0E6',
+                }}
+                onClick={handleNavClick}
+              >
+                <Icon size={20} />
+                {link.label}
+              </Link>
+            );
+          })}
+
+          <div className="w-24 h-px my-1" style={{ background: 'rgba(184,115,51,0.3)' }} />
+          <span className="text-label text-copper text-[0.65rem] tracking-[0.2em] uppercase">Player Options</span>
+
+          {playerOptionLinks.map((link) => {
             const Icon = link.icon;
             const isActive = location.pathname === link.path;
             return (

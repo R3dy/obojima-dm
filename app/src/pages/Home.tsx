@@ -17,6 +17,8 @@ import {
   ChevronDown,
   TreePine,
   Route,
+  Sparkles,
+  Backpack,
 } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -66,7 +68,7 @@ const portals = [
     label: 'Locations',
     icon: Map,
     accent: '#6B7FA0',
-    description: 'Six areas with interactive battlemaps',
+    description: 'Three areas with interactive battlemaps',
   },
   {
     route: '/encounters',
@@ -98,6 +100,30 @@ const portals = [
   },
 ];
 
+const playerOptionPortals = [
+  {
+    route: '/subclasses',
+    label: 'Subclasses',
+    icon: Sparkles,
+    accent: '#C9A84C',
+    description: 'New subclasses woven into Obojima\'s culture',
+  },
+  {
+    route: '/feats',
+    label: 'Feats & Conditions',
+    icon: Shield,
+    accent: '#8B3A3A',
+    description: 'Island feats, skill uses, and local conditions',
+  },
+  {
+    route: '/gear',
+    label: 'Backgrounds & Gear',
+    icon: Backpack,
+    accent: '#4A5D3F',
+    description: 'Backgrounds, starting wealth, and unique gear',
+  },
+];
+
 const infoItems = [
   { icon: Users, label: '2\u20134 Players' },
   { icon: Shield, label: '2nd Level' },
@@ -124,26 +150,37 @@ export default function Home() {
   const portalsGridRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
 
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [chevronVisible, setChevronVisible] = useState(true);
 
-  /* ---- mouse parallax for hero background ---- */
-  const handleMouseMove = useCallback((e: MouseEvent) => {
-    const x = (e.clientX / window.innerWidth - 0.5) * 15;
-    const y = (e.clientY / window.innerHeight - 0.5) * 15;
-    setMousePos({ x, y });
-  }, []);
-
+  /* ---- mouse parallax for hero background (rAF-throttled, no re-render) ---- */
   useEffect(() => {
+    // Respect reduced-motion and skip parallax entirely on touch / coarse pointers.
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isCoarse = window.matchMedia('(pointer: coarse)').matches;
+    if (prefersReduced || isCoarse) return;
+
+    let frame = 0;
+    let targetX = 0;
+    let targetY = 0;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      targetX = (e.clientX / window.innerWidth - 0.5) * 15;
+      targetY = (e.clientY / window.innerHeight - 0.5) * 15;
+      if (frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        if (heroBgRef.current) {
+          heroBgRef.current.style.transform = `translate(${targetX}px, ${targetY}px) scale(1.05)`;
+        }
+      });
+    };
+
     window.addEventListener('mousemove', handleMouseMove, { passive: true });
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [handleMouseMove]);
-
-  /* ---- smooth parallax on hero bg ---- */
-  useEffect(() => {
-    if (!heroBgRef.current) return;
-    heroBgRef.current.style.transform = `translate(${mousePos.x}px, ${mousePos.y}px) scale(1.05)`;
-  }, [mousePos]);
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, []);
 
   /* ---- chevron scroll visibility ---- */
   useEffect(() => {
@@ -156,6 +193,25 @@ export default function Home() {
 
   /* ---- GSAP animations ---- */
   useGSAP(() => {
+    /* Reduced motion: reveal everything immediately, skip the timelines. */
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const revealTargets = gsap.utils.toArray<Element>([
+        heroBgRef.current,
+        subtitleRef.current,
+        ctaRef.current?.querySelectorAll('.cta-btn'),
+        titleRef.current?.querySelectorAll('.char'),
+        infoBarRef.current?.querySelectorAll('.info-item'),
+        summaryRef.current,
+        summaryRef.current?.querySelectorAll('.reveal-child'),
+        portalsHeaderRef.current,
+        portalsGridRef.current?.querySelectorAll('.portal-card'),
+        footerRef.current,
+      ]);
+      gsap.set(revealTargets, { opacity: 1, y: 0, scale: 1 });
+      if (dividerRef.current) gsap.set(dividerRef.current, { scaleX: 1 });
+      return;
+    }
+
     const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
     /* Hero entrance sequence */
@@ -526,6 +582,58 @@ export default function Home() {
                   key={idx}
                   to={portal.route}
                   className="portal-card group block rounded-xl p-6 text-center opacity-0 transition-all duration-300"
+                  style={{
+                    background: 'linear-gradient(135deg, #2D2016 0%, #1E1610 100%)',
+                    border: '1px solid rgba(184,115,51,0.15)',
+                    borderBottom: `3px solid ${portal.accent}4D`,
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = `${portal.accent}66`;
+                    e.currentTarget.style.transform = 'translateY(-6px)';
+                    e.currentTarget.style.boxShadow = `0 8px 30px ${portal.accent}14`;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(184,115,51,0.15)';
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                  }}
+                >
+                  <div
+                    className="inline-flex items-center justify-center w-10 h-10 mb-3 transition-all duration-300 group-hover:scale-[1.15]"
+                    style={{ color: portal.accent }}
+                  >
+                    <Icon size={40} strokeWidth={1.5} />
+                  </div>
+                  <h3 className="text-heading-lg text-parchment mt-2">
+                    {portal.label}
+                  </h3>
+                  <p
+                    className="font-body text-sm mt-2 line-clamp-2"
+                    style={{ color: 'rgba(245,240,230,0.6)' }}
+                  >
+                    {portal.description}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* Player Options sub-section */}
+          <div className="text-center mt-20 mb-10">
+            <p className="text-label text-copper">FOR YOUR PLAYERS</p>
+            <h2 className="text-display-md text-parchment mt-2">Player Options</h2>
+            <p className="font-body text-sm mt-3 max-w-[560px] mx-auto" style={{ color: 'rgba(245,240,230,0.6)' }}>
+              Obojima-specific character options to share with the table.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {playerOptionPortals.map((portal, idx) => {
+              const Icon = portal.icon;
+              return (
+                <Link
+                  key={idx}
+                  to={portal.route}
+                  className="group block rounded-xl p-6 text-center transition-all duration-300"
                   style={{
                     background: 'linear-gradient(135deg, #2D2016 0%, #1E1610 100%)',
                     border: '1px solid rgba(184,115,51,0.15)',

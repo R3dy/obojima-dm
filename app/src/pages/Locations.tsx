@@ -21,7 +21,7 @@ const locations: LocationMap[] = [
     name: 'The Cellar',
     description:
       'A shadowy cellar that serves as Miss Lindley\'s catch-all room, storing old projects, spare supplies, and potion ingredients she rarely uses. The first point of entry for most adventurers.',
-    image: '/map_cellar_faithful.png',
+    image: '/map_cellar_faithful.jpeg',
     gridScale: '1 square = 5 feet',
     details: [
       'Paw prints and claw marks from what appears to be a cat — which at Tiny size seem massive',
@@ -36,7 +36,7 @@ const locations: LocationMap[] = [
     name: 'Main Floor',
     description:
       'The workshop\'s main floor where Miss Lindley conducts her magical experiments. Bookshelves become cliff faces and every surface holds new dangers at Tiny size.',
-    image: '/hero_workshop_interior.png',
+    image: '/map_main_floor_faithful.jpeg',
     gridScale: '1 square = 5 feet',
     details: [
       'Towering bookshelves filled with centuries of arcane tomes',
@@ -291,6 +291,7 @@ export default function Locations() {
               <img
                 src={activeMap.image}
                 alt={`${activeMap.name} battlemap — full size`}
+                decoding="async"
                 className="max-w-full max-h-full object-contain rounded-lg"
                 style={{
                   boxShadow: '0 8px 40px rgba(0,0,0,0.5)',

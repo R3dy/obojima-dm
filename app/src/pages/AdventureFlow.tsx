@@ -392,7 +392,7 @@ function MapDisplay({ src, caption }: { src: string; caption: string }) {
       className="my-6 rounded-xl overflow-hidden"
       style={{ border: '1px solid rgba(184,115,51,0.2)' }}
     >
-      <img src={src} alt={caption} className="w-full h-auto object-cover" />
+      <img src={src} alt={caption} loading="lazy" decoding="async" className="w-full h-auto object-cover" />
       <div className="px-4 py-2.5 text-center" style={{ background: 'rgba(45,32,22,0.5)' }}>
         <span className="text-[0.75rem] tracking-wider uppercase" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#D4956A' }}>
           {caption}
@@ -416,7 +416,7 @@ function CreatureCard({ src, name, subtitle }: { src: string; name: string; subt
       className="flex items-center gap-4 p-4 rounded-xl my-5"
       style={{ background: 'rgba(45,32,22,0.5)', border: '1px solid rgba(184,115,51,0.2)' }}
     >
-      <img src={src} alt={name} className="w-20 h-20 rounded-lg object-cover shrink-0" style={{ border: '1px solid rgba(184,115,51,0.3)' }} />
+      <img src={src} alt={name} loading="lazy" decoding="async" className="w-20 h-20 rounded-lg object-cover shrink-0" style={{ border: '1px solid rgba(184,115,51,0.3)' }} />
       <div>
         <p className="text-[1.05rem] font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>
           {name}
@@ -710,7 +710,7 @@ export default function AdventureFlow() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            src="/hero_workshop_interior.png"
+            src="/hero_workshop_interior.jpeg"
             alt="The Witch's Workshop Interior"
             className="w-full rounded-xl my-6 object-cover max-h-[300px]"
             style={{ border: '1px solid rgba(107,76,122,0.3)' }}
@@ -837,7 +837,7 @@ export default function AdventureFlow() {
             hold all manner of dust-covered bottles and curios — some of which are covered in sackcloth.
           </ReadAloud>
 
-          <MapDisplay src="/map_cellar_faithful.png" caption="Cellar Battlemap (3x3 Grid)" />
+          <MapDisplay src="/map_cellar_faithful.jpeg" caption="Cellar Battlemap (3x3 Grid)" />
 
           <ReadAloud title="The Shrink">
             As the last of you steps off the staircase, the ground illuminates in sporadic arcane glyphs that cover the
@@ -1005,7 +1005,7 @@ export default function AdventureFlow() {
       <section id="scene-5" className="relative" style={{ background: scenes[4].bgTint }}>
         <SceneHeader scene={scenes[4]} />
         <Content>
-          <MapDisplay src="/hero_workshop_interior.png" caption="Main Floor Battlemap (4x3 Grid)" />
+          <MapDisplay src="/map_main_floor_faithful.jpeg" caption="Main Floor Battlemap (4x3 Grid)" />
 
           <SectionTitle color="#C47171">The Hallway</SectionTitle>
           <ReadAloud>

@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence, motion } from 'framer-motion';
+import { Routes, Route, useLocation, Link } from 'react-router-dom';
+import { AnimatePresence, motion, MotionConfig } from 'framer-motion';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 
@@ -14,6 +14,9 @@ const Bestiary = lazy(() => import('./pages/Bestiary'));
 const Potions = lazy(() => import('./pages/Potions'));
 const Conclusion = lazy(() => import('./pages/Conclusion'));
 const OkiriVillage = lazy(() => import('./pages/OkiriVillage'));
+const Subclasses = lazy(() => import('./pages/Subclasses'));
+const FeatsConditions = lazy(() => import('./pages/FeatsConditions'));
+const BackgroundsGear = lazy(() => import('./pages/BackgroundsGear'));
 
 const pageVariants = {
   initial: { opacity: 0, y: 10 },
@@ -154,8 +157,67 @@ function AppRoutes() {
             </AnimatedPage>
           }
         />
+        <Route
+          path="/subclasses"
+          element={
+            <AnimatedPage>
+              <Suspense fallback={<PageLoader />}>
+                <Subclasses />
+              </Suspense>
+            </AnimatedPage>
+          }
+        />
+        <Route
+          path="/feats"
+          element={
+            <AnimatedPage>
+              <Suspense fallback={<PageLoader />}>
+                <FeatsConditions />
+              </Suspense>
+            </AnimatedPage>
+          }
+        />
+        <Route
+          path="/gear"
+          element={
+            <AnimatedPage>
+              <Suspense fallback={<PageLoader />}>
+                <BackgroundsGear />
+              </Suspense>
+            </AnimatedPage>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <AnimatedPage>
+              <NotFound />
+            </AnimatedPage>
+          }
+        />
       </Routes>
     </AnimatePresence>
+  );
+}
+
+function NotFound() {
+  return (
+    <div className="min-h-[100dvh] flex items-center justify-center pt-16 px-4">
+      <div className="text-center">
+        <p className="text-label text-copper">Lost in the tall grass</p>
+        <h1 className="text-display-md text-parchment mt-2 mb-4">Page Not Found</h1>
+        <p className="text-parchment/60 font-body mb-8">
+          This path doesn&apos;t lead anywhere in the workshop.
+        </p>
+        <Link
+          to="/"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-body font-semibold text-sm transition-colors duration-200"
+          style={{ backgroundColor: '#B87333', color: '#1A1410' }}
+        >
+          Return Home
+        </Link>
+      </div>
+    </div>
   );
 }
 
@@ -169,8 +231,10 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <Layout>
-      <AppRoutes />
-    </Layout>
+    <MotionConfig reducedMotion="user">
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </MotionConfig>
   );
 }
