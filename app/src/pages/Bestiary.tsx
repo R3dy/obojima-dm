@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { PawPrint, Shield, Heart, Wind, Sparkles, Swords, AlertTriangle } from 'lucide-react';
+import OptImage from '@/components/OptImage';
+import HpTracker from '@/components/HpTracker';
 
 /* ------------------------------------------------------------------ */
 /*  CREATURE DATA — stat blocks scaled for a Tiny-size party           */
@@ -192,11 +194,9 @@ function StatBlock({ creature, index }: { creature: Creature; index: number }) {
     >
       {/* Header with art */}
       <div className="flex flex-col sm:flex-row gap-5 p-6 pb-4">
-        <img
+        <OptImage
           src={creature.image}
           alt={creature.name}
-          loading="lazy"
-          decoding="async"
           className="w-full sm:w-40 h-48 sm:h-40 rounded-xl object-cover shrink-0"
           style={{ border: `1px solid ${creature.accent}66` }}
         />
@@ -280,6 +280,14 @@ function StatBlock({ creature, index }: { creature: Creature; index: number }) {
             <span className="text-copper-light font-semibold">Running it: </span>{creature.dmTip}
           </p>
         </div>
+
+        {/* Live HP tracker for at-the-table combat */}
+        <HpTracker
+          storageKey={`bestiary-${creature.id}`}
+          name={creature.name}
+          maxHp={parseInt(creature.hp, 10) || 0}
+          accent={creature.accent}
+        />
       </div>
     </motion.article>
   );

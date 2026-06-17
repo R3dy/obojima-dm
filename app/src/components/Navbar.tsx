@@ -1,6 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sword, FlaskConical, Map, BookOpen, PawPrint, Home, Users, TreePine, Route, ChevronDown, Sparkles, Shield, Backpack } from 'lucide-react';
+import { Menu, X, Sword, FlaskConical, Map, BookOpen, PawPrint, Home, Users, TreePine, Route, ChevronDown, Sparkles, Shield, Backpack, Search } from 'lucide-react';
+import { OPEN_SEARCH_EVENT } from './SearchPalette';
+
+const openSearch = () => window.dispatchEvent(new Event(OPEN_SEARCH_EVENT));
 
 const navLinks = [
   { path: '/', label: 'Home', icon: Home },
@@ -193,18 +196,40 @@ export default function Navbar() {
                 </div>
               )}
             </div>
+
+            {/* Search trigger */}
+            <button
+              onClick={openSearch}
+              aria-label="Search (Ctrl or Cmd + K)"
+              className="ml-1 flex items-center gap-2 rounded-md px-2.5 py-1.5 transition-colors"
+              style={{ border: '1px solid rgba(184,115,51,0.25)', color: 'rgba(245,240,230,0.7)' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#F5F0E6')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,240,230,0.7)')}
+            >
+              <Search size={14} />
+              <kbd className="text-[0.65rem] tracking-wider" style={{ color: 'rgba(245,240,230,0.45)' }}>⌘K</kbd>
+            </button>
           </div>
 
-          {/* Mobile hamburger */}
-          <button
-            className="lg:hidden p-2 text-parchment hover:text-copper-light transition-colors"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
-            aria-expanded={mobileOpen}
-            aria-controls="mobile-menu"
-          >
-            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile controls */}
+          <div className="lg:hidden flex items-center gap-1">
+            <button
+              className="p-2 text-parchment hover:text-copper-light transition-colors"
+              onClick={openSearch}
+              aria-label="Search"
+            >
+              <Search size={22} />
+            </button>
+            <button
+              className="p-2 text-parchment hover:text-copper-light transition-colors"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle menu"
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
+            >
+              {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </nav>
 
