@@ -1,28 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sword, FlaskConical, Map, BookOpen, PawPrint, Home, Users, TreePine, Route, ChevronDown, Sparkles, Shield, Backpack, Search } from 'lucide-react';
+import { Menu, X, ChevronDown, Sparkles, Search } from 'lucide-react';
 import { OPEN_SEARCH_EVENT } from './SearchPalette';
+import { useAdventure } from '../context/AdventureContext';
+import AdventureToggle from './AdventureToggle';
 
 const openSearch = () => window.dispatchEvent(new Event(OPEN_SEARCH_EVENT));
-
-const navLinks = [
-  { path: '/', label: 'Home', icon: Home },
-  { path: '/adventure', label: 'Adventure Flow', icon: Route },
-  { path: '/okiri', label: 'Okiri Village', icon: TreePine },
-  { path: '/npcs', label: 'NPCs', icon: Users },
-  { path: '/workshop', label: 'Workshop', icon: Home },
-  { path: '/locations', label: 'Locations', icon: Map },
-  { path: '/encounters', label: 'Encounters', icon: Sword },
-  { path: '/bestiary', label: 'Bestiary', icon: PawPrint },
-  { path: '/potions', label: 'Potions', icon: FlaskConical },
-  { path: '/conclusion', label: 'Conclusion', icon: BookOpen },
-];
-
-const playerOptionLinks = [
-  { path: '/subclasses', label: 'Subclasses', icon: Sparkles },
-  { path: '/feats', label: 'Feats & Conditions', icon: Shield },
-  { path: '/gear', label: 'Backgrounds & Gear', icon: Backpack },
-];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,6 +13,12 @@ export default function Navbar() {
   const [optionsOpen, setOptionsOpen] = useState(false);
   const optionsRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
+  const { config } = useAdventure();
+
+  const navLinks = config.navLinks;
+  const playerOptionLinks = config.playerOptions?.links ?? [];
+  const accent = config.theme.accent;
+  const accentLight = config.theme.accentLight;
 
   const optionsActive = playerOptionLinks.some((l) => l.path === location.pathname);
 
@@ -96,18 +85,20 @@ export default function Navbar() {
           <div
             className="absolute inset-x-0 bottom-0 h-px"
             style={{
-              background: 'linear-gradient(90deg, rgba(184,115,51,0) 0%, rgba(184,115,51,0.6) 50%, rgba(184,115,51,0) 100%)',
+              background: `linear-gradient(90deg, ${accent}00 0%, ${accent}99 50%, ${accent}00 100%)`,
             }}
           />
         )}
 
-        <div className="max-w-container w-full mx-auto px-4 sm:px-6 flex items-center justify-between">
+        <div className="max-w-container w-full mx-auto px-4 sm:px-6 flex items-center justify-between gap-3">
           <Link
             to="/"
-            className="font-label text-[0.9rem] tracking-[0.1em] text-parchment hover:text-copper-light transition-colors duration-200 shrink-0"
+            className="font-label text-[0.9rem] tracking-[0.1em] text-parchment transition-colors duration-200 shrink-0"
             onClick={handleNavClick}
+            onMouseEnter={(e) => (e.currentTarget.style.color = accentLight)}
+            onMouseLeave={(e) => (e.currentTarget.style.color = '')}
           >
-            The Curious World Within
+            {config.navTitle}
           </Link>
 
           {/* Desktop nav links */}
@@ -121,7 +112,7 @@ export default function Navbar() {
                   to={link.path}
                   className="relative flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm font-body transition-all duration-200"
                   style={{
-                    color: isActive ? '#D4956A' : 'rgba(245,240,230,0.7)',
+                    color: isActive ? accentLight : 'rgba(245,240,230,0.7)',
                   }}
                   onMouseEnter={(e) => {
                     if (!isActive) e.currentTarget.style.color = '#F5F0E6';
@@ -136,8 +127,8 @@ export default function Navbar() {
                     <span
                       className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full"
                       style={{
-                        backgroundColor: '#B87333',
-                        boxShadow: '0 0 6px rgba(201,168,76,0.4)',
+                        backgroundColor: accent,
+                        boxShadow: `0 0 6px ${accent}66`,
                       }}
                     />
                   )}
@@ -145,56 +136,63 @@ export default function Navbar() {
               );
             })}
 
-            {/* Player Options dropdown */}
-            <div className="relative" ref={optionsRef}>
-              <button
-                className="relative flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm font-body transition-all duration-200"
-                style={{ color: optionsActive || optionsOpen ? '#D4956A' : 'rgba(245,240,230,0.7)' }}
-                onClick={() => setOptionsOpen((v) => !v)}
-                aria-expanded={optionsOpen}
-                aria-haspopup="true"
-              >
-                <Sparkles size={15} />
-                <span className="text-xs tracking-wide">Player Options</span>
-                <ChevronDown size={13} className="transition-transform duration-200" style={{ transform: optionsOpen ? 'rotate(180deg)' : 'none' }} />
-                {optionsActive && (
-                  <span
-                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full"
-                    style={{ backgroundColor: '#B87333', boxShadow: '0 0 6px rgba(201,168,76,0.4)' }}
-                  />
-                )}
-              </button>
-              {optionsOpen && (
-                <div
-                  className="absolute right-0 mt-2 w-56 rounded-lg overflow-hidden"
-                  style={{
-                    background: 'rgba(26,20,16,0.95)',
-                    backdropFilter: 'blur(12px)',
-                    WebkitBackdropFilter: 'blur(12px)',
-                    border: '1px solid rgba(184,115,51,0.25)',
-                    boxShadow: '0 8px 30px rgba(0,0,0,0.4)',
-                  }}
+            {/* Player Options dropdown (only when the adventure defines options) */}
+            {playerOptionLinks.length > 0 && (
+              <div className="relative" ref={optionsRef}>
+                <button
+                  className="relative flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm font-body transition-all duration-200"
+                  style={{ color: optionsActive || optionsOpen ? accentLight : 'rgba(245,240,230,0.7)' }}
+                  onClick={() => setOptionsOpen((v) => !v)}
+                  aria-expanded={optionsOpen}
+                  aria-haspopup="true"
                 >
-                  {playerOptionLinks.map((link) => {
-                    const Icon = link.icon;
-                    const isActive = location.pathname === link.path;
-                    return (
-                      <Link
-                        key={link.path}
-                        to={link.path}
-                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm font-body transition-colors duration-200"
-                        style={{ color: isActive ? '#D4956A' : 'rgba(245,240,230,0.8)' }}
-                        onClick={handleNavClick}
-                        onMouseEnter={(e) => { if (!isActive) e.currentTarget.style.color = '#F5F0E6'; }}
-                        onMouseLeave={(e) => { if (!isActive) e.currentTarget.style.color = 'rgba(245,240,230,0.8)'; }}
-                      >
-                        <Icon size={16} />
-                        {link.label}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
+                  <Sparkles size={15} />
+                  <span className="text-xs tracking-wide">Player Options</span>
+                  <ChevronDown size={13} className="transition-transform duration-200" style={{ transform: optionsOpen ? 'rotate(180deg)' : 'none' }} />
+                  {optionsActive && (
+                    <span
+                      className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full"
+                      style={{ backgroundColor: accent, boxShadow: `0 0 6px ${accent}66` }}
+                    />
+                  )}
+                </button>
+                {optionsOpen && (
+                  <div
+                    className="absolute right-0 mt-2 w-56 rounded-lg overflow-hidden"
+                    style={{
+                      background: 'rgba(26,20,16,0.95)',
+                      backdropFilter: 'blur(12px)',
+                      WebkitBackdropFilter: 'blur(12px)',
+                      border: `1px solid ${accent}40`,
+                      boxShadow: '0 8px 30px rgba(0,0,0,0.4)',
+                    }}
+                  >
+                    {playerOptionLinks.map((link) => {
+                      const Icon = link.icon;
+                      const isActive = location.pathname === link.path;
+                      return (
+                        <Link
+                          key={link.path}
+                          to={link.path}
+                          className="flex items-center gap-2.5 px-4 py-2.5 text-sm font-body transition-colors duration-200"
+                          style={{ color: isActive ? accentLight : 'rgba(245,240,230,0.8)' }}
+                          onClick={handleNavClick}
+                          onMouseEnter={(e) => { if (!isActive) e.currentTarget.style.color = '#F5F0E6'; }}
+                          onMouseLeave={(e) => { if (!isActive) e.currentTarget.style.color = 'rgba(245,240,230,0.8)'; }}
+                        >
+                          <Icon size={16} />
+                          {link.label}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Adventure toggle */}
+            <div className="ml-2">
+              <AdventureToggle />
             </div>
 
             {/* Search trigger */}
@@ -202,7 +200,7 @@ export default function Navbar() {
               onClick={openSearch}
               aria-label="Search (Ctrl or Cmd + K)"
               className="ml-1 flex items-center gap-2 rounded-md px-2.5 py-1.5 transition-colors"
-              style={{ border: '1px solid rgba(184,115,51,0.25)', color: 'rgba(245,240,230,0.7)' }}
+              style={{ border: `1px solid ${accent}40`, color: 'rgba(245,240,230,0.7)' }}
               onMouseEnter={(e) => (e.currentTarget.style.color = '#F5F0E6')}
               onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,240,230,0.7)')}
             >
@@ -247,6 +245,11 @@ export default function Navbar() {
           >
             <X size={28} />
           </button>
+
+          <div className="mb-2">
+            <AdventureToggle compact />
+          </div>
+
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = location.pathname === link.path;
@@ -256,7 +259,7 @@ export default function Navbar() {
                 to={link.path}
                 className="flex items-center gap-3 text-lg font-body transition-colors duration-200"
                 style={{
-                  color: isActive ? '#D4956A' : '#F5F0E6',
+                  color: isActive ? accentLight : '#F5F0E6',
                 }}
                 onClick={handleNavClick}
               >
@@ -266,27 +269,31 @@ export default function Navbar() {
             );
           })}
 
-          <div className="w-24 h-px my-1" style={{ background: 'rgba(184,115,51,0.3)' }} />
-          <span className="text-label text-copper text-[0.65rem] tracking-[0.2em] uppercase">Player Options</span>
+          {playerOptionLinks.length > 0 && (
+            <>
+              <div className="w-24 h-px my-1" style={{ background: `${accent}4D` }} />
+              <span className="text-label text-copper text-[0.65rem] tracking-[0.2em] uppercase">Player Options</span>
 
-          {playerOptionLinks.map((link) => {
-            const Icon = link.icon;
-            const isActive = location.pathname === link.path;
-            return (
-              <Link
-                key={link.path}
-                to={link.path}
-                className="flex items-center gap-3 text-lg font-body transition-colors duration-200"
-                style={{
-                  color: isActive ? '#D4956A' : '#F5F0E6',
-                }}
-                onClick={handleNavClick}
-              >
-                <Icon size={20} />
-                {link.label}
-              </Link>
-            );
-          })}
+              {playerOptionLinks.map((link) => {
+                const Icon = link.icon;
+                const isActive = location.pathname === link.path;
+                return (
+                  <Link
+                    key={link.path}
+                    to={link.path}
+                    className="flex items-center gap-3 text-lg font-body transition-colors duration-200"
+                    style={{
+                      color: isActive ? accentLight : '#F5F0E6',
+                    }}
+                    onClick={handleNavClick}
+                  >
+                    <Icon size={20} />
+                    {link.label}
+                  </Link>
+                );
+              })}
+            </>
+          )}
         </div>
       )}
     </>
