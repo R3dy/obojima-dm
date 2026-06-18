@@ -19,77 +19,106 @@ interface NPC {
 
 const npcs: NPC[] = [
   {
-    id: 'patron',
-    name: 'The Golden Vault',
-    role: 'The Patron',
+    id: 'arkin',
+    name: 'Alda Arkin',
+    role: 'Museum Curator · Antagonist',
     description:
-      'A secretive organization that hires capable operatives for heists that, in its judgment, serve the greater good. It contacts the crew through a brass puzzle box that projects a calm, hooded figure of golden light. It never reveals its members, its location, or its true reach — only the job, the terms, and the pay.',
+      'The museum’s curator (neutral evil elf noble), a retired university professor who keeps the museum’s close ties to Varkenbluff University. She assumes the characters are wealthy donors and chitchats happily — until Dr. Dannell is mentioned, whom she despises for her occult interests. She is unarmed and unarmored at the gala. She is secretly the head of an illegal syndicate that fences stolen historical objects.',
     traits: [
-      'Speaks in calm, economical sentences; deflects all questions about itself',
-      'Rewards clean, bloodless jobs with a bonus',
-      'Genuinely believes the meteorite is a danger to the town',
-      'Pays promptly on delivery and remembers reliable crews',
+      'Carries a fancy clutch behind her back: a map of the guards’ after-hours stations, a master key, and an alarm pass card',
+      'Dismisses Dr. Dannell’s warnings out of hand and walks away',
+      'Holds a master key to every locked door in the museum',
+      'In an unsuccessful mission, she may steal the stone herself or block Dannell’s reinstatement',
     ],
-    location: 'Everywhere and nowhere — reaches the crew through the puzzle box',
+    location: 'The opening gala (Gemstone Wing, area V13); her office is area V5',
   },
   {
-    id: 'night-guard',
-    name: 'Museum Night Guard',
-    role: 'Obstacle',
+    id: 'maryam',
+    name: 'Maryam Bikram',
+    role: 'Captain of Security',
     description:
-      'One or two tired watchmen walk the galleries after dark, lantern in hand, more bored than brave. They are ordinary people doing a dull job — the kind of obstacle a good crew slips past rather than cuts down. Their first instinct on spotting trouble is to run for the alarm bell, not to fight.',
+      'A serious, by-the-book human guard (lawful neutral) and a veteran of the city watch — entry #12 on the Museum Guards table. She captains the museum’s security force. At the gala she stands at the entrance to the Gemstone Wing, admitting only properly dressed characters with tickets. After hours she is stationed at the entrance to the gala.',
     traits: [
-      'Predictable, slow patrol loop through the halls',
-      'Will shout for the watch and pull the alarm cord if alarmed',
-      'Can be bribed, distracted, lured, or avoided entirely',
-      'Killing one sours the job and forfeits the Golden Vault’s bonus',
+      'Rigidly enforces the rules; turns away anyone without a ticket or formal dress',
+      'Stationed at the gala entrance during and after the event',
+      'A noisy fight summons 1d4 more guards each round until all are accounted for',
+      'Caught or surrendered characters are hauled to the city watch headquarters',
     ],
-    location: 'The galleries — on patrol',
+    location: 'Entrance to the gala (Gemstone Wing)',
   },
   {
-    id: 'guardian-doll',
-    name: 'The Guardian Doll',
+    id: 'marigold',
+    name: 'Marigold, the Deadly Doll',
     role: 'Warded Sentinel',
     description:
-      'Curator Arkin keeps a small porcelain doll in her office, a charming antique that is anything but. Bound with a protective enchantment, it sits perfectly still until the wing is disturbed — then it animates to defend the curator and her records, raising the alarm in its thin, sing-song voice.',
+      'A five-foot-tall vintage doll posed in an elaborate silk dress, its name sewn onto the hem, standing in the southeast corner of Curator Arkin’s office. After hours, Arkin enables the office’s defense: when any creature other than Alda enters, Marigold animates and attacks, fighting until destroyed. She uses the scarecrow stat block (see Bestiary).',
     traits: [
-      'Looks like a harmless collector’s doll until triggered',
-      'Animates to protect the curator’s office and ledgers',
-      'Can sound the alarm on its own',
-      'Detect Magic or a careful eye reveals the binding before it strikes',
+      'Looks like a harmless oversized collector’s doll until triggered',
+      'Animates against anyone but Alda who enters the office',
+      'Uses the scarecrow stat block; fights until destroyed',
+      'A noisy fight may attract the guards patrolling area V1',
     ],
-    location: 'The Curator’s Office',
+    location: 'The Curator’s Office (area V5)',
   },
   {
-    id: 'malevolence',
-    name: 'The Murkmire Malevolence',
-    role: 'The Prize & The Threat',
+    id: 'guards',
+    name: 'The Museum Guards',
+    role: 'Obstacle · Twelve Strong',
     description:
-      'The meteorite itself — a cold, dark stone the size of a fist, threaded with veins that catch no light. It is not alive, but something clings to it: a slow necrotic field that strengthens nightly, seeping into anything dead nearby and teaching it to move again. It is both the objective and the adventure’s central hazard.',
+      'Twelve guards (use the guard stat block) work the museum. During the gala they ignore well-behaved guests; after hours they patrol fixed posts. They’d rather escort or eject a troublemaker than fight — but a public incident or a restricted-area sighting brings one over, and a real fight brings 1d4 more each round. Each carries a key to their station’s doors and a pass card that bypasses alarms. Roll on the Museum Guards table below for personalities.',
     traits: [
-      'Radiates an unnatural chill and a sense of wrongness',
-      'Animates nearby dead specimens while exposed',
-      'The pulse grows stronger the longer it sits in the museum',
-      'Muffled by heavy cloth or a lead-lined case — a clever prep slows the wake',
+      'During the gala, ignore the party unless they enter a restricted area or cause a scene',
+      'A DC 10 Charisma (Deception, Intimidation, or Persuasion) check can wave one off before it shouts for backup',
+      'After hours, each guard carries a station key and an alarm pass card (DC 14 Sleight of Hand to lift either while hidden)',
+      'Incapacitated or surrendered characters are taken to the city watch; if all are caught, the mission fails',
     ],
-    location: 'A glass display case, upper gallery',
+    location: 'On patrol throughout the museum (see Guard Locations After Hours)',
   },
   {
-    id: 'fence',
-    name: 'A Local Contact',
-    role: 'Optional Ally',
+    id: 'attendees',
+    name: 'Gala Attendees',
+    role: 'Background · Twenty Nobles',
     description:
-      'An optional friendly face in Varkenbluff — a dockside fence, a disgruntled museum porter, or a Golden Vault sympathizer who can sell the crew gear, a rumor, or a back way in. Use them to reward players who do their legwork during the casing phase.',
+      'Twenty unarmed, unarmored nobles in elaborate finery mingle at the gala, most of them long-time museum donors. They know nothing about the Murkmire Stone beyond its discovery — but a little charm loosens tongues. Roll on the Gala Attendees table for who the party meets.',
     traits: [
-      'Trades information and small favors for coin or goodwill',
-      'Knows at least one useful detail the official intel missed',
-      'Nervous about the museum’s “new rock” and the rumors around it',
+      'A successful DC 12 Charisma (Persuasion) check yields one random piece of Museum Gossip',
+      'Gossip can hint at the basement’s gem stash, Arkin’s nervous clutch, hidden displays, or her giant doll',
+      'Provide cover and crowd for the party to work the room',
     ],
-    location: 'The docks and taverns of Varkenbluff',
+    location: 'The opening gala (Gemstone Wing, area V13)',
   },
 ];
 
-function CuratorPortrait({ name }: { name: string }) {
+const guardTable: [string, string][] = [
+  ['1', 'Darrison Blackwaters (neutral human), a former soldier who takes everything literally'],
+  ['2', 'Franceena Van Lictor (neutral good elf), a sarcastic newbie who respects history'],
+  ['3', 'Billie Quartermile (lawful neutral halfling), who loves policy and procedure'],
+  ['4', 'Milanova Wumplestocking (lawful good gnome), very serious but loves a good pun'],
+  ['5', 'Garent Millaneff (neutral evil human), a bully who loves money and bragging rights'],
+  ['6', 'Violet Pendergilt (neutral good human), a wistful dreamer who plans to quit soon'],
+  ['7', 'Sureth Dhanvhal (neutral human), a reserve soldier always pressed for time'],
+  ['8', 'Brendara Valindril (lawful neutral elf), a graduate student in history'],
+  ['9', 'Grendor Battleaxe (neutral good dwarf), a wanderer paying off a debt to the museum'],
+  ['10', 'Clark Jonathan Vanth (lawful good human), young and naive'],
+  ['11', 'Sareena Shu (chaotic neutral tiefling), an overeager lover of history'],
+  ['12', 'Maryam Bikram (lawful neutral human), a city watch veteran who enforces the rules'],
+];
+
+const attendeeTable: [string, string][] = [
+  ['1', 'Captain Frankheim Walters (chaotic neutral human), who never served but implies he did'],
+  ['2', 'Georgina Lucina Vandylarahal (neutral evil elf), a sneering heir to a mining fortune'],
+  ['3', 'Countess Helene Danforth (neutral good human), titled but with little actual wealth'],
+  ['4', 'Dr. Horthnar Stonecrusher (lawful good dwarf), a surgeon who loves natural history'],
+];
+
+const gossipTable: [string, string][] = [
+  ['1', 'The curator has fidgeted with her clutch all night — bad news? Maybe she’s about to fire someone.'],
+  ['2', 'Sometimes the museum hides displays in the basement at night — she must fear her own guards stealing them.'],
+  ['3', 'A fortune in ore and gem samples is kept in the basement; a shame they don’t sell it.'],
+  ['4', 'The curator adores oversized vintage dolls — she keeps one as big as a grown human in her office.'],
+];
+
+function DannellPortrait({ name }: { name: string }) {
   const [errored, setErrored] = useState(false);
   return (
     <div
@@ -102,8 +131,8 @@ function CuratorPortrait({ name }: { name: string }) {
         </div>
       ) : (
         <OptImage
-          src="/murkmire/portrait_curator.webp"
-          alt={`${name}, the museum curator`}
+          src="/murkmire/portrait_dannell.webp"
+          alt={`${name}, the anthropologist who hires the party`}
           onError={() => setErrored(true)}
           className="absolute inset-0 w-full h-full"
           style={{ objectFit: 'cover', objectPosition: 'center top' }}
@@ -111,9 +140,35 @@ function CuratorPortrait({ name }: { name: string }) {
       )}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, rgba(18,16,13,0) 45%, rgba(18,16,13,0.92) 100%)' }} />
       <div className="relative p-6">
-        <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: ACCENT_LIGHT }}>Museum Curator</span>
+        <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: ACCENT_LIGHT }}>Quest Giver</span>
         <h2 className="text-display-md text-parchment mt-1">{name}</h2>
       </div>
+    </div>
+  );
+}
+
+function RefTable({ title, columns, rows, accent }: { title: string; columns: [string, string]; rows: [string, string][]; accent: string }) {
+  return (
+    <div className="rounded-xl overflow-hidden" style={{ background: 'linear-gradient(135deg, #16241F 0%, #12100D 100%)', border: `1px solid ${ACCENT}26` }}>
+      <div className="px-5 py-3 border-b" style={{ borderColor: `${accent}33` }}>
+        <span className="text-label text-[0.7rem] tracking-[0.12em] uppercase" style={{ color: accent }}>{title}</span>
+      </div>
+      <table className="w-full text-left">
+        <thead>
+          <tr>
+            <th className="px-4 py-2 text-stat text-[0.7rem] w-12" style={{ color: ACCENT_LIGHT }}>{columns[0]}</th>
+            <th className="px-4 py-2 text-stat text-[0.7rem]" style={{ color: ACCENT_LIGHT }}>{columns[1]}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(([k, v]) => (
+            <tr key={k} className="border-t" style={{ borderColor: 'rgba(245,240,230,0.06)' }}>
+              <td className="px-4 py-2 text-stat text-[0.8rem] align-top" style={{ color: GOLD }}>{k}</td>
+              <td className="px-4 py-2 font-body text-[0.85rem] leading-snug" style={{ color: 'rgba(245,240,230,0.78)' }}>{v}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
@@ -126,18 +181,17 @@ const itemVariants = {
 
 export default function NPCs() {
   const featured = {
-    name: 'Alda Arkin',
-    role: 'Museum Curator',
-    blurb:
-      'Alda Arkin runs the Vermeulen-Voss Museum with fierce, fussy devotion. She works late almost every night, cataloguing, restoring, and guarding her collection — including its dangerous new acquisition, whose true nature she does not fully grasp. She is no warrior, but she is clever, observant, and absolutely unwilling to let anyone harm her life’s work.',
+    name: 'Dr. Cassee Dannell',
     traits: [
-      'Proud, meticulous, and protective of every specimen',
-      'Works late in a warded office, a guardian doll at her side',
-      'Underestimates the meteorite — to everyone’s peril',
-      'Can be deceived, avoided, or (rarely) convinced the stone is dangerous',
-      'Not a combatant — her defenses are wards, the doll, and the alarm',
+      'Neutral good human commoner with an Intelligence score of 18',
+      'A secret occult scholar who hid her interest to build an anthropology career',
+      'Fired and disavowed by the university after her own failed theft',
+      'Waits in the alley between the museum and the Sage’s Quill to take the egg',
+      'Seals the stone in her crystal box to neutralize it — and pays the reward',
     ],
-    location: 'The Curator’s Office, Vermeulen-Voss Museum',
+    blurb:
+      'A brilliant Varkenbluff University anthropologist who long ago learned to hide her interest in the occult. On a Murkmire dig she recognized the light-green “stone” as an eldritch creature’s egg. When the university dismissed her warnings as pseudoscience and the museum bought the egg, she tried to steal it herself, was caught, and was fired. With hours left before it hatches at midnight, she turns to the characters.',
+    location: 'The Sage’s Quill, then the alley beside the museum',
   };
 
   return (
@@ -150,16 +204,16 @@ export default function NPCs() {
               <Users size={22} color={ACCENT} />
               <span className="text-label tracking-[0.12em]" style={{ color: ACCENT_LIGHT }}>CHARACTERS</span>
             </div>
-            <h1 className="text-display-md text-parchment">Faces of the Job</h1>
+            <h1 className="text-display-md text-parchment">Faces of the Heist</h1>
             <p className="font-body text-[1.05rem] mt-4 max-w-[640px] mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              The patron who hires the crew, the curator who stands in their way, and the strange things that
-              wake when the Malevolence stirs.
+              The anthropologist who hires the crew, the curator who stands in their way, and the guards, guests,
+              and guardian doll between them and the egg.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* FEATURED — CURATOR ARKIN */}
+      {/* FEATURED — DR. DANNELL */}
       <section className="px-4 pb-8">
         <div className="max-w-container mx-auto">
           <motion.div
@@ -171,8 +225,7 @@ export default function NPCs() {
             style={{ background: 'linear-gradient(135deg, #16241F 0%, #12100D 100%)', border: `1px solid ${ACCENT}33` }}
           >
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
-              {/* Portrait panel — renders /murkmire/portrait_curator.jpg if present */}
-              <CuratorPortrait name={featured.name} />
+              <DannellPortrait name={featured.name} />
 
               <div className="md:col-span-2 p-6 sm:p-8">
                 <motion.div variants={itemVariants}>
@@ -209,23 +262,25 @@ export default function NPCs() {
             </div>
 
             <div className="p-6 sm:p-8 border-t" style={{ borderColor: `${ACCENT}26` }}>
-              <ReadAloud title="Meeting the Curator">
-                A lamp burns late in the corner office. Inside, a slight woman in an ink-stained smock bends over
-                a ledger, muttering to a row of glass-eyed specimens as if they were colleagues. On the shelf
-                beside her sits a porcelain doll, prim and patient, its painted eyes following the doorway.
+              <ReadAloud title="What Dr. Dannell Knows">
+                &ldquo;You need to reconnoiter the museum, steal the Murkmire Stone at an opportune time, and bring it
+                to me — I&rsquo;ll wait in the alley. The egg can&rsquo;t be damaged or destroyed; unearthing it only
+                woke the thing inside. The one way to stop it now is to seal it in crystal. I&rsquo;ve made a box, but
+                I still have cracks to close, so it must stay with me. Whatever hatches from that egg will be
+                extremely dangerous.&rdquo;
               </ReadAloud>
 
               <SkillCheck
-                dc="DC 15 Charisma (Deception) — Talk Past Arkin"
-                pass="She accepts a plausible cover (a late-working scholar, a hired inspector) long enough for the crew to move on."
-                fail="She grows suspicious, reaches for the alarm, and the guardian doll begins to stir."
+                dc="DC 13 Charisma (Persuasion) — Negotiate the Pay"
+                pass="Dr. Dannell raises her offer from 20 to 30 gp per character, on top of her bag of holding."
+                fail="She holds firm at her bag of holding plus 20 gp per character."
               />
 
-              <DMSecret heading="Arkin Is Not a Villain">
-                Played well, Arkin is sympathetic — a custodian who has no idea she is sitting on a curse. A crew
-                that convinces her the stone is dangerous (hard, but possible) might walk out with her blessing
-                instead of her alarm bell. Never force a fight with her; her defenses are the wards, the doll,
-                and her ability to summon the watch.
+              <DMSecret heading="Dr. Dannell Is the Heart of the Job">
+                Everything the crew needs flows from her: gala tickets, formal attire, the loan of her bag of
+                holding, and her hand-drawn (incomplete) map. She is genuinely good and genuinely desperate. If the
+                stone is delivered before midnight, she seals it in her crystal box, neutralizing it instantly, and
+                may later ask the party to help her reclaim her university post (see Getaway).
               </DMSecret>
             </div>
           </motion.div>
@@ -233,7 +288,7 @@ export default function NPCs() {
       </section>
 
       {/* REMAINING NPCs */}
-      <section className="px-4 pb-24">
+      <section className="px-4 pb-8">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {npcs.map((npc, i) => (
@@ -248,7 +303,7 @@ export default function NPCs() {
                 style={{ background: 'linear-gradient(135deg, #16241F 0%, #12100D 100%)', border: `1px solid ${ACCENT}1F` }}
               >
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: npc.id === 'patron' || npc.id === 'malevolence' ? GOLD : ACCENT_LIGHT }}>
+                  <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: npc.id === 'arkin' ? '#C47171' : ACCENT_LIGHT }}>
                     {npc.role}
                   </span>
                 </div>
@@ -267,6 +322,17 @@ export default function NPCs() {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* REFERENCE TABLES */}
+      <section className="px-4 pb-24">
+        <div className="max-w-container mx-auto space-y-6">
+          <RefTable title="Museum Guards (d12)" columns={['d12', 'Guard']} rows={guardTable} accent={ACCENT_LIGHT} />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <RefTable title="Gala Attendees (d4)" columns={['d4', 'Attendee']} rows={attendeeTable} accent="#6B7FA0" />
+            <RefTable title="Museum Gossip (d4)" columns={['d4', 'Juicy Tidbit']} rows={gossipTable} accent={GOLD} />
           </div>
         </div>
       </section>

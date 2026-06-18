@@ -36,11 +36,11 @@ interface BeatData {
 }
 
 const beats: BeatData[] = [
-  { id: 'scene-1', number: 1, title: 'The Briefing', icon: KeyRound, accent: GOLD, bgTint: 'rgba(201,168,76,0.04)' },
-  { id: 'scene-2', number: 2, title: 'Casing Varkenbluff', icon: Eye, accent: '#6B7FA0', bgTint: 'rgba(107,127,160,0.04)' },
-  { id: 'scene-3', number: 3, title: 'Breaking In', icon: DoorOpen, accent: ACCENT, bgTint: 'rgba(62,124,106,0.05)' },
-  { id: 'scene-4', number: 4, title: 'The Galleries', icon: Landmark, accent: '#6B4C7A', bgTint: 'rgba(107,76,122,0.05)' },
-  { id: 'scene-5', number: 5, title: 'The Malevolence Wakes', icon: Skull, accent: '#8B3A3A', bgTint: 'rgba(139,58,58,0.05)' },
+  { id: 'scene-1', number: 1, title: 'Meet Dr. Dannell', icon: KeyRound, accent: GOLD, bgTint: 'rgba(201,168,76,0.04)' },
+  { id: 'scene-2', number: 2, title: 'The Opening Gala', icon: Eye, accent: '#6B7FA0', bgTint: 'rgba(107,127,160,0.04)' },
+  { id: 'scene-3', number: 3, title: 'Into the Museum', icon: DoorOpen, accent: ACCENT, bgTint: 'rgba(62,124,106,0.05)' },
+  { id: 'scene-4', number: 4, title: 'Through the Galleries', icon: Landmark, accent: '#6B4C7A', bgTint: 'rgba(107,76,122,0.05)' },
+  { id: 'scene-5', number: 5, title: 'Taking the Stone', icon: Skull, accent: '#8B3A3A', bgTint: 'rgba(139,58,58,0.05)' },
   { id: 'scene-6', number: 6, title: 'The Getaway', icon: Gem, accent: GOLD, bgTint: 'rgba(201,168,76,0.04)' },
 ];
 
@@ -248,8 +248,8 @@ function HeroSection() {
             One Night at the Museum
           </h1>
           <p className="text-[1.1rem] max-w-2xl mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.7)' }}>
-            A beat-by-beat guide for the Dungeon Master. The crew can solve this job a dozen ways — these six
-            beats keep the night moving from the briefing to the getaway.
+            A beat-by-beat guide for the Dungeon Master. The crew can crack this job a dozen ways — these six beats
+            carry the night from Dr. Dannell&apos;s plea to the egg in her hands before midnight.
           </p>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6, duration: 0.8 }} className="mt-8 flex justify-center">
@@ -285,30 +285,34 @@ export default function AdventureFlow() {
         <section id="scene-1" className="relative" style={{ background: beats[0].bgTint }}>
           <BeatHeader beat={beats[0]} />
           <Content>
-            <ReadAloud title="The Puzzle Box Opens">
-              The little brass box folds open like a flower and a hooded figure of golden light leans toward
-              you. &ldquo;A dangerous thing sleeps in the Vermeulen-Voss Museum,&rdquo; it says, &ldquo;and
-              every night it sleeps a little less. Bring it to us before it wakes the town. Take nothing else.
-              Hurt no one you do not have to.&rdquo;
+            <ReadAloud title="A Cry for Help">
+              No matter your business this morning, a grave halfling messenger finds you and hands you a sealed
+              parchment. &ldquo;Meet me at the Sage&rsquo;s Quill today as soon as you can,&rdquo; the missive reads.
+              &ldquo;I beg your help in a delicate matter whose importance cannot be overstated. I shall await you in
+              a purple hooded robe.&rdquo; It is signed, &ldquo;Dr. Cassee Dannell.&rdquo; When you look up, the
+              halfling has wandered off.
             </ReadAloud>
 
             <DMSecret heading="Setting the Tone">
-              This is a heist, not a brawl. Make the patron calm, generous, and a little eerie. Let the players
-              ask questions and start scheming. Emphasize the two things the Vault rewards: getting the stone,
-              and keeping the night quiet. The full intel package lives on the <strong>Briefing</strong> page.
+              This is a heist against the clock, not a brawl. Dr. Dannell (neutral good human commoner, Int 18) is
+              honest and desperate. Decide with players how they know her — family friend, fan of her work, or former
+              student. The full meeting, including her negotiable reward, lives on the <strong>Briefing</strong>
+              page. If you&apos;re framing this for the Golden Vault, a golden key and music box deliver the job
+              instead, naming Dr. Dannell as the contact.
             </DMSecret>
 
-            <SectionTitle color={GOLD}>What the Crew Knows</SectionTitle>
+            <SectionTitle color={GOLD}>What Dr. Dannell Provides</SectionTitle>
             <BulletList
               items={[
-                <>Target: the <strong>Murkmire Malevolence</strong>, a small meteorite on the museum&apos;s upper floor.</>,
-                <>The museum closes at dusk; a curator and a thin night staff remain.</>,
-                <>The Vault pays well — and pays a <strong>bonus</strong> for a clean, bloodless lift.</>,
-                <>The stone is dangerous and getting more so. Speed matters.</>,
+                <>The job: steal the <strong>Murkmire Stone</strong> (an eldritch egg) from the museum and bring it to her in the alley before it hatches at <strong>midnight</strong>.</>,
+                <>A <strong>gala ticket</strong> and <strong>formal attire</strong> for each character (weapons and visible armor are banned inside).</>,
+                <>The loan of her heirloom <strong>bag of holding</strong> to stash adventuring gear.</>,
+                <>Her hand-drawn <strong>map</strong> (incomplete; no alarm locations) and what she knows: twelve guards, and Curator Alda Arkin keeps the patrol routes in her office.</>,
+                <>Reward: the bag of holding plus 20 gp each (30 gp on a DC 13 Persuasion check).</>,
               ]}
             />
 
-            <NextBeatButton targetId="scene-2" label="Beat 2: Casing Varkenbluff" />
+            <NextBeatButton targetId="scene-2" label="Beat 2: The Opening Gala" />
           </Content>
         </section>
 
@@ -316,39 +320,34 @@ export default function AdventureFlow() {
         <section id="scene-2" className="relative" style={{ background: beats[1].bgTint }}>
           <BeatHeader beat={beats[1]} />
           <Content>
-            <ReadAloud title="Arriving in Varkenbluff">
-              Varkenbluff hunches over its river like an old man over a card table. Fog pools in the lanes,
-              gaslamps wear soft yellow halos, and somewhere a foghorn lows out on the water. Up the hill, the
-              Vermeulen-Voss Museum sits behind iron railings — all tall windows, copper gutters gone green,
-              and a great domed skylight catching the last grey light.
+            <ReadAloud title="Inside the Gala">
+              The Gemstone Wing&rsquo;s oak doors open into a luxuriously appointed ballroom. Crimson tablecloths and
+              fine china adorn dining tables, and chandeliers sparkle overhead. Cabinets with glittering gemstones
+              surround the space. At the wing&rsquo;s center is a marble pedestal bearing a peculiar, light-green
+              stone.
             </ReadAloud>
 
-            <DMSecret heading="The Recon Phase">
-              Give the players a scene or two to gather information before the break-in. Reward legwork: each
-              good idea (chatting up a guard at the pub, watching the building at dusk, posing as scholars for a
-              daytime tour) earns a concrete advantage in Beat 3 — a known patrol gap, an unlatched window, the
-              curator&apos;s schedule.
+            <DMSecret heading="Scouting Under Cover of the Party">
+              The gala runs 6–8 p.m. on the second-floor Gemstone Wing (V13); the rest of the museum is open to the
+              public. This is the crew&apos;s one chance to see the stone and its security before the heist. Maryam
+              Bikram admits only ticketed guests in formal dress. Twenty nobles mingle — a DC 12 Persuasion check
+              earns one piece of Museum Gossip. Guards ignore well-behaved guests but escort or eject anyone in a
+              restricted area; a pre-backup guard can be waved off with a DC 10 Charisma check.
             </DMSecret>
 
-            <SectionTitle color="#6B7FA0">Things They Can Learn</SectionTitle>
+            <SectionTitle color="#6B7FA0">Key Opportunities</SectionTitle>
             <BulletList
               items={[
-                <>The museum has <strong>three plausible ways in</strong>: the domed skylight, a flooded service tunnel from the riverbank, and the front doors.</>,
-                <>One or two night guards walk a slow, predictable loop of the galleries.</>,
-                <><strong>Curator Alda Arkin</strong> works late in her office almost every night.</>,
-                <>Locals whisper that the museum&apos;s &ldquo;new rock&rdquo; gives them the shivers, and that the stuffed animals &ldquo;look wrong&rdquo; after dark.</>,
+                <><strong>Curator Alda Arkin</strong> chitchats with “donors,” but holds a clutch behind her back containing the guards&apos; patrol map, a master key, and an alarm pass card.</>,
+                <>Mention Dr. Dannell&apos;s fears and Arkin snorts, dismisses them, and walks off — she despises the anthropologist.</>,
+                <>A minute studying the pedestal reveals it has an elaborate defense mechanism (the rigged pedestal in V13).</>,
+                <>The party can scout the public galleries for pass cards (V7), keys, the fake jade (V9), and hiding spots before 8 p.m.</>,
               ]}
             />
 
-            <SkillCheck
-              dc={13}
-              skill="Charisma (Persuasion) or Wisdom (Insight)"
-              title="Loosen a Local's Tongue"
-              pass="Learn one extra detail — the guard rotation, the curator’s late hours, or the warded wing — that grants advantage on the chosen entry approach."
-              fail="Rumors only; the contact gets nervous and the crew earns no special edge."
-            />
+            <SkillCheck dc={14} skill="Dexterity (Sleight of Hand)" title="Lift Arkin's Clutch" pass="The crew secures the patrol map, master key, and pass card in one stroke — a huge edge after hours." fail="Arkin notices the brush of a hand and grows wary; the clutch stays with her." />
 
-            <NextBeatButton targetId="scene-3" label="Beat 3: Breaking In" />
+            <NextBeatButton targetId="scene-3" label="Beat 3: Into the Museum" />
           </Content>
         </section>
 
@@ -357,48 +356,41 @@ export default function AdventureFlow() {
           <BeatHeader beat={beats[2]} />
           <Content>
             <BodyText>
-              There is no &ldquo;correct&rdquo; way in. Present the three approaches as a menu and let the crew
-              improvise. Each leads to a different part of the museum and carries its own risk. Detailed
-              room-by-room notes live on the <strong>Museum</strong> page.
+              The museum closes at 8 p.m., and the staff arm its defenses — alarm spells, animated statues, and the
+              Gemstone Wing&apos;s arcane lock. The crew must already be inside or find a way back in. There is no
+              single correct route; present the options and let them improvise. Room details are on the
+              <strong> Museum</strong> page.
             </BodyText>
 
             <motion.div variants={revealUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0} className="p-5 rounded-xl my-4" style={{ background: 'rgba(62,124,106,0.12)', border: `1px solid ${ACCENT}4D` }}>
               <div className="flex items-center gap-2 mb-3">
                 <span className="px-2 py-0.5 rounded text-[0.6rem] tracking-wider uppercase font-bold" style={{ background: `${ACCENT}4D`, color: ACCENT_LIGHT }}>QUIET</span>
               </div>
-              <h4 className="text-[1.1rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>1. The Domed Skylight</h4>
-              <p className="text-[0.95rem] leading-relaxed mb-3" style={{ color: 'rgba(245,240,230,0.8)' }}>
-                A climb up the copper drainpipes to the roof, then through the great glass dome straight down
-                into the upper gallery — close to the meteorite, far from the guards.
+              <h4 className="text-[1.1rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>Hide Inside Until It Closes</h4>
+              <p className="text-[0.95rem] leading-relaxed" style={{ color: 'rgba(245,240,230,0.8)' }}>
+                Slip into the cleaning-supply closets behind the secret doors (V3, V4, V8, V9, V12, V13), a privy
+                stall (V15), or the attic or basement — the guards don&apos;t sweep V16 or V17 before closing.
               </p>
-              <SkillCheck dc={14} skill="Strength (Athletics) / Dexterity (Acrobatics)" title="Scale the Roof & Rappel In" pass="The crew descends into the upper gallery unseen." fail="A slip rattles the glass; the nearest guard rolls a Perception check to investigate." />
             </motion.div>
 
             <motion.div variants={revealUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1} className="p-5 rounded-xl my-4" style={{ background: 'rgba(107,76,122,0.08)', border: '1px solid rgba(107,76,122,0.2)' }}>
-              <h4 className="text-[1.1rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>2. The Service Tunnel</h4>
+              <h4 className="text-[1.1rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>Leave and Sneak Back After Hours</h4>
               <p className="text-[0.95rem] leading-relaxed" style={{ color: 'rgba(245,240,230,0.8)' }}>
-                A grated culvert at the waterline drains the museum&apos;s flooded sub-basement. Cold, dark, and
-                smelling of the Murkmire itself — and it comes up beside the specimen storeroom, where the
-                necrotic field is strongest. Spooky, but unguarded.
-              </p>
-            </motion.div>
-
-            <motion.div variants={revealUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={2} className="p-5 rounded-xl my-4" style={{ background: 'rgba(107,76,122,0.08)', border: '1px solid rgba(107,76,122,0.2)' }}>
-              <h4 className="text-[1.1rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F5F0E6' }}>3. The Front Doors</h4>
-              <p className="text-[0.95rem] leading-relaxed" style={{ color: 'rgba(245,240,230,0.8)' }}>
-                For the bold: forged credentials, a bribed guard, or a confident bluff past the night staff.
-                Drops the crew in the grand foyer — the most watched room in the building.
+                Pick the front doors (DC 16) and bypass their alarm with a pass card — minding the net trap and the
+                statues. Scale the building and unlock the <strong>attic skylight</strong> (DC 14, then DC 12 to
+                lift). Or pry open the <strong>basement loading docks</strong> (DC 14, then DC 15 Athletics) or use
+                the basement&apos;s secret tunnel from a copse of trees outside.
               </p>
             </motion.div>
 
             <TrapWarning
-              name="The Alarm Bell"
-              trigger="A failed entry, a smashed case, or a guard who escapes to pull the cord"
-              effect="A brass bell summons the town watch. Start a countdown: the watch arrives in 1d4 + 2 rounds, after which escape becomes far harder."
-              countermeasure="Cut the bell-pull, silence guards before they shout, or move fast enough to be gone before the watch arrives."
+              name="Falling Net (V1)"
+              trigger="Stepping on the rug-hidden pressure plate north of the front doors while it’s armed"
+              effect="A weighted net drops over the 10-ft square: restrained, and prone on a failed DC 10 Strength save. Net AC 10, 12 HP; DC 10 Strength to free a creature."
+              countermeasure="Lift the rug to find the plate, or flip the toggle hidden under the information desk to disarm it."
             />
 
-            <NextBeatButton targetId="scene-4" label="Beat 4: The Galleries" />
+            <NextBeatButton targetId="scene-4" label="Beat 4: Through the Galleries" />
           </Content>
         </section>
 
@@ -406,32 +398,33 @@ export default function AdventureFlow() {
         <section id="scene-4" className="relative" style={{ background: beats[3].bgTint }}>
           <BeatHeader beat={beats[3]} />
           <Content>
-            <ReadAloud title="The Hall of Beasts">
-              The gallery is a forest of frozen animals. A great mounted bear rears in the gloom; wolves prowl a
-              diorama mid-stride; glass eyes catch your lantern and throw it back. Everything is very still — too
-              still, the way a room is still when something in it is pretending not to move.
+            <ReadAloud title="The Darkened Halls">
+              By night the museum is a maze of frozen things — skeletal predators rearing in the dark, glass cases
+              glinting under continual-flame sconces, the preserved allosaurus looming over the predators&apos; hall.
+              Lanterns bob in the distance where the guards walk their slow, fixed rounds.
             </ReadAloud>
 
-            <DMSecret heading="Foreshadowing the Wake">
-              Seed dread before any monster appears. A stuffed fox&apos;s head turns a few degrees when no one
-              watches. A jar of preserved frogs taps against its glass. The closer the crew gets to the
-              meteorite, the worse it gets. Reward players who notice and stay calm; this is the calm before
-              Beat 5.
+            <DMSecret heading="Running the Patrols & Wards">
+              Eleven guards hold fixed posts after hours (Maryam keeps the gala entrance); see the Guard Locations
+              table on the <strong>Encounters</strong> page. Treat them as a stealth challenge — studying the
+              curator&apos;s patrol document for a minute grants advantage on Stealth. Alarm spells guard key doors
+              and squares; a pass card bypasses them. The two front-desk statues (V1) and the satyr statue (V12)
+              animate within 5 feet. Getting every character caught ends the mission.
             </DMSecret>
 
-            <SectionTitle color="#6B7FA0">Patrols & The Curator</SectionTitle>
+            <SectionTitle color="#6B7FA0">Reaching the Stone</SectionTitle>
             <BulletList
               items={[
-                <>One or two <strong>night guards</strong> walk a slow loop. Use them as a stealth puzzle, not a fight — they&apos;d rather raise the alarm than trade blows.</>,
-                <><strong>Curator Alda Arkin</strong> is awake in her office. She is not a combatant, but she is sharp, protective of her collection, and her wing is warded.</>,
-                <>The meteorite sits under glass in the <strong>upper gallery</strong>, in a case wired to the alarm.</>,
+                <>The Murkmire Stone sits in the <strong>Gemstone Wing (V13)</strong>, reached via the second floor, the V9 secret hall, or the V12 air vent.</>,
+                <>Lift a guard&apos;s <strong>key or pass card</strong> with a hidden DC 14 Sleight of Hand check, or grab spare pass cards in the break room (V7).</>,
+                <>Optional chaos: overload the <strong>animatronic allosaurus</strong> (DC 10 Arcana) for a 10-minute rampage that draws guards away.</>,
+                <>Grab the <strong>jade fake</strong> from V9 (DC 10) if the crew means to swap it for the egg.</>,
               ]}
             />
 
-            <SkillCheck dc={13} skill="Dexterity (Stealth)" title="Slip the Patrol" pass="The crew threads past the guard&apos;s loop unseen." fail="A guard catches movement; they investigate and will shout for the watch if they confirm intruders." />
-            <SkillCheck dc={15} skill="Dexterity (Thieves’ Tools) / Arcana" title="Defeat the Display Case" pass="The case opens silently and the alarm wire is bypassed." fail="The case can still be forced — but doing so trips the alarm and spikes the meteorite&apos;s pulse, jumping straight to Beat 5." />
+            <SkillCheck dc={13} skill="Dexterity (Stealth)" title="Slip the Patrol" pass="The crew threads past a guard&apos;s post unseen (advantage if they studied the patrol document)." fail="A guard catches movement and investigates; confirmed intruders trigger alarms and 1d4 guards per round in a fight." />
 
-            <NextBeatButton targetId="scene-5" label="Beat 5: The Malevolence Wakes" />
+            <NextBeatButton targetId="scene-5" label="Beat 5: Taking the Stone" />
           </Content>
         </section>
 
@@ -439,39 +432,39 @@ export default function AdventureFlow() {
         <section id="scene-5" className="relative" style={{ background: beats[4].bgTint }}>
           <BeatHeader beat={beats[4]} />
           <Content>
-            <ReadAloud title="The Stone Comes Free">
-              The instant the meteorite leaves its cradle the cold deepens, the lanterns gutter, and a low pulse
-              rolls out of the stone like a heartbeat felt in the teeth. All around the gallery, glass eyes
-              snap open. Stitched jaws creak apart. The bear lowers its head, and a hundred dead things remember
-              how to be hungry.
+            <ReadAloud title="The Egg in Hand">
+              Up close, the light-green stone is faintly warm and threaded with strange furrows. After 10:30 it has
+              turned translucent — and something inside shifts. Lift it wrong and a low magical pulse rolls outward,
+              every locked door in the wing slamming shut with a sound like a held breath.
             </ReadAloud>
 
-            <DMSecret heading="The Necrotic Pulse">
-              Removing the stone (or forcing the case) triggers the wake. Each round the meteorite is exposed,
-              the nearest unanimated specimen lurches to life. Keep it tense but survivable for level 1: a wolf
-              or two, a swarm of jarred specimens, and the stuffed owlbear as the centerpiece. Full stat blocks
-              are on the <strong>Bestiary</strong> page. Wrapping the stone in heavy cloth or a lead-lined case
-              (a clever prep) muffles the pulse and slows the wake.
+            <DMSecret heading="The Rigged Pedestal & the Pulse">
+              A DC 12 Arcana check on the pedestal warns that removing the stone triggers arcane lock on every door
+              (escape: DC 20 thieves&apos; tools or DC 20 Athletics; guards and Arkin open them freely). Swapping in
+              the V9 jade fake (DC 10 Sleight of Hand) avoids it entirely. Independently, at 10:30 p.m. the egg
+              begins pulsing every 10 minutes — a DC 10 Wisdom save within 20 feet or a random effect (see the
+              Murkmire Stone Effects table on Encounters). Stowing it in the bag of holding makes the pulse radiate
+              from the bag instead.
             </DMSecret>
 
-            <SectionTitle color="#C47171">The Wake — Suggested Waves</SectionTitle>
+            <SectionTitle color="#C47171">If It Goes Loud</SectionTitle>
             <BulletList
               items={[
-                <><strong>Round 1:</strong> a single <strong>Animated Taxidermy Wolf</strong> lunges from the diorama.</>,
-                <><strong>Round 2:</strong> a <strong>Specimen-Jar Swarm</strong> bursts its glass nearby.</>,
-                <><strong>Round 3+:</strong> the <strong>Stuffed Owlbear Trophy</strong> tears free of its mount — the room&apos;s big threat.</>,
+                <>A fight or alarm brings <strong>1d4 guards each round</strong> until all eleven are accounted for.</>,
+                <>Incapacitated or surrendered characters are dragged to the city watch; if all are caught, the mission fails.</>,
+                <><strong>The clock is the real enemy:</strong> the egg hatches at midnight no matter what. Keep one eye on the time.</>,
               ]}
             />
 
             <div className="p-5 rounded-xl my-5" style={{ background: 'rgba(139,58,58,0.08)', border: '1px solid rgba(139,58,58,0.2)' }}>
-              <h4 className="text-[0.8rem] tracking-[0.12em] uppercase mb-3" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#C47171' }}>Run the Wake</h4>
+              <h4 className="text-[0.8rem] tracking-[0.12em] uppercase mb-3" style={{ fontFamily: "'Cinzel Decorative', serif", color: '#C47171' }}>Guardians, If Drawn Into a Fight</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
-                <HpTracker storageKey="murk-wolf-1" name="Taxidermy Wolf" maxHp={19} accent="#C47171" />
-                <HpTracker storageKey="murk-swarm" name="Specimen Swarm" maxHp={22} accent="#C47171" />
+                <HpTracker storageKey="murk-statue-1" name="Animated Statue" maxHp={33} accent="#C47171" />
+                <HpTracker storageKey="murk-marigold" name="Marigold (Scarecrow)" maxHp={36} accent="#C47171" />
               </div>
-              <HpTracker storageKey="murk-owlbear" name="Owlbear Trophy" maxHp={45} accent="#C47171" />
+              <HpTracker storageKey="murk-mimic" name="Basement Mimic" maxHp={58} accent="#C47171" />
               <p className="text-[0.85rem] mt-2" style={{ color: 'rgba(245,240,230,0.6)' }}>
-                <em>The smart play is to flee, not to win. The animated horde is endless while the stone is exposed — escaping ends the fight.</em>
+                <em>Full stat blocks are on the Bestiary page. None of these need to be fought — the smart play is to avoid them and get out.</em>
               </p>
             </div>
 
@@ -485,34 +478,34 @@ export default function AdventureFlow() {
           <Content>
             <motion.div variants={revealUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0} className="text-center py-8">
               <Gem size={32} color={GOLD} className="mx-auto mb-4" />
-              <h3 className="text-[1.8rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>Out Into the Fog</h3>
+              <h3 className="text-[1.8rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>The Egg to Dr. Dannell</h3>
               <p className="text-[1rem] max-w-2xl mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.7)' }}>
-                With the stone in hand and the gallery coming alive behind them, the crew runs for whichever
-                exit they prepared. The fog of Varkenbluff swallows them — and the museum falls still the
-                moment the Malevolence is carried beyond its walls.
+                With the stone in hand, the crew slips out and crosses to the alley between the museum and the
+                Sage&apos;s Quill, where Dr. Dannell waits. She locks the egg in her crystal box; the stone goes
+                inert and its effects stop at once. The city is safe — for now.
               </p>
             </motion.div>
 
-            <SectionTitle color={GOLD}>Resolving the Escape</SectionTitle>
+            <SectionTitle color={GOLD}>Resolving the Heist</SectionTitle>
             <BulletList
               items={[
-                <>The animated specimens <strong>collapse back into dead trophies</strong> once the stone is gone — they don&apos;t pursue into the street.</>,
-                <>The watch, the curator, and the town&apos;s memory of the night are the real loose ends.</>,
-                <>The <strong>Golden Vault</strong> makes contact again to take delivery and pay out — more for a clean job.</>,
+                <>Deliver the egg <strong>before midnight</strong> and Dr. Dannell neutralizes it; she pays the reward (bag of holding plus 20–30 gp each).</>,
+                <>If the crew works for the <strong>Golden Vault</strong>, the organization sends an uncommon magic item of their choice the next day.</>,
+                <>Miss the deadline and the egg <strong>hatches into an eldritch horror</strong> — and Arkin may be revealed as a syndicate head (see Getaway).</>,
               ]}
             />
 
-            <DMSecret heading="Payout & Fallout">
-              Full payout tables, complications, and follow-up hooks live on the <strong>Getaway</strong> page.
-              In short: a quiet, bloodless lift earns the bonus and the Vault&apos;s future business; a loud,
-              violent night still pays, but leaves a trail — and maybe an angry curator — for later.
+            <DMSecret heading="Rewards & Further Adventures">
+              Full reward details, the success and failure outcomes, and follow-up hooks (another stone, the zoo
+              hatchling, reinstating Dr. Dannell, or the museum feeding frenzy) live on the <strong>Getaway</strong>
+              page.
             </DMSecret>
 
             <motion.div variants={revealUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0} className="text-center py-12">
               <Star size={28} color={GOLD} className="mx-auto mb-4" />
-              <h3 className="text-[1.5rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>End of the Job</h3>
+              <h3 className="text-[1.5rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>End of the Heist</h3>
               <p className="text-[1rem] max-w-xl mx-auto inline-flex flex-col" style={{ color: 'rgba(245,240,230,0.5)' }}>
-                <span>The stone is contained, the crew is paid, and the Golden Vault remembers a job well done.</span>
+                <span>The egg is contained, the crew is paid, and Varkenbluff sleeps on, none the wiser.</span>
                 <a href="/conclusion" className="mt-3 inline-flex items-center justify-center gap-1" style={{ color: GOLD }}>
                   See the full Getaway <ChevronRight size={14} />
                 </a>

@@ -45,9 +45,10 @@ export default function Overview() {
             </div>
             <h1 className="text-display-md text-parchment">The Murkmire Malevolence</h1>
             <p className="font-body text-[1.05rem] mt-4 leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              A heist for 1st-level characters. A secretive benefactor hires the party to steal a fallen
-              meteorite from a museum before its slow leak of grave-magic stirs the building&apos;s
-              taxidermy collection — and the town beyond — to restless, hungry life.
+              An adventure for 1st-level characters. Archaeologists pulled a strange, light-green stone from the
+              swamp called the Murkmire — but it is no stone. It is the egg of an eldritch horror, and it will
+              hatch at midnight tonight. The party must infiltrate the Varkenbluff Museum of Natural History,
+              steal the egg, and return it to Dr. Cassee Dannell to be neutralized before it hatches.
             </p>
           </motion.div>
         </div>
@@ -57,8 +58,8 @@ export default function Overview() {
         {/* SCENE ART */}
         <Figure
           src="/murkmire/scene_gala.webp"
-          alt="The exhibition gala — the Murkmire Malevolence on display under glass"
-          caption="The Exhibition Gala · the Malevolence on display"
+          alt="The opening gala — the Murkmire Stone on its marble pedestal in the Gemstone Wing"
+          caption="Scene · The Opening Gala"
           kind="handout"
           className="h-80"
           fit="cover"
@@ -75,19 +76,22 @@ export default function Overview() {
         >
           <div className="flex items-center gap-2 mb-4">
             <BookOpen size={18} color={ACCENT} />
-            <h2 className="text-heading-lg text-parchment">Premise</h2>
+            <h2 className="text-heading-lg text-parchment">Background</h2>
           </div>
           <p className="font-body text-[1rem] leading-relaxed" style={{ color: 'rgba(245,240,230,0.8)' }}>
-            Weeks ago, a meteorite fell into the brackish swamp known as the Murkmire and was dragged out,
-            crated up, and sold to the Vermeulen-Voss Museum of Natural History in the fog-bound town of
-            Varkenbluff. The curators call it a prize specimen. They are wrong. The stone is suffused with
-            necrotic energy, and it has begun to seep into everything dead nearby — and a natural history
-            museum is full of dead things.
+            On a recent dig in the Murkmire, a Varkenbluff University expedition unearthed an opaque, light-green,
+            gemstone-sheened ovoid covered in strange furrows. The crew dubbed it the <strong style={{ color: ACCENT_LIGHT }}>Murkmire
+            Stone</strong>, and the Varkenbluff Museum of Natural History paid a generous price to display it. The
+            anthropologist <strong style={{ color: ACCENT_LIGHT }}>Dr. Cassee Dannell</strong>, a secret student of the
+            occult, recognized it from her tomes: it is an eldritch creature&apos;s egg. Such eggs lie dormant for
+            generations, but once unearthed the creature inside rapidly develops, hatches, and grows ravenous —
+            eventually overwhelming whole villages.
           </p>
           <p className="font-body text-[1rem] leading-relaxed mt-4" style={{ color: 'rgba(245,240,230,0.8)' }}>
-            A clandestine organization called the Golden Vault recruits the party to lift the meteorite and
-            spirit it away to be safely contained, before its corruption spreads. The job is a heist first
-            and a dungeon crawl only if it goes wrong — and the party gets to decide how it goes.
+            The eggs are nearly indestructible, but encasing one in crystal neutralizes it. Dannell warned the
+            university; they dismissed her work as pseudoscience. She tried to steal the egg herself, was caught,
+            and was fired. With the museum&apos;s exhibition gala tonight and the egg due to hatch at midnight,
+            Dr. Dannell is nearly out of options — so she has turned to the characters.
           </p>
         </motion.section>
 
@@ -95,30 +99,34 @@ export default function Overview() {
         <motion.section variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.05 }}>
           <motion.div variants={staggerItem} className="flex items-center gap-2 mb-2">
             <Gem size={18} color={ACCENT} />
-            <h2 className="text-heading-lg text-parchment">The Hook</h2>
+            <h2 className="text-heading-lg text-parchment">A Cry for Help</h2>
           </motion.div>
 
           <motion.p variants={staggerItem} className="font-body text-[1rem] leading-relaxed mb-4" style={{ color: 'rgba(245,240,230,0.75)' }}>
-            The Golden Vault makes contact the way it always does: with a small, locked puzzle box delivered
-            to each operative. When the box is solved, the briefing begins.
+            A grave halfling messenger hands each character a sealed note summoning them to the Sage&apos;s Quill —
+            the plush tavern beside the museum where Dr. Dannell waits in a purple hooded robe. (Decide with your
+            players how they know her: a friend of the Dannell family, an admirer of her published work, or a
+            former student of her occult-tinged lectures.)
           </motion.p>
 
           <motion.div variants={staggerItem}>
-            <ReadAloud title="The Briefing">
-              The lid of the little brass box folds open like a flower, and a soft golden light hums up out of
-              it to sketch a figure in the air — a calm, hooded silhouette you cannot quite focus on. &ldquo;Thank
-              you for accepting,&rdquo; it says. &ldquo;A dangerous thing sleeps in the Vermeulen-Voss Museum, and
-              every night it sleeps a little less. Bring it to us before it wakes the town. Take nothing else.
-              Hurt no one you do not have to. The how is yours to choose.&rdquo;
+            <ReadAloud title="Dr. Dannell's Plea">
+              &ldquo;Thank you for coming so quickly. A few weeks ago, I attended a dig in the Murkmire that
+              unearthed a furrowed, light-green stone. The bottom line is that it isn&rsquo;t a stone at all — it&rsquo;s
+              the egg of an eldritch horror, and my research indicates it&rsquo;ll hatch at midnight tonight. No one
+              will listen to me. The university ignored me; I was caught trying to steal the egg; now I&rsquo;ve been
+              fired and the Murkmire Stone display opens tomorrow. You&rsquo;ve got to steal the Murkmire Stone and
+              bring it back so I can save the city!&rdquo;
             </ReadAloud>
           </motion.div>
 
           <motion.div variants={staggerItem}>
-            <DMSecret heading="What the Patron Won't Say">
-              The Golden Vault never reveals what it is or where its members are. It cares about outcomes, not
-              methods, but it strongly prefers a clean job — needless violence or a body count sours the
-              relationship and the bonus pay. The patron genuinely believes the Malevolence is a public danger,
-              and that part is true: the necrotic field is already animating small specimens after dark.
+            <DMSecret heading="Using the Golden Vault (Optional Patron)">
+              You can frame this job for the Golden Vault. A golden key is delivered to the characters; when they
+              use it to open their music box, a soothing voice briefs them on the egg, names Dr. Dannell, and asks
+              them to infiltrate the museum, steal the egg, and return it to her before it hatches. Closing the box
+              makes the key vanish. If you use this patron, the Vault rewards a successful, on-time delivery with an
+              uncommon magic item of the characters&apos; choice (subject to your approval), delivered the next day.
             </DMSecret>
           </motion.div>
         </motion.section>
@@ -127,17 +135,17 @@ export default function Overview() {
         <motion.section variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.1 }}>
           <motion.div variants={staggerItem} className="flex items-center gap-2 mb-6">
             <AlertTriangle size={18} color={ACCENT} />
-            <h2 className="text-heading-lg text-parchment">Heist Structure</h2>
+            <h2 className="text-heading-lg text-parchment">How the Night Unfolds</h2>
           </motion.div>
 
           <div className="space-y-4">
             {[
-              { step: '1', title: 'The Briefing', desc: 'The Golden Vault delivers the puzzle box, the target, and the intel package.' },
-              { step: '2', title: 'Casing Varkenbluff', desc: 'Scout the foggy town, the museum exterior, guard routines, and rumors of the stone.' },
-              { step: '3', title: 'Breaking In', desc: 'Pick an approach — rooftop skylight, the flooded service tunnel, or a brazen front-door bluff.' },
-              { step: '4', title: 'The Galleries', desc: 'Slip past patrols and wards, avoid Curator Arkin, and reach the meteorite’s display.' },
-              { step: '5', title: 'The Malevolence Wakes', desc: 'Lifting the stone spikes its necrotic pulse; the taxidermy collection stirs to life.' },
-              { step: '6', title: 'The Getaway', desc: 'Escape Varkenbluff with the stone, deliver it to the Vault, and collect the payout.' },
+              { step: '1', title: 'Meet Dr. Dannell', desc: 'At the Sage’s Quill she explains the egg, lends her bag of holding, and provides gala tickets, formal attire, and her hand-drawn map.' },
+              { step: '2', title: 'The Opening Gala', desc: 'From 6 to 8 p.m. the party can attend the gala in the Gemstone Wing to glimpse the stone, study its rigged pedestal, and meet Curator Alda Arkin.' },
+              { step: '3', title: 'Scout the Museum', desc: 'Case the public galleries, find pass cards, keys, and the guards’ patrol routes, and decide whether to hide inside or sneak back after hours.' },
+              { step: '4', title: 'The Heist After Hours', desc: 'The museum closes at 8 p.m. and its alarms, animated statues, and arcane lock activate. Reach area V13 and take the Murkmire Stone.' },
+              { step: '5', title: 'The Clock Runs Out', desc: 'At 10:30 p.m. the egg turns translucent and pulses dangerous magic; at midnight it hatches into an eldritch horror.' },
+              { step: '6', title: 'Deliver the Egg', desc: 'Escape and bring the stone to Dr. Dannell in the alley. She seals it in her crystal box, neutralizing it, and pays the reward.' },
             ].map((phase) => (
               <motion.div
                 key={phase.step}
@@ -169,10 +177,10 @@ export default function Overview() {
           style={{ background: 'rgba(62,124,106,0.12)', border: `1px solid ${ACCENT}26` }}
         >
           {[
-            { label: '2–5 Players', color: ACCENT_LIGHT },
-            { label: '1st Level', color: '#8FA678' },
-            { label: '~3–4 Hours', color: GOLD },
-            { label: 'A Golden Vault Job', color: '#6B7FA0' },
+            { label: '1st-Level Party', color: ACCENT_LIGHT },
+            { label: 'Varkenbluff', color: '#8FA678' },
+            { label: 'Hatches at Midnight', color: GOLD },
+            { label: 'A Golden Vault Heist', color: '#6B7FA0' },
           ].map((item) => (
             <span key={item.label} className="font-body text-sm" style={{ color: item.color }}>
               {item.label}

@@ -56,9 +56,10 @@ export default function Conclusion() {
               <Gem size={22} color={GOLD} />
               <span className="text-label tracking-[0.12em]" style={{ color: GOLD }}>THE GETAWAY</span>
             </div>
-            <h1 className="text-display-md text-parchment">Payout & Fallout</h1>
+            <h1 className="text-display-md text-parchment">Conclusion & Further Adventures</h1>
             <p className="font-body text-[1.05rem] mt-4 leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              How the job ends, what the crew earns, and the threads you can pull into the next session.
+              How the heist ends, what the crew earns, and the hooks that carry the story past midnight — whether
+              they succeed or fail.
             </p>
           </motion.div>
         </div>
@@ -68,26 +69,28 @@ export default function Conclusion() {
         {/* DELIVERY */}
         <motion.section variants={fade} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0} className="text-center py-6">
           <Gem size={32} color={GOLD} className="mx-auto mb-4" />
-          <h2 className="text-[1.8rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>Delivering the Stone</h2>
+          <h2 className="text-[1.8rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>Delivering the Egg</h2>
           <p className="text-[1rem] max-w-2xl mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.7)' }}>
-            Once the crew is clear of Varkenbluff, the Golden Vault makes contact to take delivery — another
-            puzzle box, a dead-drop, or a hooded courier. The stone is sealed away to be contained, the museum
-            falls quiet, and the danger to the town passes with it.
+            If the characters escape with the Murkmire Stone, they bring it to Dr. Dannell in the alley. She locks it
+            in her crystal box, whereupon the stone becomes inert and its effects stop immediately. She assures the
+            crew the egg will be safe in her care, pays their reward, and sets about reclaiming her university post
+            while keeping the stone sealed.
           </p>
         </motion.section>
 
         {/* OUTCOMES */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <Card icon={Star} accent={ACCENT} title="The Clean Lift">
+          <Card icon={Star} accent={ACCENT} title="Mission Successful">
             <p>
-              No deaths, no fire, nothing taken but the stone. The Vault pays in full <strong>plus its bonus</strong>,
-              marks the crew as reliable, and the town never quite works out what happened.
+              The egg reaches Dr. Dannell before midnight and is neutralized. The city is spared, and the crew is
+              paid. Dr. Dannell may soon ask for help reclaiming her reputation (see “Reinstate Dr. Dannell” below).
             </p>
           </Card>
-          <Card icon={Skull} accent="#C47171" title="The Loud Night">
+          <Card icon={Skull} accent="#C47171" title="Mission Unsuccessful">
             <p>
-              Bodies, a burned gallery, or a blaring alarm and a chase through the watch. The Vault still pays the
-              base rate — but skips the bonus, and a trail of witnesses follows the crew into later jobs.
+              If the stone isn&apos;t delivered by midnight, it hatches into a nascent eldritch horror and its
+              effects cease. Curator Alda Arkin may also be revealed as the head of a fencing syndicate (see the
+              failure hooks below).
             </p>
           </Card>
         </div>
@@ -108,10 +111,10 @@ export default function Conclusion() {
           </div>
           <ul className="space-y-2.5">
             {[
-              <><strong style={{ color: GOLD }}>Base payout:</strong> a generous purse from the Golden Vault on delivery of the meteorite.</>,
-              <><strong style={{ color: ACCENT_LIGHT }}>Clean-job bonus:</strong> extra coin for a bloodless lift that left the collection intact.</>,
-              <><strong style={{ color: '#6B7FA0' }}>Opportunistic loot:</strong> anything the crew lifted along the way — though pocketing museum treasures risks the bonus.</>,
-              <><strong style={{ color: '#A084B0' }}>Standing:</strong> a reliable crew earns the Vault’s future business — and the first of many sealed brass boxes.</>,
+              <><strong style={{ color: GOLD }}>Dr. Dannell&apos;s reward:</strong> her heirloom bag of holding, plus 20 gp per character (30 gp if a character succeeded on the DC 13 Persuasion check).</>,
+              <><strong style={{ color: ACCENT_LIGHT }}>Golden Vault payment:</strong> if using that patron, an uncommon magic item of the characters&apos; choice (subject to your approval), delivered the next day.</>,
+              <><strong style={{ color: '#6B7FA0' }}>Found treasure:</strong> shop tills (V2), the café lockbox (V11), a potion of vitality (V7), a +1 dagger and +1 handaxe (V10), and 150 gp of gems and ore (V16).</>,
+              <><strong style={{ color: '#A084B0' }}>Goodwill:</strong> Dr. Dannell&apos;s gratitude — and her future need of capable, discreet help.</>,
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
                 <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: GOLD }} />
@@ -121,50 +124,71 @@ export default function Conclusion() {
           </ul>
         </motion.section>
 
-        {/* COMPLICATIONS */}
+        {/* SUCCESS HOOKS */}
         <section>
           <div className="flex items-center gap-2 mb-4">
-            <AlertTriangle size={18} color="#C47171" />
-            <h2 className="text-heading-lg text-parchment">Complications & Loose Ends</h2>
+            <Scroll size={18} color={ACCENT_LIGHT} />
+            <h2 className="text-heading-lg text-parchment">If the Mission Succeeds</h2>
           </div>
           <div className="space-y-4">
-            <Card icon={AlertTriangle} accent="#C47171" title="The Curator Remembers">
+            <Card icon={Scroll} accent={ACCENT} title="Another Stone">
               <p>
-                If Arkin saw the crew — or survived an ugly encounter — she becomes a determined, well-connected
-                enemy who wants her property back and the thieves named.
+                A colleague reports a second Murkmire expedition has unearthed a similar object — this one closer to
+                hatching, with strange happenings befalling the crew. The characters must reach the dig, but the egg
+                hatches first: the hatchling uses the <strong>ankheg</strong> stat block, except its bite deals
+                poison damage instead of acid.
               </p>
             </Card>
-            <Card icon={Scroll} accent="#6B7FA0" title="Who Sold the Stone?">
+            <Card icon={Scroll} accent="#6B7FA0" title="Investigate the Hatchling">
               <p>
-                The office ledgers name whoever dredged the meteorite from the Murkmire and sold it on. A perfect
-                hook: who else is digging dangerous things out of the swamp, and for whom?
+                A strange, nearly 8-foot creature appears in the Varkenbluff Zoo&apos;s crocodile enclosure, hatched
+                from a similar egg. It grows by the hour as animals vanish and zookeepers suffer headaches. Again the
+                hatchling uses the <strong>ankheg</strong> stat block with a poison bite.
               </p>
             </Card>
-            <Card icon={Skull} accent="#6B4C7A" title="It Was Only the First">
+            <Card icon={Scroll} accent="#6B4C7A" title="Reinstate Dr. Dannell">
               <p>
-                The Golden Vault hints that the Malevolence is one of several such stones. Containing this one buys
-                time — finding the rest is a campaign.
+                Vindicated, Dr. Dannell seeks her university post back — but Curator Arkin blocks her, then goes
+                missing, casting suspicion on Dannell. The trail through high society reveals Arkin as the head of an
+                illegal syndicate fencing stolen objects, whom the characters must confront.
               </p>
             </Card>
           </div>
         </section>
 
-        {/* CONTINUING */}
-        <Card icon={Gem} accent={GOLD} title="Continuing with the Golden Vault">
-          <p>
-            The Murkmire Malevolence is the opening job of a longer career. The Vault’s next puzzle box can arrive
-            whenever you like — a new target, a new town, the same simple rules: take only what you’re sent for,
-            and hurt no one you don’t have to.
-          </p>
-        </Card>
+        {/* FAILURE HOOKS */}
+        <section>
+          <div className="flex items-center gap-2 mb-4">
+            <AlertTriangle size={18} color="#C47171" />
+            <h2 className="text-heading-lg text-parchment">If the Mission Fails</h2>
+          </div>
+          <div className="space-y-4">
+            <Card icon={AlertTriangle} accent="#C47171" title="A Stolen Stone">
+              <p>
+                Arkin steals the stone herself to fence it. An arcane ritual stops it hatching but leaves its dire
+                effects — which warp her into a Monstrosity. She holes up in her manor with the egg, and the
+                characters must confront the warped creatures within, the curator among them.
+              </p>
+            </Card>
+            <Card icon={Skull} accent="#8B3A3A" title="Museum Feeding Frenzy">
+              <p>
+                The egg hatches into a nascent <strong>eldritch horror</strong> that eats the guards one by one.
+                Pony-sized, it uses the <strong>ankheg</strong> stat block (poison bite) and sets slime traps through
+                the museum. Left unchecked for days, it bursts out toward the university as a
+                <strong> juvenile eldritch horror</strong> using the <strong>behir</strong> stat block — no
+                languages, Intelligence 18, and added spellcasting.
+              </p>
+            </Card>
+          </div>
+        </section>
 
         {/* END */}
         <motion.div variants={fade} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0} className="text-center py-12">
           <Star size={28} color={GOLD} className="mx-auto mb-4" />
-          <h3 className="text-[1.5rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>End of the Job</h3>
+          <h3 className="text-[1.5rem] font-semibold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: GOLD }}>End of the Heist</h3>
           <p className="text-[1rem] max-w-xl mx-auto" style={{ color: 'rgba(245,240,230,0.5)' }}>
-            The stone is contained, the crew is paid, and somewhere a brass box is already waiting for the next
-            knock at the door.
+            The Murkmire Malevolence is contained — or loosed. Either way, the Murkmire still holds its secrets, and
+            Varkenbluff will need its heroes again.
           </p>
         </motion.div>
       </div>

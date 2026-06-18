@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Skull, Shield, Heart, Wind, Sparkles, Swords, AlertTriangle } from 'lucide-react';
+import { Shield, Heart, Wind, Sparkles, Swords, AlertTriangle, Box, Wheat, Ghost, Bug, Skull } from 'lucide-react';
 import HpTracker from '../../components/HpTracker';
 
 const ACCENT = '#3E7C6A';
@@ -32,97 +32,160 @@ interface Creature {
 
 const creatures: Creature[] = [
   {
-    id: 'taxidermy-wolf',
-    name: 'Animated Taxidermy Wolf',
-    icon: Skull,
-    type: 'Small Construct (Animated), Unaligned',
+    id: 'animated-armor',
+    name: 'Animated Armor',
+    icon: Shield,
+    type: 'Medium Construct, Unaligned',
     accent: '#6B7FA0',
     description:
-      'A mounted wolf jerked off its diorama by the meteorite’s necrotic field. It moves in stuttering lunges, sawdust leaking from its seams, glass eyes glinting. Alone it is a nuisance; in a pack it harries a fleeing crew.',
-    ac: '12 (preserved hide)',
-    hp: '19 (3d6 + 9)',
-    hpValue: 19,
-    speed: '40 ft.',
-    abilities: { str: '13 (+1)', dex: '14 (+2)', con: '16 (+3)', int: '2 (-4)', wis: '8 (-1)', cha: '3 (-4)' },
+      'The robed statues flanking the front desk (V1) and the winged-satyr statue by the stairs (V12). They stand inert until a creature comes within 5 feet, then animate and fight until destroyed. A detect magic spell reveals their transmutation aura.',
+    ac: '18 (natural armor)',
+    hp: '33 (6d8 + 6)',
+    hpValue: 33,
+    speed: '25 ft.',
+    abilities: { str: '14 (+2)', dex: '11 (+0)', con: '13 (+1)', int: '1 (-5)', wis: '3 (-4)', cha: '1 (-5)' },
     meta: [
-      { label: 'Damage Vulnerabilities', value: 'Fire' },
       { label: 'Damage Immunities', value: 'Poison, Psychic' },
-      { label: 'Condition Immunities', value: 'Charmed, Exhaustion, Frightened, Poisoned' },
-      { label: 'Senses', value: 'Darkvision 60 ft., Passive Perception 9' },
+      { label: 'Condition Immunities', value: 'Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned' },
+      { label: 'Senses', value: 'Blindsight 60 ft. (blind beyond), Passive Perception 6' },
       { label: 'Languages', value: '—' },
     ],
-    cr: 'Challenge 1/4 (50 XP) · Proficiency Bonus +2',
+    cr: 'Challenge 1 (200 XP) · Proficiency Bonus +2',
     traits: [
-      { name: 'Pack Tactics', text: 'The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and isn’t incapacitated.' },
-      { name: 'Unnatural Stillness', text: 'While motionless, the wolf is indistinguishable from an ordinary museum mount (DC 13 Investigation to tell it apart before it moves).' },
+      { name: 'Antimagic Susceptibility', text: 'The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, it must succeed on a Constitution save against the caster’s DC or fall unconscious for 1 minute.' },
+      { name: 'False Appearance', text: 'While motionless, the armor is indistinguishable from a normal suit of armor or statue.' },
     ],
     actions: [
-      { name: 'Bite', text: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 2) piercing damage plus 2 (1d4) necrotic damage. If the target is a creature, it must succeed on a DC 11 Strength save or be knocked prone.' },
+      { name: 'Multiattack', text: 'The armor makes two melee attacks.' },
+      { name: 'Slam', text: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.' },
     ],
     dmTip:
-      'Lead with one wolf, then add a second if the crew lingers. They’re fast — perfect for chasing a fleeing party toward the exit. Remember the fire vulnerability; a thrown lantern is a satisfying answer.',
+      'Causing a statue to animate alerts any guards in that area, so these are as much an alarm as a threat. Remind players that staying 5+ feet away keeps the statues inert — avoidance is the intended “win,” not a slugfest.',
   },
   {
-    id: 'owlbear-trophy',
-    name: 'Stuffed Owlbear Trophy',
-    icon: Skull,
-    type: 'Large Construct (Animated), Unaligned',
-    accent: '#8B3A3A',
+    id: 'scarecrow',
+    name: 'Scarecrow (Marigold)',
+    icon: Wheat,
+    type: 'Medium Construct, Chaotic Evil',
+    accent: '#8B7A3A',
     description:
-      'The Hall of Beasts’ centerpiece: a towering owlbear mount that tears free of its plinth when the Malevolence wakes, splinters and stuffing raining down. Slower than it looks, but a single swat can drop a level-1 hero. This is the encounter the crew should flee, not fight.',
-    ac: '13 (natural mount)',
-    hp: '45 (6d10 + 12)',
-    hpValue: 45,
+      'The five-foot vintage doll in Curator Arkin’s office (V5). After hours, when any creature but Alda enters, “Marigold” lurches off her stand and attacks, fighting until destroyed. A noisy fight may attract the V1 guards.',
+    ac: '11',
+    hp: '36 (8d8)',
+    hpValue: 36,
     speed: '30 ft.',
-    abilities: { str: '18 (+4)', dex: '10 (+0)', con: '15 (+2)', int: '2 (-4)', wis: '10 (+0)', cha: '3 (-4)' },
+    abilities: { str: '11 (+0)', dex: '13 (+1)', con: '11 (+0)', int: '10 (+0)', wis: '10 (+0)', cha: '13 (+1)' },
     meta: [
       { label: 'Damage Vulnerabilities', value: 'Fire' },
-      { label: 'Damage Immunities', value: 'Poison, Psychic' },
-      { label: 'Condition Immunities', value: 'Charmed, Exhaustion, Frightened, Poisoned' },
+      { label: 'Damage Immunities', value: 'Poison' },
+      { label: 'Condition Immunities', value: 'Charmed, Exhaustion, Frightened, Paralyzed, Poisoned, Unconscious' },
       { label: 'Senses', value: 'Darkvision 60 ft., Passive Perception 10' },
+      { label: 'Languages', value: 'Understands its creator’s languages but can’t speak' },
+    ],
+    cr: 'Challenge 1 (200 XP) · Proficiency Bonus +2',
+    traits: [
+      { name: 'False Appearance', text: 'While the scarecrow remains motionless, it is indistinguishable from an ordinary, inanimate doll.' },
+    ],
+    actions: [
+      { name: 'Multiattack', text: 'The scarecrow makes two claw attacks.' },
+      { name: 'Claw', text: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 6 (2d4 + 1) slashing damage. If the target is a creature, it must succeed on a DC 11 Wisdom saving throw or be frightened until the end of its next turn.' },
+      { name: 'Terrifying Glare', text: 'The scarecrow targets one creature it can see within 30 ft. If the target can see it, the target must succeed on a DC 11 Wisdom saving throw or be frightened until the end of its next turn. If the target is already frightened, it is instead paralyzed until the end of its next turn.' },
+    ],
+    dmTip:
+      'Marigold’s frighten-then-paralyze loop is nasty for level 1, but she has no ranged option and is vulnerable to fire. The office isn’t required for the heist — a savvy crew avoids Marigold entirely or burns her down fast.',
+  },
+  {
+    id: 'mimic',
+    name: 'Mimic',
+    icon: Box,
+    type: 'Medium Monstrosity (Shapechanger), Neutral',
+    accent: '#8B3A3A',
+    description:
+      'Squatting in the centermost pile of boxes in the basement (V16), disguised as ordinary crates. It waits until a character moves within 5 feet, then attacks, fighting until destroyed.',
+    ac: '12 (natural armor)',
+    hp: '58 (9d8 + 18)',
+    hpValue: 58,
+    speed: '15 ft.',
+    abilities: { str: '17 (+3)', dex: '12 (+1)', con: '15 (+2)', int: '5 (-3)', wis: '13 (+1)', cha: '8 (-1)' },
+    meta: [
+      { label: 'Skills', value: 'Stealth +5' },
+      { label: 'Damage Immunities', value: 'Acid' },
+      { label: 'Condition Immunities', value: 'Prone' },
+      { label: 'Senses', value: 'Darkvision 60 ft., Passive Perception 11' },
       { label: 'Languages', value: '—' },
     ],
     cr: 'Challenge 2 (450 XP) · Proficiency Bonus +2',
     traits: [
-      { name: 'Lumbering Wake', text: 'On the round it animates, the owlbear can’t take reactions and its speed is halved as it wrenches free of its mount — a window for the crew to run.' },
+      { name: 'Shapechanger', text: 'The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.' },
+      { name: 'Adhesive (Object Form Only)', text: 'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to it is also grappled (escape DC 13). Ability checks made to escape this grapple have disadvantage.' },
+      { name: 'False Appearance (Object Form Only)', text: 'While motionless, the mimic is indistinguishable from an ordinary object.' },
+      { name: 'Grappler', text: 'The mimic has advantage on attack rolls against any creature grappled by it.' },
     ],
     actions: [
-      { name: 'Multiattack', text: 'The owlbear trophy makes two attacks: one with its beak and one with its claws.' },
-      { name: 'Beak', text: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 4) piercing damage.' },
-      { name: 'Claws', text: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.' },
+      { name: 'Pseudopod', text: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.' },
+      { name: 'Bite', text: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.' },
     ],
     dmTip:
-      'Telegraph it: stuffing and splinters fly before it fully rises. Its damage is brutal for level 1, so use the Lumbering Wake round to let the party choose flight. If they stand and fight, fudge toward drama, not a TPK — fire and toppled scenery should feel like winning moves.',
+      'The basement is optional (it’s an entry/exit and a 150 gp gem stash). Telegraph “these crates feel wrong” to reward caution. A grappled level-1 hero is in real danger — let allies focus fire to free them.',
   },
   {
-    id: 'specimen-swarm',
-    name: 'Specimen-Jar Swarm',
-    icon: Skull,
-    type: 'Medium Swarm of Tiny Constructs, Unaligned',
+    id: 'hatchling',
+    name: 'Eldritch Hatchling',
+    icon: Bug,
+    type: 'Large Monstrosity, Unaligned · Further Adventures',
     accent: ACCENT,
     description:
-      'A storeroom shelf of preserved frogs, insects, and eels bursts its jars and pours across the floor in a glistening, formaldehyde-reeking tide. Individually harmless; together, a smothering, biting wave that flows under doors and through grates.',
-    ac: '12',
-    hp: '22 (5d8)',
-    hpValue: 22,
-    speed: '20 ft., climb 20 ft.',
-    abilities: { str: '6 (-2)', dex: '15 (+2)', con: '10 (+0)', int: '1 (-5)', wis: '7 (-2)', cha: '2 (-4)' },
+      'If the egg ever hatches, this is what crawls out: an eight-foot horror that uses the ankheg stat block, except its bite deals poison damage instead of acid damage. Featured in the “mission unsuccessful” and follow-up hooks — not in the heist itself, which exists to prevent this.',
+    ac: '14 (natural armor), 11 while prone',
+    hp: '39 (6d10 + 6)',
+    hpValue: 39,
+    speed: '30 ft., burrow 10 ft.',
+    abilities: { str: '17 (+3)', dex: '11 (+0)', con: '13 (+1)', int: '1 (-5)', wis: '13 (+1)', cha: '6 (-2)' },
     meta: [
-      { label: 'Damage Resistances', value: 'Bludgeoning, Piercing, Slashing' },
-      { label: 'Damage Immunities', value: 'Poison, Psychic' },
-      { label: 'Condition Immunities', value: 'Charmed, Frightened, Grappled, Prone, Restrained, Stunned' },
-      { label: 'Senses', value: 'Blindsight 30 ft., Passive Perception 8' },
+      { label: 'Senses', value: 'Darkvision 60 ft., Tremorsense 60 ft., Passive Perception 11' },
       { label: 'Languages', value: '—' },
+      { label: 'Egg Variant', value: 'Its bite deals poison damage instead of acid damage' },
     ],
-    cr: 'Challenge 1/2 (100 XP) · Proficiency Bonus +2',
-    traits: [
-      { name: 'Swarm', text: 'The swarm can occupy another creature’s space and vice versa, and can move through any opening large enough for a Tiny construct. It can’t regain hit points or gain temporary hit points.' },
-    ],
+    cr: 'Challenge 2 (450 XP) · Proficiency Bonus +2',
+    traits: [],
     actions: [
-      { name: 'Smother', text: 'Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm’s space. Hit: 10 (4d4) necrotic damage, or 5 (2d4) necrotic damage if the swarm has half its hit points or fewer.' },
+      { name: 'Bite', text: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) poison damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until the grapple ends, the hatchling can bite only the grappled target and has advantage on the attack.' },
+      { name: 'Acid Spray', recharge: 'Recharge 6', text: 'The hatchling spits acid in a 30-foot line that is 5 feet wide, provided it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much on a success.' },
     ],
     dmTip:
-      'Great for ratcheting tension in the storeroom or the flooded sub-basement. Its resistance to weapon damage rewards area effects, fire, and simply running. Spilled formaldehyde plus a torch clears it dramatically.',
+      'Use this for the follow-up adventures (a second dig’s hatched egg, the zoo creature, or the museum feeding frenzy). It grows fast as it feeds — start it pony-sized and let the threat escalate between sessions.',
+  },
+  {
+    id: 'juvenile',
+    name: 'Juvenile Eldritch Horror',
+    icon: Ghost,
+    type: 'Huge Monstrosity, Unaligned · Further Adventures',
+    accent: '#6B4C7A',
+    description:
+      'If a hatchling is left to gorge for days, it grows enormous and bolts for Varkenbluff University. It uses the behir stat block but speaks no languages, has an Intelligence of 18, and can cast spells. A campaign-scale threat — far beyond the 1st-level heist.',
+    ac: '17 (natural armor)',
+    hp: '168 (16d12 + 64)',
+    hpValue: 168,
+    speed: '50 ft., climb 40 ft.',
+    abilities: { str: '23 (+6)', dex: '16 (+3)', con: '18 (+4)', int: '18 (+4)', wis: '14 (+2)', cha: '12 (+1)' },
+    meta: [
+      { label: 'Skills', value: 'Perception +6, Stealth +7' },
+      { label: 'Damage Immunities', value: 'Lightning' },
+      { label: 'Senses', value: 'Darkvision 90 ft., Passive Perception 16' },
+      { label: 'Languages', value: '— (speaks none, but has Int 18)' },
+    ],
+    cr: 'Challenge 11 (7,200 XP) · Proficiency Bonus +4',
+    traits: [
+      { name: 'Spellcasting', text: 'The horror casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (save DC 14): 2/day each — blindness/deafness, blur; 1/day — project image.' },
+    ],
+    actions: [
+      { name: 'Multiattack', text: 'The horror makes two attacks: one with its bite and one to constrict.' },
+      { name: 'Bite', text: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.' },
+      { name: 'Constrict', text: 'Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the horror isn’t already constricting a creature, and is restrained until the grapple ends.' },
+      { name: 'Lightning Breath', recharge: 'Recharge 5–6', text: 'The horror exhales lightning in a 20-foot line that is 5 feet wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much on a success.' },
+    ],
+    dmTip:
+      'This is the “the city needs heroes” payoff if the egg is never contained — a high-level set piece, not a level-1 fight. Lean on its new Intelligence and spells to make it a cunning, terrifying adversary.',
   },
 ];
 
@@ -241,15 +304,15 @@ export default function Bestiary() {
               <Skull size={22} color={ACCENT} />
               <span className="text-label tracking-[0.12em]" style={{ color: ACCENT_LIGHT }}>BESTIARY</span>
             </div>
-            <h1 className="text-display-md text-parchment">When the Exhibits Wake</h1>
+            <h1 className="text-display-md text-parchment">Stat Blocks</h1>
             <p className="font-body text-[1.05rem] mt-4 max-w-[640px] mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              Three animated-taxidermy stat blocks for the wake in Beat 5. They share fire vulnerability and
-              collapse the moment the meteorite leaves the building.
+              The guardians of the heist — animated statues, Marigold, and the basement mimic — plus the eldritch
+              horror the egg becomes if it is ever allowed to hatch.
             </p>
             <div className="mt-5 inline-flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: 'rgba(201,168,76,0.1)', border: '1px solid rgba(201,168,76,0.25)' }}>
               <AlertTriangle size={13} color="#C9A84C" />
               <span className="text-stat text-[0.72rem]" style={{ color: 'rgba(201,168,76,0.9)' }}>
-                Tuned for a 1st-level party — escape is the intended “win”
+                Guards, nobles, and the curator use the standard guard / noble / commoner stat blocks
               </span>
             </div>
           </motion.div>
