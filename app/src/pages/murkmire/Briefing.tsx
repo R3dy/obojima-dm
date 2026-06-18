@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { KeyRound, Target, ShieldCheck, Coins, Map as MapIcon } from 'lucide-react';
 import { ReadAloud, DMSecret, SkillCheck } from '../../components/DMCallouts';
+import Figure from './Figure';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -68,6 +69,15 @@ export default function Briefing() {
           and it will not open by force. Solve it, and golden light spills out to draw a hooded figure in the
           air, its voice as smooth and patient as still water.
         </ReadAloud>
+
+        <Figure
+          src="/murkmire/handout_golden_vault_briefing.jpg"
+          alt="The Golden Vault briefing card — hand this to your players"
+          caption="Player Handout · The Briefing"
+          kind="handout"
+          className="h-72"
+          fit="contain"
+        />
 
         <DMSecret heading="Running the Patron">
           The Golden Vault&apos;s handler is deliberately impossible to identify or trace. Speak in calm,

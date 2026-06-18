@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { Landmark, DoorOpen, Waves, Sparkles, Building2, FlaskConical, Gem } from 'lucide-react';
+import { Landmark, DoorOpen, Waves, Sparkles, Building2, FlaskConical, Gem, Map as MapIcon } from 'lucide-react';
 import { SkillCheck } from '../../components/DMCallouts';
+import Figure from './Figure';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -182,7 +183,30 @@ export default function Museum() {
         </div>
       </section>
 
-      <section className="px-4 pb-24">
+      {/* FLOORPLANS */}
+      <section className="px-4 pb-4">
+        <div className="max-w-container-narrow mx-auto">
+          <div className="flex items-center gap-2 mb-2">
+            <MapIcon size={18} color={ACCENT} />
+            <h2 className="text-heading-lg text-parchment">Floorplans</h2>
+          </div>
+          <p className="font-body text-[0.9rem] leading-relaxed mb-2" style={{ color: 'rgba(245,240,230,0.6)' }}>
+            Drop your battlemaps into <code style={{ color: ACCENT_LIGHT }}>public/murkmire/</code> and they
+            appear here automatically. See that folder&apos;s README for filenames and some free, DM-friendly
+            sources.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Figure src="/murkmire/map_varkenbluff_town.jpg" alt="Varkenbluff — the foggy river town" caption="Varkenbluff" kind="map" className="h-56" />
+            <Figure src="/murkmire/map_museum_exterior.jpg" alt="Vermeulen-Voss Museum — exterior & approaches" caption="Museum Exterior" kind="map" className="h-56" />
+            <Figure src="/murkmire/map_museum_first_floor.jpg" alt="Museum ground floor — foyer & galleries" caption="Ground Floor & Galleries" kind="map" className="h-56" />
+            <Figure src="/murkmire/map_museum_upper_gallery.jpg" alt="Upper gallery — the meteorite display & skylight" caption="Upper Gallery" kind="map" className="h-56" />
+            <Figure src="/murkmire/map_museum_basement.jpg" alt="Sub-basement & service tunnel" caption="Sub-Basement" kind="map" className="h-56" />
+            <Figure src="/murkmire/handout_malevolence_item.jpg" alt="The Murkmire Malevolence — item handout" caption="The Malevolence (Item)" kind="handout" className="h-56" fit="contain" />
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 pb-24 pt-8">
         <div className="max-w-container-narrow mx-auto space-y-6">
           {areas.map((area) => {
             const Icon = area.icon;
