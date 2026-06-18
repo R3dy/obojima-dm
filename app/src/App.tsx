@@ -1,22 +1,9 @@
-import { Suspense, lazy } from 'react';
+import { Suspense } from 'react';
 import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import { AnimatePresence, motion, MotionConfig } from 'framer-motion';
 import Layout from './components/Layout';
 import Home from './pages/Home';
-
-const AdventureFlow = lazy(() => import('./pages/AdventureFlow'));
-const Overview = lazy(() => import('./pages/Overview'));
-const NPCs = lazy(() => import('./pages/NPCs'));
-const Workshop = lazy(() => import('./pages/Workshop'));
-const Locations = lazy(() => import('./pages/Locations'));
-const Encounters = lazy(() => import('./pages/Encounters'));
-const Bestiary = lazy(() => import('./pages/Bestiary'));
-const Potions = lazy(() => import('./pages/Potions'));
-const Conclusion = lazy(() => import('./pages/Conclusion'));
-const OkiriVillage = lazy(() => import('./pages/OkiriVillage'));
-const Subclasses = lazy(() => import('./pages/Subclasses'));
-const FeatsConditions = lazy(() => import('./pages/FeatsConditions'));
-const BackgroundsGear = lazy(() => import('./pages/BackgroundsGear'));
+import { AdventureProvider, useAdventure } from './context/AdventureContext';
 
 const pageVariants = {
   initial: { opacity: 0, y: 10 },
@@ -45,10 +32,13 @@ function AnimatedPage({ children }: { children: React.ReactNode }) {
 
 function AppRoutes() {
   const location = useLocation();
+  const { id, config } = useAdventure();
 
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
+      {/* Keying on the adventure id as well as the path forces a clean
+          remount when the DM flips adventures from the home page. */}
+      <Routes location={location} key={`${id}:${location.pathname}`}>
         <Route
           path="/"
           element={
@@ -57,136 +47,19 @@ function AppRoutes() {
             </AnimatedPage>
           }
         />
-        <Route
-          path="/adventure"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <AdventureFlow />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/overview"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Overview />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/okiri"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <OkiriVillage />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/npcs"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <NPCs />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/workshop"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Workshop />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/locations"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Locations />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/encounters"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Encounters />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/bestiary"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Bestiary />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/potions"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Potions />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/conclusion"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Conclusion />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/subclasses"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <Subclasses />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/feats"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <FeatsConditions />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
-        <Route
-          path="/gear"
-          element={
-            <AnimatedPage>
-              <Suspense fallback={<PageLoader />}>
-                <BackgroundsGear />
-              </Suspense>
-            </AnimatedPage>
-          }
-        />
+        {config.routes.map(({ path, element: Element }) => (
+          <Route
+            key={path}
+            path={path}
+            element={
+              <AnimatedPage>
+                <Suspense fallback={<PageLoader />}>
+                  <Element />
+                </Suspense>
+              </AnimatedPage>
+            }
+          />
+        ))}
         <Route
           path="*"
           element={
@@ -204,10 +77,10 @@ function NotFound() {
   return (
     <div className="min-h-[100dvh] flex items-center justify-center pt-16 px-4">
       <div className="text-center">
-        <p className="text-label text-copper">Lost in the tall grass</p>
+        <p className="text-label text-copper">Off the map</p>
         <h1 className="text-display-md text-parchment mt-2 mb-4">Page Not Found</h1>
         <p className="text-parchment/60 font-body mb-8">
-          This path doesn&apos;t lead anywhere in the workshop.
+          This path doesn&apos;t lead anywhere in the current adventure.
         </p>
         <Link
           to="/"
@@ -231,10 +104,12 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <MotionConfig reducedMotion="user">
-      <Layout>
-        <AppRoutes />
-      </Layout>
-    </MotionConfig>
+    <AdventureProvider>
+      <MotionConfig reducedMotion="user">
+        <Layout>
+          <AppRoutes />
+        </Layout>
+      </MotionConfig>
+    </AdventureProvider>
   );
 }
