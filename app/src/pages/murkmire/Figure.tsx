@@ -14,7 +14,7 @@ const KIND_ICON: Record<FigureKind, React.ElementType> = {
 };
 
 interface FigureProps {
-  /** Path under /public, e.g. "/murkmire/map_museum_first_floor.jpg". */
+  /** Path under /public, e.g. "/murkmire/map_museum_dm.webp". */
   src: string;
   alt: string;
   caption?: string;

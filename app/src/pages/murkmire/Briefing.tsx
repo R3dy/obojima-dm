@@ -53,90 +53,110 @@ export default function Briefing() {
                 THE BRIEFING
               </span>
             </div>
-            <h1 className="text-display-md text-parchment">The Golden Vault Calls</h1>
+            <h1 className="text-display-md text-parchment">Meeting Dr. Dannell</h1>
             <p className="font-body text-[1.05rem] mt-4 leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              Everything the crew knows before they set foot in Varkenbluff — and a few things the patron
-              left out.
+              At the Sage&apos;s Quill, the disgraced anthropologist lays out the job — and hands the crew the
+              tickets, tools, and map they&apos;ll need to pull it off.
             </p>
           </motion.div>
         </div>
       </section>
 
       <div className="max-w-container-narrow mx-auto px-4 pb-24 space-y-10">
-        <ReadAloud title="The Puzzle Box">
-          The box arrives however it needs to — slipped under a door, left on a barstool, pressed into a hand
-          by a stranger who is gone before you turn around. It is brass, the size of a fist, warm to the touch,
-          and it will not open by force. Solve it, and golden light spills out to draw a hooded figure in the
-          air, its voice as smooth and patient as still water.
+        <ReadAloud title="The Clock Is Ticking">
+          As you enter the Sage&apos;s Quill, soft light reveals mahogany furniture and luxurious carpets. A few
+          genteel patrons murmur in the lounge. You soon notice a purple-hooded figure tucked into a corner booth.
+          Dr. Dannell gestures for you to sit. You notice lines of worry etched into her normally cheerful face.
         </ReadAloud>
 
         <Figure
-          src="/murkmire/handout_golden_vault_briefing.jpg"
-          alt="The Golden Vault briefing card — hand this to your players"
-          caption="Player Handout · The Briefing"
-          kind="handout"
-          className="h-72"
+          src="/murkmire/portrait_dannell.webp"
+          alt="Dr. Cassee Dannell, the anthropologist who hires the party"
+          caption="Dr. Cassee Dannell · The Quest Giver"
+          kind="portrait"
+          className="h-96"
           fit="contain"
         />
 
-        <DMSecret heading="Running the Patron">
-          The Golden Vault&apos;s handler is deliberately impossible to identify or trace. Speak in calm,
-          economical sentences. The handler answers questions about the job freely but deflects anything about
-          the organization itself (&ldquo;That is not part of tonight&rdquo;). The puzzle box dissolves into
-          harmless light once the briefing ends, leaving no evidence.
+        <DMSecret heading="Running Dr. Dannell">
+          Dr. Cassee Dannell is a neutral good human <strong>commoner</strong> with an Intelligence score of 18 — a
+          brilliant academic, not a fighter. She is anxious, exhausted, and out of official options. She answers
+          every question the characters have about the egg and the museum honestly, because their success is the
+          only thing standing between Varkenbluff and an eldritch horror. She will wait in the alley between the
+          museum and the Sage&apos;s Quill to receive the egg.
         </DMSecret>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <IntelCard icon={Target} title="The Target">
             <p>
-              The <strong style={{ color: ACCENT_LIGHT }}>Murkmire Malevolence</strong> — a dark, fist-to-melon
-              sized meteorite displayed under glass on the museum&apos;s upper floor. It radiates a faint chill
-              and a wrongness that sensitive creatures feel before they see it.
+              The <strong style={{ color: ACCENT_LIGHT }}>Murkmire Stone</strong> — an opaque, light-green, furrowed
+              ovoid that weighs 10 pounds. It is the egg of an eldritch creature. It <strong>can&apos;t be damaged or
+              destroyed</strong>, and unearthing it has triggered the creature within to rapidly develop.
             </p>
-            <p>Bring the stone. Leave everything else. The Vault wants a clean lift, not a robbery.</p>
+            <p>It sits on a marble pedestal in the second-floor Gemstone Wing. Steal it and bring it back — nothing else.</p>
           </IntelCard>
 
           <IntelCard icon={MapIcon} title="The Place">
             <p>
-              The <strong style={{ color: ACCENT_LIGHT }}>Vermeulen-Voss Museum of Natural History</strong>, in
-              the river town of <strong>Varkenbluff</strong> — a fog-wrapped, lamp-lit town built on a bluff
-              over a sluggish, swampy river.
+              The <strong style={{ color: ACCENT_LIGHT }}>Varkenbluff Museum of Natural History</strong>, beside the
+              Sage&apos;s Quill and less than a mile from Varkenbluff University.
             </p>
-            <p>The museum closes at dusk. A small night staff and a curator who works late remain inside.</p>
-          </IntelCard>
-
-          <IntelCard icon={ShieldCheck} title="The Security">
             <p>
-              Locked doors and shuttered windows, a roaming night guard or two, an alarm bell that summons the
-              town watch, and arcane wards in the curator&apos;s wing. The galleries are crowded with mounted
-              animals and specimen cases — useful cover, and soon to be much more than that.
+              The Murkmire Stone display opens to the public tomorrow. A private gala celebrating it runs tonight
+              from 6 p.m. in the Gemstone Wing; the museum closes at 8 p.m.
             </p>
           </IntelCard>
 
-          <IntelCard icon={Coins} title="The Payout">
+          <IntelCard icon={ShieldCheck} title="Containing the Egg">
             <p>
-              A generous purse on delivery, with a <strong style={{ color: GOLD }}>bonus</strong> for a clean,
-              bloodless job and for leaving the museum&apos;s other treasures untouched.
+              The only way to keep the egg from hatching is to encase it in specially prepared crystal. Dr. Dannell
+              has built a <strong>crystal box</strong> for exactly this — but she still needs to seal cracks in it,
+              so the characters can&apos;t take it on the heist.
             </p>
-            <p>Burn the place down or rack up bodies, and the Vault pays the base rate — and may not call again.</p>
+            <p>By her research, the egg hatches at <strong style={{ color: GOLD }}>midnight tonight</strong>. Deliver it before then.</p>
+          </IntelCard>
+
+          <IntelCard icon={Coins} title="The Reward">
+            <p>
+              For bringing back the Murkmire Stone, Dr. Dannell offers her heirloom <strong style={{ color: GOLD }}>bag
+              of holding</strong> plus <strong>20 gp per character</strong>.
+            </p>
+            <p>If the crew is using the Golden Vault as a patron, the organization also pays an uncommon magic item of their choice on success.</p>
           </IntelCard>
         </div>
 
         <SkillCheck
           dc={13}
-          skill="Intelligence (Investigation)"
-          title="Study the Intel Package"
-          pass="The Vault includes a rough floor plan and the guards’ rotation — grant the party one free piece of useful information when they break in (a skylight latch, a sticky service door, the curator’s late hours)."
-          fail="The intel is thin; the crew goes in mostly blind and must scout in person during Beat 2."
+          skill="Charisma (Persuasion)"
+          title="Negotiate the Pay"
+          pass="Dr. Dannell increases her offer to 30 gp per character (in addition to the bag of holding)."
+          fail="She holds at her original offer: the bag of holding plus 20 gp per character."
         />
 
-        <DMSecret heading="The Truth About the Stone">
-          The meteorite&apos;s necrotic field grows stronger each night. Tiny preserved specimens already
-          twitch in their jars after dark. The longer the stone sits in a building full of dead creatures, the
-          more dangerous the museum becomes — and if it is never removed, Varkenbluff&apos;s own graveyards are
-          next. The party doesn&apos;t need to know all of this, but it justifies the urgency and the escalating
-          danger of Beat 5.
+        <DMSecret heading="Dr. Dannell's Tools">
+          Before her own failed attempt, Dr. Dannell scouted the museum as a patron and sketched its layout. At the
+          meeting she provides each character with:
+          <ul className="mt-2 ml-4 list-disc space-y-1">
+            <li>A <strong>gala ticket</strong> — the only way to glimpse the stone and its security before the heist.</li>
+            <li><strong>Formal attire</strong> from her heirloom <em>bag of holding</em> (weapons and visible armor aren&apos;t allowed inside).</li>
+            <li>The loan of the <strong>bag of holding</strong> itself, to stash adventuring gear for sneaking about after hours.</li>
+            <li>Her hand-drawn <strong>map of the museum</strong> (Map 1.1) — incomplete, based on the public exhibit map, and lacking the locations of the museum&apos;s after-hours alarms.</li>
+          </ul>
+          <p className="mt-2">
+            She also knows the museum keeps <strong>twelve guards</strong>, and that the curator — the elf
+            <strong> Alda Arkin</strong> — likely keeps a record of the guards&apos; night patrols in her office in
+            the eastern wing of the first floor. Arkin will be at the gala.
+          </p>
         </DMSecret>
+
+        <Figure
+          src="/murkmire/handout_players_map.webp"
+          alt="Dr. Dannell's hand-drawn sketch of the museum — hand this to your players"
+          caption="Map 1.1 · Dr. Dannell's Sketch (Player Handout)"
+          kind="handout"
+          className="h-96"
+          fit="contain"
+        />
       </div>
     </div>
   );

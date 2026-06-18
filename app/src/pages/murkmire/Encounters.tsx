@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
-import { Sword, Bell, Skull, Footprints, Flame } from 'lucide-react';
+import { Sword, Bell, Skull, Footprints, KeyRound, Gem, Hourglass } from 'lucide-react';
 import { TrapWarning, SkillCheck, DMSecret } from '../../components/DMCallouts';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
+const GOLD = '#C9A84C';
 const BLOOD = '#C47171';
 
 const fade = {
@@ -49,6 +50,55 @@ function Block({
   );
 }
 
+const guardLocations: [string, string][] = [
+  ['V1', '2'],
+  ['V3', '1'],
+  ['V4', '1'],
+  ['V8', '1'],
+  ['V9–V10', '2'],
+  ['V11', '1'],
+  ['V12', '2'],
+  ['V13', '2'],
+];
+
+const stoneEffects: [string, string][] = [
+  ['1', 'Harsh whispers: vulnerability to psychic damage; can’t maintain concentration on spells.'],
+  ['2', 'Adrenaline: advantage on Strength checks and Strength saving throws.'],
+  ['3', 'Leaden limbs: disadvantage on Dexterity checks and Dexterity saving throws.'],
+  ['4', 'Weird sheen: resistance to piercing and slashing damage.'],
+  ['5', 'Walking speed increases by 5 feet.'],
+  ['6', 'Scattered mind: disadvantage on attack rolls.'],
+  ['7', 'Skittering flesh: disadvantage on Charisma checks and Charisma saving throws.'],
+  ['8', 'Stiff joints: disadvantage on Dexterity checks and Dexterity saving throws.'],
+  ['9', 'Premonitions: attack rolls against you have disadvantage.'],
+  ['10', 'Sluggish thoughts: disadvantage on Intelligence checks and Intelligence saving throws.'],
+  ['11', 'Dulled senses: disadvantage on Wisdom (Perception) checks.'],
+  ['12', 'A shimmery film: +2 bonus to AC.'],
+];
+
+function Table({ columns, rows, accent, align }: { columns: [string, string]; rows: [string, string][]; accent: string; align?: 'center' }) {
+  return (
+    <div className="rounded-xl overflow-hidden my-2" style={{ border: `1px solid ${ACCENT}26` }}>
+      <table className="w-full text-left">
+        <thead>
+          <tr style={{ background: 'rgba(22,36,31,0.8)' }}>
+            <th className={`px-4 py-2 text-stat text-[0.7rem] ${align === 'center' ? 'text-center w-24' : 'w-12'}`} style={{ color: accent }}>{columns[0]}</th>
+            <th className={`px-4 py-2 text-stat text-[0.7rem] ${align === 'center' ? 'text-center' : ''}`} style={{ color: accent }}>{columns[1]}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(([k, v]) => (
+            <tr key={k} className="border-t" style={{ borderColor: 'rgba(245,240,230,0.06)' }}>
+              <td className={`px-4 py-2 text-stat text-[0.8rem] align-top ${align === 'center' ? 'text-center' : ''}`} style={{ color: GOLD }}>{k}</td>
+              <td className={`px-4 py-2 font-body text-[0.85rem] leading-snug ${align === 'center' ? 'text-center' : ''}`} style={{ color: 'rgba(245,240,230,0.78)' }}>{v}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export default function Encounters() {
   return (
     <div className="min-h-[100dvh] pt-16">
@@ -57,111 +107,119 @@ export default function Encounters() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sword size={22} color={BLOOD} />
-              <span className="text-label tracking-[0.12em]" style={{ color: BLOOD }}>ENCOUNTERS</span>
+              <span className="text-label tracking-[0.12em]" style={{ color: BLOOD }}>SECURITY & HAZARDS</span>
             </div>
-            <h1 className="text-display-md text-parchment">Pressure & Peril</h1>
+            <h1 className="text-display-md text-parchment">After the Museum Closes</h1>
             <p className="font-body text-[1.05rem] mt-4 max-w-[640px] mx-auto leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
-              This job is won by tension, not bloodshed. These are the threats that turn a quiet heist loud —
-              and the clocks that punish a crew who can&apos;t stay calm.
+              At 8 p.m. the staff arm the museum&apos;s defenses: alarm spells, animated statues, the pedestal&apos;s
+              arcane lock, and twelve guards on patrol. Here&apos;s how each works — and how a clever crew slips past.
             </p>
           </motion.div>
         </div>
       </section>
 
       <div className="max-w-container-narrow mx-auto px-4 pb-24 space-y-6">
-        <Block icon={Bell} accent="#C9A84C" tag="The Master Clock" title="Raising the Alarm">
+        <Block icon={Bell} accent={GOLD} tag="Audible Alarm Spells" title="The Alarms">
           <p>
-            The single most important mechanic in the museum is the <strong style={{ color: '#C9A84C' }}>alarm</strong>.
-            A guard who escapes to pull the bell-cord, a shattered display case, or a botched bluff all sound it.
+            Audible <em>alarm</em> spells (areas marked “A” on Map 1.2) cover doors and 5-foot squares. Touching a
+            warded door or entering a warded square sets it off; the front-door alarm spans the whole 10-foot
+            doorway. When one sounds, any guards in the area <strong>plus 1d3 more from that floor</strong> come to
+            investigate. The alarms are off while the museum is open.
           </p>
-          <TrapWarning
-            name="The Alarm Bell"
-            trigger="A guard reaches the bell, a case is smashed, or a confrontation goes loud"
-            effect="The town watch is summoned. Start a countdown: they arrive in 1d4 + 2 rounds and lock down the exits."
-            countermeasure="Cut the bell-pull in advance, silence or avoid guards, or simply be gone before the watch arrives."
-          />
-          <DMSecret heading="Using the Clock">
-            Don&apos;t end the adventure on an alarm — escalate it. Once the watch is coming, every round counts:
-            guards converge, the curator panics, and the crew must commit to the grab and the getaway. It turns a
-            cautious heist into a thrilling scramble.
+          <p className="text-[0.88rem]" style={{ color: 'rgba(245,240,230,0.6)' }}>
+            Warded spots: the front doors and the foot of the stairs (V1); the halls from V1 to V3; the doors from
+            V1 to V5, V6, and V7; the hall from V11 to V12; and the door from V12 to the V13 hallway.
+          </p>
+          <DMSecret heading="Bypassing the Alarms">
+            Guards and the curator each carry a palm-sized <strong>pass card</strong> (an aura of divination magic)
+            that bypasses any alarm. Three spare pass cards sit in the break room (V7). A character within reach of
+            a guard and hidden can lift a card with a DC 14 Dexterity (Sleight of Hand) check. The records room
+            (V6) and <em>detect magic</em> both reveal where the alarms are.
           </DMSecret>
         </Block>
 
-        <Block icon={Footprints} accent={ACCENT} tag="Stealth Challenge" title="Guards on Patrol">
+        <Block icon={Gem} accent="#6B7FA0" tag="Living Statues" title="Animated Statues">
           <p>
-            One or two night guards walk a slow, predictable loop. Treat them as a stealth puzzle, not a combat
-            encounter — they are ordinary people who would rather raise the alarm than fight.
+            The two statues flanking the front desk (V1) and the winged-satyr statue by the stairs (V12) animate
+            after hours to attack intruders. They use the <strong>animated armor</strong> stat block and fight
+            until destroyed; causing one to animate alerts any guards in that area.
           </p>
           <SkillCheck
-            dc={13}
-            skill="Dexterity (Stealth)"
-            title="Slip a Patrol"
-            pass="The crew threads past the guard&apos;s loop unseen."
-            fail="The guard catches movement and investigates; if they confirm intruders, they break for the alarm."
+            dc={10}
+            skill="Intelligence (Arcana)"
+            title="Recognize a Trapped Statue"
+            pass="Detect magic shows a transmutation aura; the character realizes the statue can animate — stay 5+ feet away to keep it inert."
+            fail="The statue seems like ordinary stone until something steps within 5 feet of it."
           />
-          <SkillCheck
-            dc={12}
-            skill="Charisma (Deception) / Dexterity (Sleight of Hand)"
-            title="Distract or Lure"
-            pass="A thrown sound, a forged note, or a bribe pulls the guard off their route for a round or two."
-            fail="The guard grows wary and quickens their loop, tightening the timing windows."
+        </Block>
+
+        <Block icon={Footprints} accent={ACCENT} tag="Twelve Guards" title="Guards After Hours">
+          <p>
+            Maryam Bikram holds the gala entrance; eleven other guards take the posts below. Each carries a key to
+            their station&apos;s doors and an alarm pass card. Sneak past them with Stealth — studying the curator&apos;s
+            patrol document (from her clutch or the V5 desk) for a minute grants advantage.
+          </p>
+          <Table columns={['Area', 'Guards']} rows={guardLocations} accent={ACCENT_LIGHT} align="center" />
+          <p>
+            A noisy fight brings <strong>1d4 more guards each round</strong> until all are accounted for. A guard
+            within reach can be relieved of their key or pass card with a hidden DC 14 Sleight of Hand check.
+          </p>
+          <DMSecret heading="Getting Caught">
+            If the guards incapacitate a character or a character surrenders, the guards haul them to the nearby
+            city watch headquarters. <strong>If every character is caught, the mission fails and the adventure
+            ends.</strong> During the gala, a pre-backup guard can be waved off with a DC 10 Charisma (Deception,
+            Intimidation, or Persuasion) check.
+          </DMSecret>
+        </Block>
+
+        <Block icon={Skull} accent="#8B3A3A" tag="Traps & Guardians" title="Other Hazards">
+          <TrapWarning
+            name="Falling Net (V1)"
+            trigger="A creature steps on the rug-hidden pressure plate north of the front doors while the trap is armed"
+            effect="A weighted net drops over the 10-ft square. Creatures are restrained; those that fail a DC 10 Strength save are also knocked prone. The net is AC 10, 12 HP; a DC 10 Strength check frees a creature."
+            countermeasure="Lift the rug to reveal the plate, or flip the toggle hidden under the information desk to disarm it."
           />
-          <p className="text-[0.85rem]" style={{ color: 'rgba(245,240,230,0.55)' }}>
-            <em>If a fight is truly unavoidable, a guard uses the Guard or Commoner stat block — but knocking one out quietly is always the better play, and killing one forfeits the Vault&apos;s bonus.</em>
+          <TrapWarning
+            name="The Rigged Pedestal (V13)"
+            trigger="The Murkmire Stone is lifted from its pedestal without precautions"
+            effect="Arcane lock seals every door to the room (including secret doors). Opening one takes a DC 20 thieves’ tools or DC 20 Strength (Athletics) check; guards and the curator open them freely."
+            countermeasure="A DC 12 Arcana check reads the glyphs in advance; swapping in the V9 jade fake (DC 10 Sleight of Hand) prevents the trap entirely."
+          />
+          <p>
+            <strong style={{ color: BLOOD }}>Marigold (V5)</strong> animates against anyone but Alda who enters the
+            curator&apos;s office, and the <strong style={{ color: BLOOD }}>mimic (V16)</strong> lurks in the
+            basement&apos;s central crates — both use their stat blocks on the Bestiary page and fight until
+            destroyed.
           </p>
         </Block>
 
-        <Block icon={Skull} accent={BLOOD} tag="The Wake" title="Animated Exhibits">
+        <Block icon={Hourglass} accent={GOLD} tag="The Ticking Egg" title="The Murkmire Stone Awakens">
           <p>
-            Once the Malevolence is exposed, the museum itself becomes the enemy. Each round the stone is
-            uncovered, the nearest dead thing lurches to life. Run it as escalating waves — the goal is to make
-            the crew <strong>run</strong>, not to grind out a victory.
+            Starting at <strong>10:30 p.m.</strong>, the egg&apos;s shell turns translucent and emits a pulse of
+            magic every 10 minutes. Each creature within 20 feet must make a <strong>DC 10 Wisdom save</strong>
+            (disadvantage if holding the egg); failure inflicts a random effect below until a new pulse replaces it.
+            Stowing the egg in a <em>bag of holding</em> makes the effect radiate from the container instead. The
+            effects end when the egg hatches at <strong>midnight</strong> — or when Dr. Dannell seals it in crystal.
           </p>
-          <div className="rounded-xl p-4" style={{ background: 'rgba(139,58,58,0.08)', border: '1px solid rgba(139,58,58,0.2)' }}>
-            <p className="text-[0.9rem]" style={{ color: 'rgba(245,240,230,0.8)' }}>
-              <strong style={{ color: BLOOD }}>Necrotic Pulse:</strong> while the stone is exposed, at the start of
-              each round one nearby specimen animates. Wrapping it in heavy cloth or a lead-lined case suppresses
-              the pulse — animation pauses while the stone is muffled.
-            </p>
-          </div>
-          <p>
-            Stat blocks for the <strong>Animated Taxidermy Wolf</strong>, <strong>Stuffed Owlbear Trophy</strong>,
-            and <strong>Specimen-Jar Swarm</strong> live on the <strong>Bestiary</strong> page. The animated
-            horde collapses the instant the meteorite is carried out of the building — escape is victory.
-          </p>
+          <Table columns={['d12', 'Effect on a Failed Save']} rows={stoneEffects} accent={ACCENT_LIGHT} />
         </Block>
 
-        <Block icon={Flame} accent="#3E4A5E" tag="Environmental Hazards" title="The Museum Fights Dirty">
-          <p>Reward — and punish — clever use of the building itself:</p>
-          <ul className="space-y-2 ml-4">
+        <Block icon={KeyRound} accent={ACCENT_LIGHT} tag="Player Tools" title="Circumventing Security">
+          <ul className="space-y-2 ml-1">
             {[
-              <><strong>Display glass:</strong> shattering a case is loud (alarm risk) and scatters difficult, damaging shards across nearby squares.</>,
-              <><strong>Spilled formaldehyde</strong> in the storeroom makes footing treacherous — and catches fire spectacularly if a flame is introduced.</>,
-              <><strong>Toppling mounts:</strong> a heavy trophy can be shoved onto a pursuer or used to bar a door, buying a round of escape.</>,
-              <><strong>The skylight &amp; drainpipes:</strong> a planned rooftop exit lets the crew vanish before the watch seals the ground floor.</>,
+              <><strong>Avoid the statues</strong> by staying more than 5 feet from them.</>,
+              <><strong>Bypass alarms</strong> with a pass card from a guard (DC 14 Sleight of Hand) or the spare stash in V7.</>,
+              <><strong>Sneak past guards</strong> using the curator’s patrol document (advantage on Stealth after 1 minute of study).</>,
+              <><strong>Steal keys:</strong> each guard’s key opens their station’s doors; V1 guards also hold a key to the break room (V7). The curator carries a master key.</>,
+              <><strong>Swap the egg</strong> for the V9 jade fake to keep the pedestal from locking the doors.</>,
             ].map((item, i) => (
-              <li key={i} className="flex items-start gap-2 text-[0.9rem]" style={{ color: 'rgba(245,240,230,0.72)' }}>
-                <span className="mt-1.5 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: '#3E4A5E' }} />
+              <li key={i} className="flex items-start gap-2 text-[0.9rem]" style={{ color: 'rgba(245,240,230,0.78)' }}>
+                <span className="mt-1.5 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: ACCENT_LIGHT }} />
                 {item}
               </li>
             ))}
           </ul>
         </Block>
-
-        <motion.section
-          variants={fade}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          className="rounded-xl p-6 text-center"
-          style={{ background: 'rgba(62,124,106,0.1)', border: `1px solid ${ACCENT}33` }}
-        >
-          <p className="font-body text-[0.95rem] leading-relaxed" style={{ color: 'rgba(245,240,230,0.8)' }}>
-            <span style={{ color: ACCENT_LIGHT }} className="font-semibold">Running it: </span>
-            keep three clocks in view — the patrol, the alarm, and the necrotic pulse. A great session is the
-            crew juggling all three and getting out by the skin of their teeth.
-          </p>
-        </motion.section>
       </div>
     </div>
   );
