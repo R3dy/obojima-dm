@@ -1,42 +1,45 @@
-# Murkmire — maps & handouts
+# Murkmire — maps, handouts & art
 
 The Murkmire pages render images from this folder automatically. Until a file
 exists, its slot shows a themed placeholder naming the file to drop in. Add a
 `.jpg`/`.png` (an optional `.webp` sibling will be preferred if present), then
 rebuild — no code changes needed.
 
-## Expected files
+## Drop-in files
+
+Save each asset with the exact filename below.
 
 | File | Used on | Slot |
 | --- | --- | --- |
-| `map_varkenbluff_town.jpg` | Museum | Town overview |
-| `map_museum_exterior.jpg` | Museum | Exterior & approaches |
-| `map_museum_first_floor.jpg` | Museum | Ground floor & galleries |
-| `map_museum_upper_gallery.jpg` | Museum | Upper gallery / meteorite display |
-| `map_museum_basement.jpg` | Museum | Sub-basement & service tunnel |
-| `handout_malevolence_item.jpg` | Museum | The meteorite, as an item card |
-| `handout_golden_vault_briefing.jpg` | Briefing | Player-facing briefing card |
+| `map_museum_dm.jpg` | Museum | Official DM map (labelled, gridded) |
+| `map_museum_player.jpg` | Museum | Official player map (no labels) |
+| `handout_recon_map.jpg` | Museum | Player handout — the crew's hand-drawn recon map |
+| `scene_gala.jpg` | Museum | Scene art — the exhibition gala / stone on display |
+| `portrait_curator.jpg` | NPCs | Curator portrait (featured NPC panel) |
+| `handout_golden_vault_briefing.jpg` | Briefing | Optional player briefing card |
 
-(You can wire more slots by adding `<Figure src="/murkmire/your_file.jpg" … />`
-in any Murkmire page — see `src/pages/murkmire/Figure.tsx`.)
+### Mapping for the images supplied in chat
 
-## Where to get DM-friendly art
+- Frightened scholar holding books → **`portrait_curator.jpg`**
+- "Varkenbluff Museum of Natural History" with room labels + grid → **`map_museum_dm.jpg`**
+- The same museum map without labels/grid → **`map_museum_player.jpg`**
+- The hand-drawn "Doctor Dannell" floorplan → **`handout_recon_map.jpg`**
+- The ballroom/gala scene with the green stone on a pedestal → **`scene_gala.jpg`**
 
-These are **not bundled** here: the official maps/handouts are copyrighted, and
-the popular fan packs are free for personal use but not licensed for
-redistribution in a public repo. Download what you have the right to use and
-place the files here yourself:
+> These are official *Keys from the Golden Vault* assets. They are **not bundled**
+> in the repo — add the copies you have the right to use (e.g. from your own
+> D&D Beyond / book purchase) for personal use at your table.
 
-- **Skankan's Map Market** (free fan pack — maps with/without grid + tokens):
-  https://www.patreon.com/posts/murkmire-92788103
-- **DM Dale Battlemaps — Varkenbluff Museum**:
-  https://www.patreon.com/posts/varkenbluff-of-109131122
-- **Official "Keys from the Golden Vault Map Pack 01" (paid)**:
-  https://www.dmsguild.com/en/product/439746
-- The original adventure (text, item art, handouts) is on D&D Beyond / 5e.tools
-  if you own *Keys from the Golden Vault*.
+## Built-in schematics (already included)
 
-> ⚠️ Only add assets you have the right to use. "Free to download" usually means
-> free for personal use at your table — not free to redistribute. If you publish
-> this site, prefer assets explicitly licensed for redistribution (CC0 / CC-BY
-> with attribution) or art you commissioned/made yourself.
+These ship with the app and render with no download — original, schematic
+floorplans drawn as SVGs:
+
+- `map_museum_ground_floor.svg`
+- `map_museum_upper_gallery.svg`
+- `map_museum_basement.svg`
+
+## Adding more slots
+
+Wire any new image with `<Figure src="/murkmire/your_file.jpg" … />` in any
+Murkmire page — see `src/pages/murkmire/Figure.tsx`.

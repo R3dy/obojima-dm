@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6FB3A0" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <style>
+      .wall{fill:none;stroke:#6FB3A0;stroke-width:5;stroke-linejoin:round}
+      .room{fill:#6FB3A0;fill-opacity:0.05;stroke:#6FB3A0;stroke-opacity:0.45;stroke-width:2}
+      .lbl{fill:#F5F0E6;font-size:20px;letter-spacing:0.06em}
+      .sub{fill:#9FC9BC;font-size:12px;letter-spacing:0.08em;text-transform:uppercase}
+      .leg{fill:#C9C3B5;font-size:13px}
+      .door{stroke:#0e1a16;stroke-width:7}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="600" fill="#0e1a16"/>
+  <rect x="0" y="0" width="960" height="600" fill="url(#grid)"/>
+
+  <!-- title -->
+  <text x="40" y="44" class="lbl" font-size="24" fill="#C9A84C" letter-spacing="0.12em">VERMEULEN-VOSS MUSEUM</text>
+  <text x="40" y="64" class="sub">Ground Floor &#183; Foyer &amp; Galleries</text>
+
+  <!-- building footprint -->
+  <rect x="70" y="90" width="820" height="460" class="wall"/>
+
+  <!-- Hall of Beasts (main gallery) -->
+  <rect x="78" y="98" width="500" height="320" class="room"/>
+  <text x="100" y="130" class="lbl">Hall of Beasts</text>
+  <text x="100" y="150" class="sub">Taxidermy &#183; dense cover</text>
+  <!-- exhibit markers -->
+  <g fill="#6FB3A0" fill-opacity="0.5">
+    <circle cx="170" cy="210" r="9"/><circle cx="250" cy="300" r="9"/>
+    <circle cx="420" cy="180" r="9"/><circle cx="480" cy="320" r="9"/>
+    <circle cx="200" cy="370" r="9"/>
+  </g>
+  <!-- owlbear centerpiece -->
+  <g transform="translate(330,260)">
+    <circle r="20" fill="#C47171" fill-opacity="0.18" stroke="#C47171" stroke-width="2"/>
+    <path d="M0 -10 L3 -3 L10 -3 L4.5 2 L7 9 L0 4.5 L-7 9 L-4.5 2 L-10 -3 L-3 -3 Z" fill="#C47171"/>
+  </g>
+  <text x="330" y="300" class="leg" text-anchor="middle" fill="#E8B4B4">Owlbear mount</text>
+
+  <!-- Grand Foyer -->
+  <rect x="350" y="430" width="260" height="112" class="room"/>
+  <text x="370" y="470" class="lbl">Grand Foyer</text>
+  <text x="370" y="490" class="sub">Most watched room</text>
+  <!-- alarm bell -->
+  <g transform="translate(560,505)">
+    <circle r="13" fill="#C9A84C" fill-opacity="0.18" stroke="#C9A84C" stroke-width="2"/>
+    <path d="M0 -6 a6 6 0 0 1 6 6 v2 h-12 v-2 a6 6 0 0 1 6 -6 Z M-2 4 h4" fill="none" stroke="#C9A84C" stroke-width="2"/>
+  </g>
+  <text x="560" y="535" class="leg" text-anchor="middle" fill="#E7D79B">Alarm bell</text>
+
+  <!-- front doors -->
+  <line x1="445" y1="550" x2="515" y2="550" class="door"/>
+  <text x="480" y="575" class="leg" text-anchor="middle">Front doors</text>
+
+  <!-- Grand staircase up -->
+  <rect x="620" y="430" width="90" height="112" class="room"/>
+  <g stroke="#6FB3A0" stroke-opacity="0.5" stroke-width="2">
+    <line x1="628" y1="450" x2="702" y2="450"/><line x1="628" y1="468" x2="702" y2="468"/>
+    <line x1="628" y1="486" x2="702" y2="486"/><line x1="628" y1="504" x2="702" y2="504"/>
+    <line x1="628" y1="522" x2="702" y2="522"/>
+  </g>
+  <text x="665" y="500" class="sub" text-anchor="middle" fill="#9FC9BC">Stair</text>
+  <text x="665" y="420" class="leg" text-anchor="middle" fill="#9FC9BC">&#8593; Upper Gallery</text>
+
+  <!-- Curator's Office (warded) -->
+  <rect x="700" y="98" width="182" height="150" class="room" fill="#6B4C7A" fill-opacity="0.10" stroke="#A084B0" stroke-opacity="0.6"/>
+  <text x="716" y="130" class="lbl">Curator&#8217;s Office</text>
+  <text x="716" y="150" class="sub" fill="#C4A6D4">Warded</text>
+  <!-- doll marker -->
+  <circle cx="760" cy="200" r="11" fill="#A084B0" fill-opacity="0.25" stroke="#A084B0" stroke-width="2"/>
+  <text x="780" y="205" class="leg" fill="#C4A6D4">Guardian doll</text>
+
+  <!-- Service corridor + back stair down -->
+  <rect x="700" y="270" width="182" height="160" class="room" fill="#6B7FA0" fill-opacity="0.07" stroke="#6B7FA0" stroke-opacity="0.5"/>
+  <text x="716" y="300" class="lbl" font-size="17">Service Hall</text>
+  <g stroke="#6B7FA0" stroke-opacity="0.6" stroke-width="2">
+    <line x1="780" y1="340" x2="860" y2="340"/><line x1="788" y1="360" x2="860" y2="360"/>
+    <line x1="796" y1="380" x2="860" y2="380"/><line x1="804" y1="400" x2="860" y2="400"/>
+  </g>
+  <text x="820" y="330" class="leg" text-anchor="middle" fill="#A8B6CC">&#8595; Sub-basement</text>
+
+  <!-- internal doors (gaps) -->
+  <line x1="578" y1="250" x2="578" y2="290" stroke="#0e1a16" stroke-width="6"/>
+  <line x1="700" y1="180" x2="700" y2="210" stroke="#0e1a16" stroke-width="6"/>
+  <line x1="700" y1="330" x2="700" y2="365" stroke="#0e1a16" stroke-width="6"/>
+  <line x1="470" y1="430" x2="500" y2="430" stroke="#0e1a16" stroke-width="6"/>
+
+  <!-- legend / compass -->
+  <g transform="translate(820,500)">
+    <circle r="26" fill="none" stroke="#6FB3A0" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M0 -22 L6 0 L0 6 L-6 0 Z" fill="#C9A84C"/>
+    <text x="0" y="-30" class="leg" text-anchor="middle" fill="#9FC9BC">N</text>
+  </g>
+  <text x="70" y="588" class="leg" fill="#7C9A8F">Squares ≈ 5 ft &#183; schematic DM reference</text>
+</svg>

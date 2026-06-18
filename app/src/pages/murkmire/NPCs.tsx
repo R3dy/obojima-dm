@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Users, Heart, MessageCircle, MapPin } from 'lucide-react';
 import { ReadAloud, SkillCheck, DMSecret } from '../../components/DMCallouts';
+import OptImage from '../../components/OptImage';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -87,6 +89,35 @@ const npcs: NPC[] = [
   },
 ];
 
+function CuratorPortrait({ name }: { name: string }) {
+  const [errored, setErrored] = useState(false);
+  return (
+    <div
+      className="md:col-span-1 relative flex items-end overflow-hidden"
+      style={{ minHeight: '320px', background: `radial-gradient(120% 120% at 50% 20%, ${ACCENT}40 0%, #12100D 70%)` }}
+    >
+      {errored ? (
+        <div className="absolute inset-0 flex items-center justify-center opacity-30">
+          <Users size={120} color={ACCENT_LIGHT} strokeWidth={1} />
+        </div>
+      ) : (
+        <OptImage
+          src="/murkmire/portrait_curator.jpg"
+          alt={`${name}, the museum curator`}
+          onError={() => setErrored(true)}
+          className="absolute inset-0 w-full h-full"
+          style={{ objectFit: 'cover', objectPosition: 'center top' }}
+        />
+      )}
+      <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, rgba(18,16,13,0) 45%, rgba(18,16,13,0.92) 100%)' }} />
+      <div className="relative p-6">
+        <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: ACCENT_LIGHT }}>Museum Curator</span>
+        <h2 className="text-display-md text-parchment mt-1">{name}</h2>
+      </div>
+    </div>
+  );
+}
+
 const containerVariants = { hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.1 } } };
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -140,17 +171,8 @@ export default function NPCs() {
             style={{ background: 'linear-gradient(135deg, #16241F 0%, #12100D 100%)', border: `1px solid ${ACCENT}33` }}
           >
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
-              {/* Crest panel (no portrait art available — themed placeholder) */}
-              <div className="md:col-span-1 relative flex items-end" style={{ minHeight: '320px', background: `radial-gradient(120% 120% at 50% 20%, ${ACCENT}40 0%, #12100D 70%)` }}>
-                <div className="absolute inset-0 flex items-center justify-center opacity-30">
-                  <Users size={120} color={ACCENT_LIGHT} strokeWidth={1} />
-                </div>
-                <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, rgba(18,16,13,0) 50%, rgba(18,16,13,0.9) 100%)' }} />
-                <div className="relative p-6">
-                  <span className="text-label text-[0.65rem] tracking-[0.12em] uppercase" style={{ color: ACCENT_LIGHT }}>Museum Curator</span>
-                  <h2 className="text-display-md text-parchment mt-1">{featured.name}</h2>
-                </div>
-              </div>
+              {/* Portrait panel — renders /murkmire/portrait_curator.jpg if present */}
+              <CuratorPortrait name={featured.name} />
 
               <div className="md:col-span-2 p-6 sm:p-8">
                 <motion.div variants={itemVariants}>
