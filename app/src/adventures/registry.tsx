@@ -20,6 +20,8 @@ import {
   Skull,
   Gem,
   Clock,
+  Eye,
+  DoorOpen,
 } from 'lucide-react';
 import type { AdventureConfig, AdventureId } from './types';
 
@@ -46,8 +48,12 @@ const ObojimaGear = lazy(() => import('../pages/BackgroundsGear'));
 /* ------------------------------------------------------------------ */
 
 const MurkmireOverview = lazy(() => import('../pages/murkmire/Overview'));
+const MurkmireHeist = lazy(() => import('../pages/murkmire/Heist'));
 const MurkmireBriefing = lazy(() => import('../pages/murkmire/Briefing'));
-const MurkmireAdventureFlow = lazy(() => import('../pages/murkmire/AdventureFlow'));
+const MurkmireGala = lazy(() => import('../pages/murkmire/Gala'));
+const MurkmireInfiltration = lazy(() => import('../pages/murkmire/Infiltration'));
+const MurkmireGalleries = lazy(() => import('../pages/murkmire/Galleries'));
+const MurkmireTakingTheStone = lazy(() => import('../pages/murkmire/TakingTheStone'));
 const MurkmireNPCs = lazy(() => import('../pages/murkmire/NPCs'));
 const MurkmireMuseum = lazy(() => import('../pages/murkmire/Museum'));
 const MurkmireEncounters = lazy(() => import('../pages/murkmire/Encounters'));
@@ -229,7 +235,7 @@ const murkmire: AdventureConfig = {
   portalsEyebrow: 'QUICK ACCESS',
   portalsTitle: 'Case the Job',
   portals: [
-    { route: '/adventure', label: 'Heist Flow', icon: Route, accent: '#C9A84C', description: 'Beat-by-beat DM guide from briefing to getaway' },
+    { route: '/adventure', label: 'The Heist', icon: Route, accent: '#C9A84C', description: 'Run of show — an index of all six beats, briefing to getaway' },
     { route: '/overview', label: 'Overview', icon: ScrollText, accent: '#6FB3A0', description: 'Premise, the Murkmire Stone, and the stakes' },
     { route: '/briefing', label: 'The Briefing', icon: KeyRound, accent: '#C9A84C', description: 'Meeting Dr. Dannell — tickets, tools, and reward' },
     { route: '/npcs', label: 'Characters', icon: Users, accent: '#6FB3A0', description: 'Dr. Dannell, Curator Arkin, guards, and Marigold' },
@@ -246,7 +252,7 @@ const murkmire: AdventureConfig = {
   },
   navLinks: [
     { path: '/', label: 'Home', icon: HomeIcon },
-    { path: '/adventure', label: 'Heist Flow', icon: Route },
+    { path: '/adventure', label: 'The Heist', icon: Route },
     { path: '/overview', label: 'Overview', icon: ScrollText },
     { path: '/briefing', label: 'Briefing', icon: KeyRound },
     { path: '/npcs', label: 'NPCs', icon: Users },
@@ -259,12 +265,13 @@ const murkmire: AdventureConfig = {
     {
       heading: 'Heist Beats',
       entries: [
-        { title: 'Beat 1 — Meet Dr. Dannell', subtitle: 'The plea at the Sage’s Quill', route: '/adventure', anchor: 'scene-1', icon: Route, keywords: 'dannell briefing tickets bag of holding map reward golden vault' },
-        { title: 'Beat 2 — The Opening Gala', subtitle: 'Scout, Arkin, the pedestal', route: '/adventure', anchor: 'scene-2', icon: Route, keywords: 'gala gemstone wing nobles gossip clutch maryam' },
-        { title: 'Beat 3 — Into the Museum', subtitle: 'Hide inside or sneak back', route: '/adventure', anchor: 'scene-3', icon: Route, keywords: 'closing alarms skylight loading dock net trap dc 16' },
-        { title: 'Beat 4 — Through the Galleries', subtitle: 'Patrols, wards, statues', route: '/adventure', anchor: 'scene-4', icon: Route, keywords: 'guards alarm statue pass card key stealth allosaurus' },
-        { title: 'Beat 5 — Taking the Stone', subtitle: 'Rigged pedestal, the pulse', route: '/adventure', anchor: 'scene-5', icon: Route, keywords: 'arcane lock fake jade pulse 10:30 midnight hatch' },
-        { title: 'Beat 6 — The Getaway', subtitle: 'Deliver the egg, payout, hooks', route: '/adventure', anchor: 'scene-6', icon: Route, keywords: 'escape dannell crystal box reward further adventures' },
+        { title: 'The Heist — Run of Show', subtitle: 'Index of all six beats', route: '/adventure', icon: Route, keywords: 'flow walkthrough order beats sections tracker' },
+        { title: 'Beat 1 — The Briefing', subtitle: 'Meet Dr. Dannell at the Sage’s Quill', route: '/briefing', icon: KeyRound, keywords: 'dannell briefing tickets bag of holding map reward golden vault' },
+        { title: 'Beat 2 — The Opening Gala', subtitle: 'Scout, Arkin, the pedestal', route: '/gala', icon: Eye, keywords: 'gala gemstone wing nobles gossip clutch maryam attendees' },
+        { title: 'Beat 3 — Into the Museum', subtitle: 'Hide inside or sneak back', route: '/infiltration', icon: DoorOpen, keywords: 'closing alarms skylight loading dock net trap dc 16 secret door' },
+        { title: 'Beat 4 — Through the Galleries', subtitle: 'Patrols, wards, statues', route: '/galleries', icon: Landmark, keywords: 'guards alarm statue pass card key stealth allosaurus patrol' },
+        { title: 'Beat 5 — Taking the Stone', subtitle: 'Rigged pedestal, the pulse', route: '/the-stone', icon: Skull, keywords: 'arcane lock fake jade swap pulse 10:30 midnight hatch pedestal' },
+        { title: 'Beat 6 — The Getaway', subtitle: 'Deliver the egg, payout, hooks', route: '/conclusion', icon: Gem, keywords: 'escape dannell crystal box reward further adventures' },
       ],
     },
     {
@@ -289,7 +296,7 @@ const murkmire: AdventureConfig = {
       heading: 'Reference Pages',
       entries: [
         { title: 'Home', route: '/', icon: HomeIcon },
-        { title: 'Heist Flow', subtitle: 'Run the job beat by beat', route: '/adventure', icon: Route, keywords: 'walkthrough run dm guide' },
+        { title: 'The Heist', subtitle: 'Run of show — index of the six beats', route: '/adventure', icon: Route, keywords: 'walkthrough run dm guide flow beats sections' },
         { title: 'Overview', route: '/overview', icon: ScrollText, keywords: 'summary premise egg murkmire stone' },
         { title: 'The Briefing', route: '/briefing', icon: KeyRound, keywords: 'dannell sage quill tickets bag of holding reward golden vault' },
         { title: 'NPCs', subtitle: 'Dr. Dannell, Curator Arkin, guards', route: '/npcs', icon: Users, keywords: 'characters dannell arkin maryam marigold guards attendees' },
@@ -301,9 +308,13 @@ const murkmire: AdventureConfig = {
     },
   ],
   routes: [
-    { path: '/adventure', element: MurkmireAdventureFlow },
+    { path: '/adventure', element: MurkmireHeist },
     { path: '/overview', element: MurkmireOverview },
     { path: '/briefing', element: MurkmireBriefing },
+    { path: '/gala', element: MurkmireGala },
+    { path: '/infiltration', element: MurkmireInfiltration },
+    { path: '/galleries', element: MurkmireGalleries },
+    { path: '/the-stone', element: MurkmireTakingTheStone },
     { path: '/npcs', element: MurkmireNPCs },
     { path: '/museum', element: MurkmireMuseum },
     { path: '/encounters', element: MurkmireEncounters },

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { KeyRound, Target, ShieldCheck, Coins, Map as MapIcon } from 'lucide-react';
 import { ReadAloud, DMSecret, SkillCheck } from '../../components/DMCallouts';
 import Figure from './Figure';
+import { SectionNav } from './SectionNav';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -50,7 +51,7 @@ export default function Briefing() {
             <div className="flex items-center justify-center gap-2 mb-4">
               <KeyRound size={22} color={GOLD} />
               <span className="text-label tracking-[0.12em]" style={{ color: GOLD }}>
-                THE BRIEFING
+                THE HEIST · BEAT 1 OF 6
               </span>
             </div>
             <h1 className="text-display-md text-parchment">Meeting Dr. Dannell</h1>
@@ -157,6 +158,8 @@ export default function Briefing() {
           className="h-96"
           fit="contain"
         />
+
+        <SectionNav current={1} />
       </div>
     </div>
   );

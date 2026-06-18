@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Gem, Coins, AlertTriangle, Scroll, Skull, Star } from 'lucide-react';
+import { SectionNav } from './SectionNav';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -54,7 +55,7 @@ export default function Conclusion() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <div className="flex items-center justify-center gap-2 mb-4">
               <Gem size={22} color={GOLD} />
-              <span className="text-label tracking-[0.12em]" style={{ color: GOLD }}>THE GETAWAY</span>
+              <span className="text-label tracking-[0.12em]" style={{ color: GOLD }}>THE HEIST · BEAT 6 OF 6</span>
             </div>
             <h1 className="text-display-md text-parchment">Conclusion & Further Adventures</h1>
             <p className="font-body text-[1.05rem] mt-4 leading-relaxed" style={{ color: 'rgba(245,240,230,0.65)' }}>
@@ -191,6 +192,8 @@ export default function Conclusion() {
             Varkenbluff will need its heroes again.
           </p>
         </motion.div>
+
+        <SectionNav current={6} />
       </div>
     </div>
   );
