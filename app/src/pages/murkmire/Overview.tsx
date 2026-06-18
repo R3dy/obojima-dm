@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ScrollText, BookOpen, Gem, AlertTriangle } from 'lucide-react';
 import { ReadAloud, DMSecret } from '../../components/DMCallouts';
+import Figure from './Figure';
 
 const ACCENT = '#3E7C6A';
 const ACCENT_LIGHT = '#6FB3A0';
@@ -53,6 +54,16 @@ export default function Overview() {
       </section>
 
       <div className="max-w-container-narrow mx-auto px-4 pb-24 space-y-12">
+        {/* SCENE ART */}
+        <Figure
+          src="/murkmire/scene_gala.webp"
+          alt="The exhibition gala — the Murkmire Malevolence on display under glass"
+          caption="The Exhibition Gala · the Malevolence on display"
+          kind="handout"
+          className="h-80"
+          fit="cover"
+        />
+
         {/* PREMISE */}
         <motion.section
           variants={sectionVariants}

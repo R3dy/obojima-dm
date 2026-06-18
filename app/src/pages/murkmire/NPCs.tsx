@@ -102,7 +102,7 @@ function CuratorPortrait({ name }: { name: string }) {
         </div>
       ) : (
         <OptImage
-          src="/murkmire/portrait_curator.jpg"
+          src="/murkmire/portrait_curator.webp"
           alt={`${name}, the museum curator`}
           onError={() => setErrored(true)}
           className="absolute inset-0 w-full h-full"

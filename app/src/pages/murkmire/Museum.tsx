@@ -196,10 +196,8 @@ export default function Museum() {
             list.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Figure src="/murkmire/map_museum_dm.jpg" alt="Varkenbluff Museum — DM map (labelled, gridded)" caption="Museum · DM Map" kind="map" className="h-72" fit="contain" />
-            <Figure src="/murkmire/map_museum_player.jpg" alt="Varkenbluff Museum — player map (no labels)" caption="Museum · Player Map" kind="map" className="h-72" fit="contain" />
-            <Figure src="/murkmire/handout_recon_map.jpg" alt="The crew's hand-drawn recon map of the museum" caption="Player Handout · Recon Map" kind="handout" className="h-72" fit="contain" />
-            <Figure src="/murkmire/scene_gala.jpg" alt="The exhibition gala — the Malevolence on display" caption="Scene · The Exhibition Gala" kind="handout" className="h-72" fit="cover" />
+            <Figure src="/murkmire/map_museum_dm.webp" alt="Varkenbluff Museum — DM map (labelled, gridded)" caption="Museum · DM Map" kind="map" className="h-[28rem]" fit="contain" />
+            <Figure src="/murkmire/map_museum_player.webp" alt="Varkenbluff Museum — player map (no labels)" caption="Museum · Player Map" kind="map" className="h-[28rem]" fit="contain" />
           </div>
         </div>
       </section>

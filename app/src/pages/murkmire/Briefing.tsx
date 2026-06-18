@@ -71,11 +71,11 @@ export default function Briefing() {
         </ReadAloud>
 
         <Figure
-          src="/murkmire/handout_golden_vault_briefing.jpg"
-          alt="The Golden Vault briefing card — hand this to your players"
-          caption="Player Handout · The Briefing"
+          src="/murkmire/handout_recon_map.webp"
+          alt="The crew's hand-drawn recon map of the museum"
+          caption="Player Handout · The Crew's Recon Map"
           kind="handout"
-          className="h-72"
+          className="h-[34rem]"
           fit="contain"
         />
 
