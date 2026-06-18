@@ -19,6 +19,8 @@ import {
 import { ReadAloud, DMSecret, SkillCheck, TrapWarning } from '../components/DMCallouts';
 import HpTracker from '../components/HpTracker';
 import OptImage from '../components/OptImage';
+import PartyStats from '../components/PartyStats';
+import CharacterWindow from '../components/CharacterWindow';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 
@@ -446,6 +448,8 @@ export default function AdventureFlow() {
   return (
     <SceneProgressContext.Provider value={progress}>
       <div className="min-h-screen" style={{ background: '#1A1410', color: '#F5F0E6' }}>
+        <PartyStats />
+        <CharacterWindow />
         <SceneNavigator />
         <HeroSection />
 
